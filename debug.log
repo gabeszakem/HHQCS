@@ -1,0 +1,13 @@
+[2014-03-11 17:55:15.024]	SetupDataManager.init(): Kivétel történt a beállítási adatfájl feldolgozása közben: H:\munka\HHQCS\setup.xml (A rendszer nem találja a megadott fájlt)
+[2014-03-11 18:05:56.726]	SetupDataManager.init(): Kivétel történt a beállítási adatfájl feldolgozása közben: org.xml.sax.SAXParseException; lineNumber: 5; columnNumber: 23; Element type "resource" must be declared.
+[2014-03-11 18:07:27.860]	SetupDataManager.init(): Kivétel történt a beállítási adatfájl feldolgozása közben: org.xml.sax.SAXParseException; lineNumber: 5; columnNumber: 23; Element type "property" must be declared.
+[2014-03-11 18:19:39.866]	SetupDataManager.init(): Kivétel történt a beállítási adatfájl feldolgozása közben: org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 2; The markup in the document following the root element must be well-formed.
+[2014-03-11 18:19:46.696]	SetupDataManager.init(): Kivétel történt a beállítási adatfájl feldolgozása közben: org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 2; The markup in the document following the root element must be well-formed.
+[2014-03-12 12:16:32.218]	SetupDataManager.init(): Kivétel történt a beállítási adatfájl feldolgozása közben: Invalid byte 1 of 1-byte UTF-8 sequence.
+[2014-03-13 15:29:37.618]	SetupDataManager.init(): Hiba történt a H:\munka\HHQCS\setup\setup_01.xml beállítási könyvtár feldolgozása közben: 
+[2014-03-13 15:30:23.367]	SetupDataManager.init(): Hiba történt a H:\munka\HHQCS\setup\setup_01.xml beállítási könyvtár feldolgozása közben: 
+[2014-03-13 15:30:39.335]	SetupDataManager.init(): Hiba történt a H:\munka\HHQCS\setup\setup_01.xml beállítási könyvtár feldolgozása közben: 
+[2014-03-13 15:30:58.103]	SetupDataManager.init(): Hiba történt a H:\munka\HHQCS\setup\setup_01.xml beállítási könyvtár feldolgozása közben: 
+[2014-03-13 15:31:02.161]	SetupDataManager.init(): Hiba történt a H:\munka\HHQCS\setup\setup_01.xml beállítási könyvtár feldolgozása közben: 
+[2014-03-13 15:38:05.490]	SetupDataManager.init(): Hiba történt a H:\munka\HHQCS\setup\setup_01.xml beállítási könyvtár feldolgozása közben: 
+[2014-03-13 15:38:49.412]	SetupDataManager.init(): Hiba történt a H:\munka\HHQCS\setup\setup_01.xml beállítási könyvtár feldolgozása közben: 

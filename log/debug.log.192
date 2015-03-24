@@ -1,0 +1,72 @@
+[2014-04-30 12:20:23.028]	[hhqcs.net.tcp.TCPNet] Üzenetek fogadása nem megfelelő:
+								java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:189)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:283)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:325)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:177)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:154)
+	at java.io.BufferedReader.read1(BufferedReader.java:205)
+	at java.io.BufferedReader.read(BufferedReader.java:279)
+	at java.io.Reader.read(Reader.java:100)
+	at hhqcs.net.tcp.TCPNet.receiveTelegram(TCPNet.java:90)
+	at hhqcs.net.tcp.TCPConnectionServer.run(TCPConnectionServer.java:80)
+
+[2014-04-30 12:20:27.418]	[hhqcs.net.tcp.TCPNet] Üzenetek fogadása nem megfelelő:
+								java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:189)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:283)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:325)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:177)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:154)
+	at java.io.BufferedReader.read1(BufferedReader.java:205)
+	at java.io.BufferedReader.read(BufferedReader.java:279)
+	at java.io.Reader.read(Reader.java:100)
+	at hhqcs.net.tcp.TCPNet.receiveTelegram(TCPNet.java:90)
+	at hhqcs.net.tcp.TCPConnectionServer.run(TCPConnectionServer.java:80)
+
+[2014-04-30 12:20:27.418]	(Húzvaegyengető) [hhqcs.data.DataProcess] Hiba az üzenet azonositónál: (1 : 1)
+[2014-04-30 12:20:27.418]	(Húzvaegyengető) [hhqcs.data.DataProcess] Az eldobandó byte tartalma::
+								[B@b353de
+[2014-04-30 12:20:55.794]	(Húzvaegyengető) [hhqcs.data.DataProcess] Hiba az üzenet azonositónál: (1 : 1)
+[2014-04-30 12:20:55.794]	(Húzvaegyengető) [hhqcs.data.DataProcess] Az eldobandó byte tartalma::
+								[B@b9a647
+[2014-04-30 12:23:32.907]	[hhqcs.net.tcp.TCPNet] Üzenetek fogadása nem megfelelő:
+								java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:189)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:283)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:325)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:177)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:154)
+	at java.io.BufferedReader.read1(BufferedReader.java:205)
+	at java.io.BufferedReader.read(BufferedReader.java:279)
+	at java.io.Reader.read(Reader.java:100)
+	at hhqcs.net.tcp.TCPNet.receiveTelegram(TCPNet.java:90)
+	at hhqcs.net.tcp.TCPConnectionServer.run(TCPConnectionServer.java:80)
+
+[2014-04-30 12:23:37.595]	[hhqcs.net.tcp.TCPNet] Üzenetek fogadása nem megfelelő:
+								java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:189)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:283)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:325)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:177)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:154)
+	at java.io.BufferedReader.read1(BufferedReader.java:205)
+	at java.io.BufferedReader.read(BufferedReader.java:279)
+	at java.io.Reader.read(Reader.java:100)
+	at hhqcs.net.tcp.TCPNet.receiveTelegram(TCPNet.java:90)
+	at hhqcs.net.tcp.TCPConnectionServer.run(TCPConnectionServer.java:80)
+
+[2014-04-30 12:24:37.222]	(Húzvaegyengető) [hhqcs.data.DataProcess] Hiba az üzenet azonositónál: (1 : 1)
+[2014-04-30 12:24:48.737]	(Húzvaegyengető) [hhqcs.data.DataProcess] Az eldobandó byte tartalma::
+								[B@ea9129
+[2014-04-30 12:25:22.816]	(Húzvaegyengető) [hhqcs.data.DataProcess] Hiba az üzenet azonositónál: (1 : 1)
+[2014-04-30 12:25:22.816]	(Húzvaegyengető) [hhqcs.data.DataProcess] Az eldobandó byte tartalma::
+								[B@13a252a

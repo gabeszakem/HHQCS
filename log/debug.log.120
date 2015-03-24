@@ -1,0 +1,45 @@
+[2014-04-22 09:00:03.758]	(Húzvaegyengető) [hhqcs.HHQCSServer] : Hiba történt a tcpConnectionServer létrehozása közben:
+								java.net.BindException: Address already in use: JVM_Bind
+	at java.net.TwoStacksPlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.TwoStacksPlainSocketImpl.bind(TwoStacksPlainSocketImpl.java:101)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:175)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at hhqcs.net.tcp.TCPNet.<init>(TCPNet.java:36)
+	at hhqcs.net.tcp.TCPConnectionServer.<init>(TCPConnectionServer.java:63)
+	at hhqcs.HHQCSServer.<init>(HHQCSServer.java:50)
+	at hhqcs.setup.SetupDataManager.init(SetupDataManager.java:161)
+	at hhqcs.HHQCS.main(HHQCS.java:33)
+
+[2014-04-22 09:00:03.790]	(Georg hasító) [hhqcs.HHQCSServer] : Hiba történt a tcpConnectionServer létrehozása közben:
+								java.net.BindException: Address already in use: JVM_Bind
+	at java.net.TwoStacksPlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.TwoStacksPlainSocketImpl.bind(TwoStacksPlainSocketImpl.java:101)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:175)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at hhqcs.net.tcp.TCPNet.<init>(TCPNet.java:36)
+	at hhqcs.net.tcp.TCPConnectionServer.<init>(TCPConnectionServer.java:63)
+	at hhqcs.HHQCSServer.<init>(HHQCSServer.java:50)
+	at hhqcs.setup.SetupDataManager.init(SetupDataManager.java:161)
+	at hhqcs.HHQCS.main(HHQCS.java:33)
+
+[2014-04-22 09:00:03.821]	(1550-es hasító) [hhqcs.HHQCSServer] : Hiba történt a tcpConnectionServer létrehozása közben:
+								java.net.BindException: Address already in use: JVM_Bind
+	at java.net.TwoStacksPlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.TwoStacksPlainSocketImpl.bind(TwoStacksPlainSocketImpl.java:101)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:175)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at hhqcs.net.tcp.TCPNet.<init>(TCPNet.java:36)
+	at hhqcs.net.tcp.TCPConnectionServer.<init>(TCPConnectionServer.java:63)
+	at hhqcs.HHQCSServer.<init>(HHQCSServer.java:50)
+	at hhqcs.setup.SetupDataManager.init(SetupDataManager.java:161)
+	at hhqcs.HHQCS.main(HHQCS.java:33)
+

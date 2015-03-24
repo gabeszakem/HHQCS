@@ -1,0 +1,453 @@
+[2014-04-29 09:54:20.914]	(Húzvaegyengető) [hhqcs.HHQCSServer] : Hiba történt a tcpConnectionServer létrehozása közben:
+								java.net.BindException: Address already in use: JVM_Bind
+	at java.net.TwoStacksPlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.TwoStacksPlainSocketImpl.bind(TwoStacksPlainSocketImpl.java:101)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:175)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at hhqcs.net.tcp.TCPNet.<init>(TCPNet.java:39)
+	at hhqcs.net.tcp.TCPConnectionServer.<init>(TCPConnectionServer.java:63)
+	at hhqcs.HHQCSServer.<init>(HHQCSServer.java:50)
+	at hhqcs.setup.SetupDataManager.init(SetupDataManager.java:206)
+	at hhqcs.HHQCS.main(HHQCS.java:39)
+
+[2014-04-29 09:54:20.929]	(Georg hasító) [hhqcs.HHQCSServer] : Hiba történt a tcpConnectionServer létrehozása közben:
+								java.net.BindException: Address already in use: JVM_Bind
+	at java.net.TwoStacksPlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.TwoStacksPlainSocketImpl.bind(TwoStacksPlainSocketImpl.java:101)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:175)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at hhqcs.net.tcp.TCPNet.<init>(TCPNet.java:39)
+	at hhqcs.net.tcp.TCPConnectionServer.<init>(TCPConnectionServer.java:63)
+	at hhqcs.HHQCSServer.<init>(HHQCSServer.java:50)
+	at hhqcs.setup.SetupDataManager.init(SetupDataManager.java:206)
+	at hhqcs.HHQCS.main(HHQCS.java:39)
+
+[2014-04-29 09:54:20.945]	(1550-es hasító) [hhqcs.HHQCSServer] : Hiba történt a tcpConnectionServer létrehozása közben:
+								java.net.BindException: Address already in use: JVM_Bind
+	at java.net.TwoStacksPlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.TwoStacksPlainSocketImpl.bind(TwoStacksPlainSocketImpl.java:101)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:175)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at hhqcs.net.tcp.TCPNet.<init>(TCPNet.java:39)
+	at hhqcs.net.tcp.TCPConnectionServer.<init>(TCPConnectionServer.java:63)
+	at hhqcs.HHQCSServer.<init>(HHQCSServer.java:50)
+	at hhqcs.setup.SetupDataManager.init(SetupDataManager.java:206)
+	at hhqcs.HHQCS.main(HHQCS.java:39)
+
+[2014-04-29 09:54:21.164]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:21.179]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:21.179]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:21.257]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:21.273]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:21.273]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:21.367]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:21.382]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:21.382]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:21.460]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:21.476]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:21.476]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:21.554]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:21.570]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:21.570]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:21.664]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:21.679]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:21.679]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:21.757]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:21.773]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:21.773]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:21.882]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:21.898]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:21.898]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:21.960]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:21.976]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:21.976]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:22.054]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:22.070]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:22.070]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:22.164]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:22.179]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:22.179]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:22.257]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:22.273]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:22.273]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:22.382]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:22.382]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:22.398]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:22.460]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:22.476]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:22.476]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:22.554]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:22.570]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:22.570]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:22.664]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:22.742]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:22.742]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:22.757]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:22.789]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2014-04-29 09:54:22.789]	[hhqcs.form.JpanelForm] A panel frissitése közben hibatörtént:
+								java.lang.NullPointerException
+	at hhqcs.form.JpanelForm.refreshPanel(JpanelForm.java:47)
+	at hhqcs.form.JpanelForm.access$000(JpanelForm.java:15)
+	at hhqcs.form.JpanelForm$1.run(JpanelForm.java:37)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+

@@ -1,0 +1,130 @@
+[2014-04-20 17:21:42.839]	[hhqcs.sql.SQL] minadat_ID(1) Hiba történt az adatbázis kapcsolódása közben:
+								org.postgresql.util.PSQLException: Connection refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:207)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:64)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:138)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:29)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:21)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:31)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:410)
+	at org.postgresql.Driver.connect(Driver.java:280)
+	at java.sql.DriverManager.getConnection(DriverManager.java:579)
+	at java.sql.DriverManager.getConnection(DriverManager.java:221)
+	at hhqcs.sql.SQL.minadat_ID(SQL.java:47)
+	at hhqcs.setup.SetupDataManager.init(SetupDataManager.java:152)
+	at hhqcs.HHQCS.main(HHQCS.java:32)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:69)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:157)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:391)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:60)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:101)
+	... 13 more
+
+[2014-04-20 17:21:42.878]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a D:\dropbox\Dropbox\HHQCS\setup\setup_01.xml beállítási könyvtár feldolgozása közben:
+								hibás Plant ID:1 Nem található az Id -hoz tartozó berendezés az adatbázisban
+[2014-04-20 17:22:07.582]	[hhqcs.sql.SQL] minadat_ID(2) Hiba történt az adatbázis kapcsolódása közben:
+								org.postgresql.util.PSQLException: Connection refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:207)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:64)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:138)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:29)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:21)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:31)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:410)
+	at org.postgresql.Driver.connect(Driver.java:280)
+	at java.sql.DriverManager.getConnection(DriverManager.java:579)
+	at java.sql.DriverManager.getConnection(DriverManager.java:221)
+	at hhqcs.sql.SQL.minadat_ID(SQL.java:47)
+	at hhqcs.setup.SetupDataManager.init(SetupDataManager.java:152)
+	at hhqcs.HHQCS.main(HHQCS.java:32)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:69)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:157)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:391)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:60)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:101)
+	... 13 more
+
+[2014-04-20 17:22:07.583]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a D:\dropbox\Dropbox\HHQCS\setup\setup_02.xml beállítási könyvtár feldolgozása közben:
+								hibás Plant ID:2 Nem található az Id -hoz tartozó berendezés az adatbázisban
+[2014-04-20 17:22:33.656]	[hhqcs.sql.SQL] minadat_ID(3) Hiba történt az adatbázis kapcsolódása közben:
+								org.postgresql.util.PSQLException: Connection refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:207)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:64)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:138)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:29)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:21)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:31)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:410)
+	at org.postgresql.Driver.connect(Driver.java:280)
+	at java.sql.DriverManager.getConnection(DriverManager.java:579)
+	at java.sql.DriverManager.getConnection(DriverManager.java:221)
+	at hhqcs.sql.SQL.minadat_ID(SQL.java:47)
+	at hhqcs.setup.SetupDataManager.init(SetupDataManager.java:152)
+	at hhqcs.HHQCS.main(HHQCS.java:32)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:69)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:157)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:391)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:60)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:101)
+	... 13 more
+
+[2014-04-20 17:22:33.656]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a D:\dropbox\Dropbox\HHQCS\setup\setup_03.xml beállítási könyvtár feldolgozása közben:
+								hibás Plant ID:3 Nem található az Id -hoz tartozó berendezés az adatbázisban
+[2014-10-03 07:36:30.765]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: D:\Dropbox\javaprog\HHQCS\setup
+[2014-10-03 07:36:32.359]	[hhqcs.net.tcp.TCPNet] Fri Oct 03 07:36:32 CEST 2014 TCP szerver létrehozása a 3010 porton...
+[2014-10-03 07:36:32.374]	[hhqcs.net.tcp.TCPNet] Fri Oct 03 07:36:32 CEST 2014 TCP szerver kliens kapcsolódásra vár
+[2014-10-03 07:36:32.374]	[hhqcs.net.tcp.TCPNet] Fri Oct 03 07:36:32 CEST 2014 TCP szerver létrehozása a 3011 porton...
+[2014-10-03 07:36:32.390]	[hhqcs.net.tcp.TCPNet] Fri Oct 03 07:36:32 CEST 2014 TCP szerver kliens kapcsolódásra vár
+[2014-10-03 07:36:32.437]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a D:\Dropbox\javaprog\HHQCS\setup\setup_02.xml beállítási könyvtár feldolgozása közben:
+								Nem található a "centterm_ip_address" kulcs érték
+[2014-10-03 07:36:36.796]	[hhqcs.net.tcp.TCPNet] Fri Oct 03 07:36:36 CEST 2014 TCP szerver létrehozása a 3000 porton...
+[2014-10-03 07:36:36.812]	[hhqcs.net.tcp.TCPNet] Fri Oct 03 07:36:36 CEST 2014 TCP szerver létrehozása a 3001 porton...
+[2014-10-03 07:36:36.827]	[hhqcs.net.tcp.TCPNet] Fri Oct 03 07:36:36 CEST 2014 TCP szerver kliens kapcsolódásra vár
+[2014-10-03 07:36:36.827]	[hhqcs.net.tcp.TCPNet] Fri Oct 03 07:36:36 CEST 2014 TCP szerver kliens kapcsolódásra vár
+[2014-10-03 07:36:36.874]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a D:\Dropbox\javaprog\HHQCS\setup\setup_03.xml beállítási könyvtár feldolgozása közben:
+								Nem található a "centterm_ip_address" kulcs érték
+[2014-10-03 07:36:37.609]	[hhqcs.net.tcp.TCPNet] Fri Oct 03 07:36:37 CEST 2014 TCP szerver létrehozása a 3020 porton...
+[2014-10-03 07:36:37.609]	[hhqcs.net.tcp.TCPNet] Fri Oct 03 07:36:37 CEST 2014 TCP szerver kliens kapcsolódásra vár
+[2014-10-03 07:36:37.624]	[hhqcs.net.tcp.TCPNet] Fri Oct 03 07:36:37 CEST 2014 TCP szerver létrehozása a 3021 porton...
+[2014-10-03 07:36:37.702]	[hhqcs.net.tcp.TCPNet] Fri Oct 03 07:36:37 CEST 2014 TCP szerver kliens kapcsolódásra vár
+[2014-10-03 07:41:28.677]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: D:\Dropbox\javaprog\HHQCS\setup
+[2014-10-03 07:41:29.255]	[hhqcs.net.tcp.TCPNet] Fri Oct 03 07:41:29 CEST 2014 TCP szerver létrehozása a 3010 porton...
+[2014-10-03 07:41:29.255]	[hhqcs.net.tcp.TCPNet] Fri Oct 03 07:41:29 CEST 2014 TCP szerver kliens kapcsolódásra vár
+[2014-10-03 07:41:29.255]	[hhqcs.net.tcp.TCPNet] Fri Oct 03 07:41:29 CEST 2014 TCP szerver létrehozása a 3011 porton...
+[2014-10-03 07:41:29.255]	[hhqcs.net.tcp.TCPNet] Fri Oct 03 07:41:29 CEST 2014 TCP szerver kliens kapcsolódásra vár
+[2014-10-03 07:41:29.302]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a D:\Dropbox\javaprog\HHQCS\setup\setup_02.xml beállítási könyvtár feldolgozása közben:
+								Nem található a "centterm_ip_address" kulcs érték
+[2014-10-03 07:41:29.317]	[hhqcs.net.tcp.TCPNet] Fri Oct 03 07:41:29 CEST 2014 TCP szerver létrehozása a 3000 porton...
+[2014-10-03 07:41:29.317]	[hhqcs.net.tcp.TCPNet] Fri Oct 03 07:41:29 CEST 2014 TCP szerver kliens kapcsolódásra vár
+[2014-10-03 07:41:29.333]	[hhqcs.net.tcp.TCPNet] Fri Oct 03 07:41:29 CEST 2014 TCP szerver létrehozása a 3001 porton...
+[2014-10-03 07:41:29.349]	[hhqcs.net.tcp.TCPNet] Fri Oct 03 07:41:29 CEST 2014 TCP szerver kliens kapcsolódásra vár
+[2014-10-03 07:41:29.380]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a D:\Dropbox\javaprog\HHQCS\setup\setup_03.xml beállítási könyvtár feldolgozása közben:
+								Nem található a "centterm_ip_address" kulcs érték
+[2014-10-03 07:41:29.380]	[hhqcs.net.tcp.TCPNet] Fri Oct 03 07:41:29 CEST 2014 TCP szerver létrehozása a 3020 porton...
+[2014-10-03 07:41:29.380]	[hhqcs.net.tcp.TCPNet] Fri Oct 03 07:41:29 CEST 2014 TCP szerver kliens kapcsolódásra vár
+[2014-10-03 07:41:29.380]	[hhqcs.net.tcp.TCPNet] Fri Oct 03 07:41:29 CEST 2014 TCP szerver létrehozása a 3021 porton...
+[2014-10-03 07:41:29.396]	[hhqcs.net.tcp.TCPNet] Fri Oct 03 07:41:29 CEST 2014 TCP szerver kliens kapcsolódásra vár

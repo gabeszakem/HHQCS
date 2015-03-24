@@ -1,0 +1,43 @@
+[2014-10-29 09:48:44.593]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: D:\Dropbox\javaprog\HHQCS\setup
+[2014-10-29 09:48:46.375]	[hhqcs.net.tcp.TCPNet] Wed Oct 29 09:48:46 CET 2014 TCP szerver létrehozása a 3010 porton...
+[2014-10-29 09:48:46.390]	[hhqcs.net.tcp.TCPNet] Wed Oct 29 09:48:46 CET 2014 TCP szerver létrehozása a 3011 porton...
+[2014-10-29 09:48:46.500]	[hhqcs.net.tcp.TCPNet] Wed Oct 29 09:48:46 CET 2014 TCP szerver kliens kapcsolódásra vár
+[2014-10-29 09:48:46.515]	[hhqcs.net.tcp.TCPNet] Wed Oct 29 09:48:46 CET 2014 TCP szerver kliens kapcsolódásra vár
+[2014-10-29 09:48:46.656]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a D:\Dropbox\javaprog\HHQCS\setup\setup_02.xml beállítási könyvtár feldolgozása közben:
+								Nem található a "centterm_ip_address" kulcs érték
+[2014-10-29 09:48:46.656]	[hhqcs.net.tcp.TCPNet] Wed Oct 29 09:48:46 CET 2014 TCP szerver létrehozása a 3000 porton...
+[2014-10-29 09:48:46.672]	[hhqcs.net.tcp.TCPNet] Wed Oct 29 09:48:46 CET 2014 TCP szerver létrehozása a 3001 porton...
+[2014-10-29 09:48:46.672]	[hhqcs.net.tcp.TCPNet] Wed Oct 29 09:48:46 CET 2014 TCP szerver kliens kapcsolódásra vár
+[2014-10-29 09:48:46.687]	[hhqcs.net.tcp.TCPNet] Wed Oct 29 09:48:46 CET 2014 TCP szerver kliens kapcsolódásra vár
+[2014-10-29 09:48:46.703]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a D:\Dropbox\javaprog\HHQCS\setup\setup_03.xml beállítási könyvtár feldolgozása közben:
+								Nem található a "centterm_ip_address" kulcs érték
+[2014-10-29 09:48:46.719]	[hhqcs.net.tcp.TCPNet] Wed Oct 29 09:48:46 CET 2014 TCP szerver létrehozása a 3020 porton...
+[2014-10-29 09:48:46.719]	[hhqcs.net.tcp.TCPNet] Wed Oct 29 09:48:46 CET 2014 TCP szerver kliens kapcsolódásra vár
+[2014-10-29 09:48:46.719]	[hhqcs.net.tcp.TCPNet] Wed Oct 29 09:48:46 CET 2014 TCP szerver létrehozása a 3021 porton...
+[2014-10-29 09:48:46.734]	[hhqcs.net.tcp.TCPNet] Wed Oct 29 09:48:46 CET 2014 TCP szerver kliens kapcsolódásra vár
+[2014-10-29 09:48:54.125]	[hhqcs.HHQCS] Hiba történt a tray icon létrehozása közben ::
+								java.util.ConcurrentModificationException
+	at java.util.ArrayList$Itr.checkForComodification(ArrayList.java:859)
+	at java.util.ArrayList$Itr.next(ArrayList.java:831)
+	at hhqcs.form.thread.ThreadFrame.initComponents(ThreadFrame.java:137)
+	at hhqcs.form.thread.ThreadFrame.<init>(ThreadFrame.java:61)
+	at hhqcs.form.Tray.<init>(Tray.java:43)
+	at hhqcs.HHQCS.main(HHQCS.java:51)
+
+[2014-10-29 09:49:57.771]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: D:\Dropbox\javaprog\HHQCS\setup
+[2014-10-29 09:49:58.490]	[hhqcs.net.tcp.TCPNet] Wed Oct 29 09:49:58 CET 2014 TCP szerver létrehozása a 3010 porton...
+[2014-10-29 09:49:58.505]	[hhqcs.net.tcp.TCPNet] Wed Oct 29 09:49:58 CET 2014 TCP szerver kliens kapcsolódásra vár
+[2014-10-29 09:49:58.505]	[hhqcs.net.tcp.TCPNet] Wed Oct 29 09:49:58 CET 2014 TCP szerver létrehozása a 3011 porton...
+[2014-10-29 09:49:58.521]	[hhqcs.net.tcp.TCPNet] Wed Oct 29 09:49:58 CET 2014 TCP szerver kliens kapcsolódásra vár
+[2014-10-29 09:49:58.568]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a D:\Dropbox\javaprog\HHQCS\setup\setup_02.xml beállítási könyvtár feldolgozása közben:
+								Nem található a "centterm_ip_address" kulcs érték
+[2014-10-29 09:49:58.568]	[hhqcs.net.tcp.TCPNet] Wed Oct 29 09:49:58 CET 2014 TCP szerver létrehozása a 3000 porton...
+[2014-10-29 09:49:58.568]	[hhqcs.net.tcp.TCPNet] Wed Oct 29 09:49:58 CET 2014 TCP szerver kliens kapcsolódásra vár
+[2014-10-29 09:49:58.584]	[hhqcs.net.tcp.TCPNet] Wed Oct 29 09:49:58 CET 2014 TCP szerver létrehozása a 3001 porton...
+[2014-10-29 09:49:58.584]	[hhqcs.net.tcp.TCPNet] Wed Oct 29 09:49:58 CET 2014 TCP szerver kliens kapcsolódásra vár
+[2014-10-29 09:49:58.599]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a D:\Dropbox\javaprog\HHQCS\setup\setup_03.xml beállítási könyvtár feldolgozása közben:
+								Nem található a "centterm_ip_address" kulcs érték
+[2014-10-29 09:49:58.615]	[hhqcs.net.tcp.TCPNet] Wed Oct 29 09:49:58 CET 2014 TCP szerver létrehozása a 3020 porton...
+[2014-10-29 09:49:58.615]	[hhqcs.net.tcp.TCPNet] Wed Oct 29 09:49:58 CET 2014 TCP szerver létrehozása a 3021 porton...
+[2014-10-29 09:49:58.615]	[hhqcs.net.tcp.TCPNet] Wed Oct 29 09:49:58 CET 2014 TCP szerver kliens kapcsolódásra vár
+[2014-10-29 09:49:58.615]	[hhqcs.net.tcp.TCPNet] Wed Oct 29 09:49:58 CET 2014 TCP szerver kliens kapcsolódásra vár
