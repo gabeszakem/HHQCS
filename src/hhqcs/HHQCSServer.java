@@ -37,6 +37,10 @@ public class HHQCSServer {
      */
     public TCPConnectionServer tcpLife;
 
+    /**
+     * TCP szerver a vastagsággi adatok fogadásához
+     */
+    public TCPConnectionServer tcpThickness;
 
     /**
      * UDP kapcsolat a centralograf terminállal.
@@ -47,7 +51,7 @@ public class HHQCSServer {
      * Centralográfnak küldött üzenet.
      */
     public CentalografMessage centralografMessage = new CentalografMessage();
-    
+
     /**
      * @param aSetup
      */
@@ -77,7 +81,7 @@ public class HHQCSServer {
             tcpData = new TCPConnectionServer(intPortData, ipAddress, "data", this);
             tcpData.start();
             tcpData.setName("tcpServer " + setup.PLANTNAME + ":data");
-            HHQCS.threads.add(tcpData);       
+            HHQCS.threads.add(tcpData);
             /**
              * TCP szerver létrehozása az életjel kapcsolathoz
              */
@@ -85,6 +89,17 @@ public class HHQCSServer {
             tcpLife.start();
             tcpLife.setName("tcpServer " + setup.PLANTNAME + ":life");
             HHQCS.threads.add(tcpLife);
+
+            //Vastagság
+            if (this.setup.thicknessMessageEnable) {
+                /**
+                 * A vastagsági adat kommunikációhoz használt port
+                 */
+                int intPortThickness = Integer.parseInt(setup.PORTTHICKNESS);
+                tcpThickness = new TCPConnectionServer(intPortThickness, ipAddress, "thickness", this);
+                tcpThickness.start();
+                tcpThickness.setName("tcpServer " + setup.PLANTNAME + ":thickness");
+            }
 
             /**
              * UDP szerver létrehozása . (Sor termel jel küldése a centralográf
@@ -96,7 +111,7 @@ public class HHQCSServer {
                 InetAddress centralografIPAddress = InetAddress.getByName(setup.centTerminalIpAddress);
                 udpCentralograf = new UDPConnectionServer(this, centralografPort, bufferSize, centralografIPAddress);
                 udpCentralograf.start();
-                udpCentralograf.setName("udpCentralograf " + setup.PLANTNAME );
+                udpCentralograf.setName("udpCentralograf " + setup.PLANTNAME);
             }
         } catch (UnknownHostException ex) {
             /* Hiba Kiirása */

@@ -38,7 +38,17 @@ public class Setup {
      * Az életjel küldéshez tartozó port száma.
      */
     public String PORTLIFE = "";
-
+    
+    /**
+     * A vastagság küldéshez tartozó port száma.
+     */
+    public String PORTTHICKNESS = "";
+    
+    /**
+     * A thickness  üzenetküldésének engedélyezése.
+     */
+    public boolean thicknessMessageEnable = false;
+    
     /**
      * A centralográf terminál portja.
      */
@@ -54,7 +64,9 @@ public class Setup {
      */
     public int centTerminalbuffersize = 2048;
     /**
-     * A centralograf terminál üzenetküldésénak engedélyezése.
+     * A centralograf terminál üzenetküldésének engedélyezése.
      */
     public boolean centTerminalMessageEnable = false;
+    
+    
 }

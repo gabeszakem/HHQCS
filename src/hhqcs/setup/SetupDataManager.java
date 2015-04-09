@@ -32,6 +32,7 @@ public class SetupDataManager {
     private static final String KEY_IP_ADDRESS = "plc_ip_address";
     private static final String KEY_PORTDATA = "port_for_data";
     private static final String KEY_LIFESIGNAL = "port_for_lifesignal";
+    private static final String KEY_THICKNESSDATA = "port_for_thickness";
 
     /**
      * Beállítási kulcsok a centralográf terminálnak.
@@ -208,6 +209,29 @@ public class SetupDataManager {
                     errorMessage = "Nem található a \"" + KEY_LIFESIGNAL + "\" kulcs érték";
                 }
             }
+            /*
+             * THICKNESSDATA vizsgálata
+             */
+            if (fileProperties.containsKey(KEY_THICKNESSDATA) && !error) {
+                String portThickness = fileProperties.getProperty(KEY_THICKNESSDATA).replaceAll("\\s+", "");
+                /*
+                 * Formátum ellenőrzés
+                 */
+                if (CheckPort.check(portThickness)) {
+                    setup.PORTTHICKNESS = portThickness;
+                    setup.thicknessMessageEnable=true;
+                } else {
+                    setup.thicknessMessageEnable=false;
+                    errorMessage = "hibás Port a vastagsághoz " + portThickness;
+                }
+            } else {
+                setup.thicknessMessageEnable=false;
+                if (!error) {
+                    errorMessage = "Nem található a \"" + KEY_THICKNESSDATA + "\" kulcs érték";
+                }
+            }
+            
+            
             if (!error) {
                 /*
                  * PLANTNAME lekérdezése adatbázisból
@@ -273,7 +297,7 @@ public class SetupDataManager {
         }
 
         /*
-         * PORTDATA vizsgálata
+         * CentTerminalDATA vizsgálata
          */
         if (fileProperties.containsKey(KEY_CENTTERMINAL_PORT) && centTerminalEnable) {
             String centTerminalPort = fileProperties.getProperty(KEY_CENTTERMINAL_PORT).replaceAll("\\s+", "");

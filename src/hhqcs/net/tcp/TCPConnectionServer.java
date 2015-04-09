@@ -12,6 +12,7 @@ import hhqcs.data.TelegramHeader;
 import hhqcs.life.LifeProcess;
 import hhqcs.life.LifeSignal;
 import hhqcs.setup.Setup;
+import hhqcs.thickness.ThicknessProcess;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.util.ArrayList;
@@ -52,9 +53,14 @@ public class TCPConnectionServer extends Thread {
      */
     public Setup setup;
 
+    @SuppressWarnings("FieldMayBeFinal")
     private DataProcess dp;
 
+    @SuppressWarnings("FieldMayBeFinal")
     private LifeProcess lp;
+    
+    @SuppressWarnings("FieldMayBeFinal")
+     private ThicknessProcess tp;
 
     public HHQCSServer hhqcsServer;
 
@@ -76,6 +82,7 @@ public class TCPConnectionServer extends Thread {
         this.hhqcsServer = hhqcsServer;
         this.dp = new DataProcess();
         this.lp = new LifeProcess();
+        this.tp = new ThicknessProcess();
     }
 
     /**
@@ -104,12 +111,18 @@ public class TCPConnectionServer extends Thread {
                          * Adatok feldolgozása
                          */
                         dp.process(this);
+                    } else if (this.serverType.equals("thickness")) {
+                        /*
+                         * Adatok feldolgozása
+                         */
+                        tp.process(this);
                     }
                 } else {
                     System.err.println(new Date().toString() + " " + this.setup.PLANTNAME + " " + this.getClass() + " receiveTelegram==null ");
                     HHQCS.debug.printDebugMsg(setup.PLANTNAME, TCPConnectionServer.class.getName(),
                             "Hiba történt receiveTelegram==0");
                 }
+                    
             } catch (Exception ex) {
                 /*
                  * Hiba, üzenet kiírása
