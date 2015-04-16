@@ -1,53 +1,43 @@
-[2015-03-24 12:16:05.769]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
-[2015-03-24 12:16:06.674]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:16:06 CET 2015 TCP szerver létrehozása a 3010 porton...
-[2015-03-24 12:16:06.690]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:16:06 CET 2015 TCP szerver kliens kapcsolódásra vár
-[2015-03-24 12:16:06.705]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:16:06 CET 2015 TCP szerver létrehozása a 3011 porton...
-[2015-03-24 12:16:06.705]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:16:06 CET 2015 TCP szerver kliens kapcsolódásra vár
-[2015-03-24 12:16:06.705]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:16:06 CET 2015 TCP szerver létrehozása a 3012 porton...
-[2015-03-24 12:16:06.705]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:16:06 CET 2015 TCP szerver kliens kapcsolódásra vár
-[2015-03-24 12:16:06.783]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:16:06 CET 2015 TCP szerver létrehozása a 3000 porton...
-[2015-03-24 12:16:06.783]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:16:06 CET 2015 TCP szerver létrehozása a 3001 porton...
-[2015-03-24 12:16:06.783]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:16:06 CET 2015 TCP szerver létrehozása a 3002 porton...
-[2015-03-24 12:16:06.799]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:16:06 CET 2015 TCP szerver kliens kapcsolódásra vár
-[2015-03-24 12:16:06.799]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:16:06 CET 2015 TCP szerver kliens kapcsolódásra vár
-[2015-03-24 12:16:06.799]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:16:06 CET 2015 TCP szerver kliens kapcsolódásra vár
-[2015-03-24 12:16:06.799]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup\setup_03.xml beállítási könyvtár feldolgozása közben:
-								Nem található a "centterm_ip_address" kulcs érték
-[2015-03-24 12:16:06.815]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:16:06 CET 2015 TCP szerver létrehozása a 3020 porton...
-[2015-03-24 12:16:06.815]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:16:06 CET 2015 TCP szerver létrehozása a 3021 porton...
-[2015-03-24 12:16:06.815]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:16:06 CET 2015 TCP szerver létrehozása a 3022 porton...
-[2015-03-24 12:16:06.815]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:16:06 CET 2015 TCP szerver kliens kapcsolódásra vár
-[2015-03-24 12:16:06.815]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:16:06 CET 2015 TCP szerver kliens kapcsolódásra vár
-[2015-03-24 12:16:06.815]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:16:06 CET 2015 TCP szerver kliens kapcsolódásra vár
-[2015-03-24 12:19:55.792]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
-[2015-03-24 12:19:55.824]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup\setup_01.xml beállítási könyvtár feldolgozása közben:
-								Nem található a "port_for_lifesignal" kulcs érték
-[2015-03-24 12:21:16.399]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
-[2015-03-24 12:21:16.508]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:21:16 CET 2015 TCP szerver létrehozása a 3010 porton...
-[2015-03-24 12:21:16.523]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:21:16 CET 2015 TCP szerver kliens kapcsolódásra vár
-[2015-03-24 12:21:16.523]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:21:16 CET 2015 TCP szerver létrehozása a 3011 porton...
-[2015-03-24 12:21:16.523]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:21:16 CET 2015 TCP szerver kliens kapcsolódásra vár
-[2015-03-24 12:21:16.539]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:21:16 CET 2015 TCP szerver létrehozása a 3000 porton...
-[2015-03-24 12:21:16.539]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:21:16 CET 2015 TCP szerver létrehozása a 3001 porton...
-[2015-03-24 12:21:16.539]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:21:16 CET 2015 TCP szerver kliens kapcsolódásra vár
-[2015-03-24 12:21:16.539]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:21:16 CET 2015 TCP szerver létrehozása a 3002 porton...
-[2015-03-24 12:21:16.539]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:21:16 CET 2015 TCP szerver kliens kapcsolódásra vár
-[2015-03-24 12:21:16.539]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:21:16 CET 2015 TCP szerver kliens kapcsolódásra vár
-[2015-03-24 12:21:16.555]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup\setup_03.xml beállítási könyvtár feldolgozása közben:
-								Nem található a "centterm_ip_address" kulcs érték
-[2015-03-24 12:21:16.555]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:21:16 CET 2015 TCP szerver létrehozása a 3020 porton...
-[2015-03-24 12:21:16.555]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:21:16 CET 2015 TCP szerver létrehozása a 3021 porton...
-[2015-03-24 12:21:16.555]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:21:16 CET 2015 TCP szerver létrehozása a 3022 porton...
-[2015-03-24 12:21:16.555]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:21:16 CET 2015 TCP szerver kliens kapcsolódásra vár
-[2015-03-24 12:21:16.555]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:21:16 CET 2015 TCP szerver kliens kapcsolódásra vár
-[2015-03-24 12:21:16.555]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:21:16 CET 2015 TCP szerver kliens kapcsolódásra vár
-[2015-03-24 12:22:47.425]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
-[2015-03-24 12:23:10.466]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:23:10 CET 2015 TCP szerver létrehozása a 3010 porton...
-[2015-03-24 12:23:10.934]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:23:10 CET 2015 TCP szerver kliens kapcsolódásra vár
-[2015-03-24 12:23:12.353]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:23:12 CET 2015 TCP szerver létrehozása a 3011 porton...
-[2015-03-24 12:23:12.790]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:23:12 CET 2015 TCP szerver kliens kapcsolódásra vár
-[2015-03-24 12:24:34.815]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
-[2015-03-24 12:25:07.747]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:25:07 CET 2015 TCP szerver létrehozása a 3010 porton...
-[2015-03-24 12:25:08.870]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:25:08 CET 2015 TCP szerver kliens kapcsolódásra vár
-[2015-03-24 12:25:13.129]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:25:13 CET 2015 TCP szerver létrehozása a 3011 porton...
-[2015-03-24 12:25:13.565]	[hhqcs.net.tcp.TCPNet] Tue Mar 24 12:25:13 CET 2015 TCP szerver kliens kapcsolódásra vár
+[2014-09-24 00:11:56.193]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6805810100000000,2014-09-23 23:49:10.0,1342,BLOB)
+[2014-09-24 00:39:31.257]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6805800100000000,2014-09-24 00:12:05.0,1376,BLOB)
+[2014-09-24 00:55:35.338]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6808720100000000,2014-09-24 00:39:41.0,2100,BLOB)
+[2014-09-24 01:46:12.488]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6808720200000000,2014-09-24 00:55:34.0,2096,BLOB)
+[2014-09-24 02:01:10.872]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6808670100000000,2014-09-24 01:46:32.0,2025,BLOB)
+[2014-09-24 02:26:44.525]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6808670200000000,2014-09-24 02:01:10.0,2039,BLOB)
+[2014-09-24 02:41:50.428]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6808680100000000,2014-09-24 02:27:05.0,2066,BLOB)
+[2014-09-24 03:05:27.781]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6808680200000000,2014-09-24 02:41:49.0,2075,BLOB)
+[2014-09-24 03:22:28.587]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6800710100000000,2014-09-24 03:05:51.0,1510,BLOB)
+[2014-09-24 03:44:43.942]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6800710200000000,2014-09-24 03:22:38.0,1567,BLOB)
+[2014-09-24 04:17:38.155]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6800220100000000,2014-09-24 03:45:03.0,3361,BLOB)
+[2014-09-24 04:33:52.668]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6810710100000000,2014-09-24 04:17:47.0,2182,BLOB)
+[2014-09-24 04:58:54.467]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6810710200000000,2014-09-24 04:33:51.0,2213,BLOB)
+[2014-09-24 05:09:40.418]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6813160100000000,2014-09-24 04:59:24.0,1144,BLOB)
+[2014-09-24 05:20:47.602]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6813160200000000,2014-09-24 05:09:51.0,1172,BLOB)
+[2014-09-24 06:02:26.569]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6813160300000000,2014-09-24 05:20:46.0,1136,BLOB)
+[2014-09-24 06:25:31.711]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6810890100000000,2014-09-24 06:07:18.0,1586,BLOB)
+[2014-09-24 06:46:57.705]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6810890200000000,2014-09-24 06:25:31.0,1561,BLOB)
+[2014-09-24 07:02:23.659]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6809140100000000,2014-09-24 06:47:28.0,1434,BLOB)
+[2014-09-24 07:29:11.632]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6809140200000000,2014-09-24 07:02:22.0,1435,BLOB)
+[2014-09-24 07:42:47.854]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6813120100000000,2014-09-24 07:29:32.0,686,BLOB)
+[2014-09-24 08:04:47.593]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6813120200000000,2014-09-24 07:42:47.0,797,BLOB)
+[2014-09-24 09:14:59.933]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6831230200000000,2014-09-24 08:05:02.0,2231,BLOB)
+[2014-09-24 09:57:36.439]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6811220200000000,2014-09-24 09:18:04.0,2190,BLOB)
+[2014-09-24 10:34:22.709]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (0000000000000000,2014-09-24 09:59:00.0,2223,BLOB)
+[2014-09-24 11:13:03.999]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (0000000000000000,2014-09-24 10:37:09.0,1787,BLOB)
+[2014-09-24 11:48:24.965]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6800530100000000,2014-09-24 11:17:05.0,1827,BLOB)
+[2014-09-24 12:28:48.064]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6800350100000000,2014-09-24 11:50:35.0,2748,BLOB)
+[2014-09-24 14:01:24.579]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6815350200000000,2014-09-24 12:29:08.0,3728,BLOB)
+[2014-09-24 14:11:05.881]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6809850100000000,2014-09-24 14:01:33.0,66,BLOB)
+[2014-09-24 14:42:58.716]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6809850100000000,2014-09-24 14:11:05.0,1524,BLOB)
+[2014-09-24 15:31:33.211]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6808850100000000,2014-09-24 14:43:09.0,2116,BLOB)
+[2014-09-24 15:37:20.031]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6614560200000000,2014-09-24 15:31:32.0,134,BLOB)
+[2014-09-24 16:19:20.329]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6674560200000000,2014-09-24 15:37:19.0,1300,BLOB)
+[2014-09-24 16:51:14.703]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6802170100000000,2014-09-24 16:19:39.0,1682,BLOB)
+[2014-09-24 17:21:31.043]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6812980100000000,2014-09-24 16:53:39.0,1353,BLOB)
+[2014-09-24 17:45:04.251]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6812990100000000,2014-09-24 17:21:40.0,1361,BLOB)
+[2014-09-24 17:54:13.204]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6813090100000000,2014-09-24 17:45:14.0,561,BLOB)
+[2014-09-24 18:02:06.539]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6813090200000000,2014-09-24 17:54:12.0,519,BLOB)
+[2014-09-24 18:09:07.388]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6813010200000000,2014-09-24 18:02:05.0,494,BLOB)
+[2014-09-24 18:16:22.566]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6813010300000000,2014-09-24 18:09:06.0,492,BLOB)
+[2014-09-24 23:15:40.289]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (0000000000000000,2014-09-24 18:16:21.0,84,BLOB)
+[2014-09-24 23:46:50.975]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6813000100000000,2014-09-24 23:15:39.0,1292,BLOB)

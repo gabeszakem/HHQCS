@@ -1,85 +1,19 @@
-[2015-01-11 21:42:27.272]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: D:\dropbox\Dropbox\javaprog\HHQCS\setup
-[2015-01-11 21:42:31.702]	[hhqcs.sql.SQL] minadat_ID(1) Hiba történt az adatbázis kapcsolódása közben:
-								org.postgresql.util.PSQLException: The connection attempt failed.
-	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:225)
-	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:64)
-	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:138)
-	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:29)
-	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:21)
-	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:31)
-	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
-	at org.postgresql.Driver.makeConnection(Driver.java:410)
-	at org.postgresql.Driver.connect(Driver.java:280)
-	at java.sql.DriverManager.getConnection(DriverManager.java:571)
-	at java.sql.DriverManager.getConnection(DriverManager.java:215)
-	at hhqcs.sql.SQL.minadat_ID(SQL.java:56)
-	at hhqcs.setup.SetupDataManager.init(SetupDataManager.java:215)
-	at hhqcs.HHQCS.main(HHQCS.java:45)
-Caused by: java.net.UnknownHostException: allasido.dunaferr.hu
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:178)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:579)
-	at java.net.Socket.connect(Socket.java:528)
-	at org.postgresql.core.PGStream.<init>(PGStream.java:60)
-	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:101)
-	... 13 more
-
-[2015-01-11 21:42:31.702]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a D:\dropbox\Dropbox\javaprog\HHQCS\setup\setup_01.xml beállítási könyvtár feldolgozása közben:
-								hibás Plant ID:1 Nem található az Id -hoz tartozó berendezés az adatbázisban
-[2015-01-11 21:42:35.415]	[hhqcs.sql.SQL] minadat_ID(2) Hiba történt az adatbázis kapcsolódása közben:
-								org.postgresql.util.PSQLException: The connection attempt failed.
-	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:225)
-	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:64)
-	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:138)
-	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:29)
-	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:21)
-	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:31)
-	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
-	at org.postgresql.Driver.makeConnection(Driver.java:410)
-	at org.postgresql.Driver.connect(Driver.java:280)
-	at java.sql.DriverManager.getConnection(DriverManager.java:571)
-	at java.sql.DriverManager.getConnection(DriverManager.java:215)
-	at hhqcs.sql.SQL.minadat_ID(SQL.java:56)
-	at hhqcs.setup.SetupDataManager.init(SetupDataManager.java:215)
-	at hhqcs.HHQCS.main(HHQCS.java:45)
-Caused by: java.net.UnknownHostException: allasido.dunaferr.hu
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:178)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:579)
-	at java.net.Socket.connect(Socket.java:528)
-	at org.postgresql.core.PGStream.<init>(PGStream.java:60)
-	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:101)
-	... 13 more
-
-[2015-01-11 21:42:35.415]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a D:\dropbox\Dropbox\javaprog\HHQCS\setup\setup_02.xml beállítási könyvtár feldolgozása közben:
-								hibás Plant ID:2 Nem található az Id -hoz tartozó berendezés az adatbázisban
-[2015-01-11 21:42:40.001]	[hhqcs.sql.SQL] minadat_ID(3) Hiba történt az adatbázis kapcsolódása közben:
-								org.postgresql.util.PSQLException: The connection attempt failed.
-	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:225)
-	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:64)
-	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:138)
-	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:29)
-	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:21)
-	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:31)
-	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
-	at org.postgresql.Driver.makeConnection(Driver.java:410)
-	at org.postgresql.Driver.connect(Driver.java:280)
-	at java.sql.DriverManager.getConnection(DriverManager.java:571)
-	at java.sql.DriverManager.getConnection(DriverManager.java:215)
-	at hhqcs.sql.SQL.minadat_ID(SQL.java:56)
-	at hhqcs.setup.SetupDataManager.init(SetupDataManager.java:215)
-	at hhqcs.HHQCS.main(HHQCS.java:45)
-Caused by: java.net.UnknownHostException: allasido.dunaferr.hu
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:178)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:579)
-	at java.net.Socket.connect(Socket.java:528)
-	at org.postgresql.core.PGStream.<init>(PGStream.java:60)
-	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:101)
-	... 13 more
-
-[2015-01-11 21:42:40.001]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a D:\dropbox\Dropbox\javaprog\HHQCS\setup\setup_03.xml beállítási könyvtár feldolgozása közben:
-								hibás Plant ID:3 Nem található az Id -hoz tartozó berendezés az adatbázisban
+[2014-09-11 00:04:31.023]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6789590400000000,2014-09-10 23:36:29.0,1794,BLOB)
+[2014-09-11 00:18:52.928]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6796550100000000,2014-09-11 00:05:43.0,1099,BLOB)
+[2014-09-11 00:40:47.142]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6796550200000000,2014-09-11 00:18:52.0,1031,BLOB)
+[2014-09-11 00:57:18.429]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6794210100000000,2014-09-11 00:43:34.0,1045,BLOB)
+[2014-09-11 01:38:08.309]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6794210200000000,2014-09-11 00:57:17.0,1074,BLOB)
+[2014-09-11 01:50:35.799]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6793930100000000,2014-09-11 01:38:22.0,943,BLOB)
+[2014-09-11 02:12:33.644]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6793930200000000,2014-09-11 01:51:46.0,923,BLOB)
+[2014-09-11 02:24:47.767]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6793950100000000,2014-09-11 02:12:47.0,946,BLOB)
+[2014-09-11 02:46:23.774]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6793950200000000,2014-09-11 02:24:47.0,904,BLOB)
+[2014-09-11 02:58:44.686]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6793940100000000,2014-09-11 02:46:37.0,937,BLOB)
+[2014-09-11 03:19:44.306]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6793940200000000,2014-09-11 02:58:44.0,890,BLOB)
+[2014-09-11 04:42:31.286]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6794230100000000,2014-09-11 03:20:08.0,1634,BLOB)
+[2014-09-11 18:48:26.763]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (5536555655000000,2014-09-11 04:42:30.0,61,BLOB)
+[2014-09-11 20:00:35.198]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (4556596565000000,2014-09-11 18:48:37.0,4095,BLOB)
+[2014-09-11 22:02:35.839]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6753759455000000,2014-09-11 20:00:34.0,3852,BLOB)
+[2014-09-11 22:46:33.110]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6794260100000000,2014-09-11 22:02:49.0,1334,BLOB)
+[2014-09-11 23:07:33.946]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6794190100000000,2014-09-11 22:48:18.0,2275,BLOB)
+[2014-09-11 23:32:59.547]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6794190200000000,2014-09-11 23:07:33.0,2116,BLOB)
+[2014-09-11 23:54:59.798]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6794200100000000,2014-09-11 23:35:50.0,2306,BLOB)

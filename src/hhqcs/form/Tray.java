@@ -5,6 +5,9 @@ package hhqcs.form;
 
 import hhqcs.form.comco.Comco;
 import hhqcs.HHQCS;
+import static hhqcs.HHQCS.LOGVIEWERISENABLED;
+import static hhqcs.HHQCS.debug;
+import static hhqcs.HHQCS.logViewer;
 import hhqcs.form.thread.ThreadFrame;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -25,6 +28,7 @@ public class Tray {
      *
      * @throws Exception
      */
+    @SuppressWarnings("Convert2Lambda")
     public Tray() throws Exception {
         final TrayIcon trayIcon;
         SystemTray tray;
@@ -90,6 +94,50 @@ public class Tray {
                 }
             });
             popup.add(logItem);
+            popup.addSeparator();
+            if (HHQCS.LOGPANELISENABLED) {
+                MenuItem logpanel = new MenuItem("event");
+                logpanel.addActionListener(new ActionListener() {
+
+                    @Override
+                    public void actionPerformed(ActionEvent e) {
+                        if (HHQCS.textAreaLog.isVisible()) {
+                            HHQCS.textAreaLog.setVisible(false);
+                        } else {
+                            try {
+                                HHQCS.textAreaLog.setVisible(true);
+                            } catch (Exception ex) {
+                                HHQCS.debug.printDebugMsg(null, Tray.class.getName(),
+                                        "Hiba történt a log fájl megnyitásakor", ex);
+                            }
+                        }
+
+                    }
+                });
+                popup.add(logpanel);
+                popup.addSeparator();
+            }
+            if (LOGVIEWERISENABLED) {
+                MenuItem logpanel = new MenuItem("logViewer");
+                logpanel.addActionListener(new ActionListener() {
+
+                    @Override
+                    public void actionPerformed(ActionEvent e) {
+                        if (logViewer.isVisible()) {
+                            logViewer.setVisible(false);
+                        } else {
+                            try {
+                                logViewer.setVisible(true);
+                            } catch (Exception ex) {
+                                debug.printDebugMsg(null, Tray.class.getName(), "Hiba történt a logviewer megnyitásakor", ex);
+                            }
+                        }
+                    }
+                });
+                popup.add(logpanel);
+                popup.addSeparator();
+            }
+
             if (THREADISENABLE) {
                 MenuItem threadItem = new MenuItem("threads");
                 threadItem.addActionListener(new ActionListener() {
@@ -106,9 +154,9 @@ public class Tray {
                 });
 
                 popup.add(threadItem);
+                popup.addSeparator();
 
             }
-            popup.addSeparator();
 
             MenuItem exitItem = new MenuItem("Exit");
             exitItem.addActionListener(new ActionListener() {
@@ -135,6 +183,15 @@ public class Tray {
                     } else {
                         comco.setState(JFrame.NORMAL);
                         comco.setVisible(true);
+                    }
+
+                    if (HHQCS.LOGPANELISENABLED) {
+                        if (HHQCS.textAreaLog.isVisible()) {
+                            HHQCS.textAreaLog.dispose();
+                        } else {
+                            HHQCS.textAreaLog.setState(JFrame.NORMAL);
+                            HHQCS.textAreaLog.setVisible(true);
+                        }
                     }
                 }
             };

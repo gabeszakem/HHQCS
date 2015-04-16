@@ -27,6 +27,7 @@ public final class Debug {
     /*
      * Előző üzeneteket tároló sor
      */
+    @SuppressWarnings("FieldMayBeFinal")
     private Deque<String> messages;
     /*
      * Az üzenet tároló mérete
@@ -37,8 +38,12 @@ public final class Debug {
      * körbejárásával tárolás
      */
     private int logMode = 0;
-    
-    private int dayOfMonth=0;
+
+    private int dayOfMonth = 0;
+
+    private String debugName = "debug.log";
+
+    private static String logPath = null;
 
     /**
      *
@@ -52,11 +57,11 @@ public final class Debug {
     }
 
     public Debug(boolean debug, int logMode) {
-        if(debug){
+        if (debug) {
             System.out.println("Debug engedélyezve...");
-            if(logMode==0){
+            if (logMode == 0) {
                 System.out.println("Folyamatosan növekedő loggolás");
-            }else if(logMode==1){
+            } else if (logMode == 1) {
                 System.out.println("Naptári nap szerinti loggolás");
             }
         }
@@ -68,6 +73,25 @@ public final class Debug {
         init(true);
     }
 
+    public Debug(boolean debug, int logMode, String logName) {
+        if (debug) {
+            System.out.println("Debug engedélyezve...");
+            this.debugName = logName;
+            if (logMode == 0) {
+                System.out.println("Folyamatosan növekedő loggolás");
+            } else if (logMode == 1) {
+                System.out.println("Naptári nap szerinti loggolás");
+            }
+        }
+        this.debugMode = debug;
+        this.messages = new ArrayDeque();
+        if (logMode >= 0 && logMode <= 1) {
+            this.logMode = logMode;
+        }
+        init(true);
+
+    }
+
     private void init(boolean appendFile) {
         try {
             String separator = System.getProperty("file.separator");
@@ -77,22 +101,24 @@ public final class Debug {
                 boolean mkdir = log.mkdir();
                 if (mkdir) {
                     System.out.println("Új könyvtár létrehozva: " + log.getCanonicalPath());
+                    logPath = log.getCanonicalPath();
                 } else {
                     System.out.println("Hiba könyvtár létrehozása: " + log.getCanonicalPath());
                 }
             } else {
+                logPath = log.getCanonicalPath();
                 System.out.println("Loggolás a : " + log.getCanonicalPath() + " könyvtárba");
             }
             if (this.logMode == 0) {
                 File[] contents = log.listFiles();
-                String returned = separator + "log" + separator + "debug.log" + "." + contents.length;
+                String returned = separator + "log" + separator + debugName + "." + contents.length;
                 FileWriter fstream = new FileWriter(new File(userDir + returned), appendFile);
                 this.out = new BufferedWriter(fstream);
                 System.out.println("Loggolás a : " + userDir + returned + " fájlba");
-            }else if(this.logMode==1){
-                Calendar calendar= Calendar.getInstance();
-                this.dayOfMonth=calendar.get(Calendar.DAY_OF_MONTH);
-                String returned = separator + "log" + separator + "debug.log" + "." + String.valueOf(this.dayOfMonth);
+            } else if (this.logMode == 1) {
+                Calendar calendar = Calendar.getInstance();
+                this.dayOfMonth = calendar.get(Calendar.DAY_OF_MONTH);
+                String returned = separator + "log" + separator + debugName + "." + String.valueOf(this.dayOfMonth);
                 FileWriter fstream = new FileWriter(new File(userDir + returned), appendFile);
                 this.out = new BufferedWriter(fstream);
                 System.out.println("Loggolás a : " + userDir + returned + " fájlba");
@@ -116,15 +142,15 @@ public final class Debug {
             /**
              * Ismételt hibaüzenet állapotának ellenőrzése
              */
-            if(logMode==1){
+            if (logMode == 1) {
                 /*Naponta készítünk új fájlt*/
-                Calendar calendar= Calendar.getInstance();
-                if(this.dayOfMonth!=calendar.get(Calendar.DAY_OF_MONTH)){
-                    this.dayOfMonth=calendar.get(Calendar.DAY_OF_MONTH);
+                Calendar calendar = Calendar.getInstance();
+                if (this.dayOfMonth != calendar.get(Calendar.DAY_OF_MONTH)) {
+                    this.dayOfMonth = calendar.get(Calendar.DAY_OF_MONTH);
                     init(false);
                 }
             }
-            
+
             boolean check = false;
             try {
                 if (this.messages.size() < this.MESSAGESIZE) {
@@ -150,7 +176,11 @@ public final class Debug {
                     /*
                      * Eltávolítjuk a legrégebbi elemet
                      */
-                    this.messages.removeFirst();
+                    try {
+                        this.messages.removeFirst();
+                    } catch (Exception ex) {
+
+                    }
                     /*
                      * Hozzáadjuk az új elemet
                      */
@@ -169,6 +199,18 @@ public final class Debug {
                 ex.printStackTrace(System.err);
             }
         }
+    }
+
+    public String getLogPath() {
+        return logPath;
+    }
+
+    public String getActualFileName() {
+        return debugName + "." + String.valueOf(this.dayOfMonth);
+    }
+
+    public String getdebugName() {
+        return debugName;
     }
 
     /**
@@ -196,6 +238,7 @@ public final class Debug {
      * @param message String
      * @param message2 byte[]
      */
+    @SuppressWarnings("ImplicitArrayToString")
     public void printDebugMsg(String plantMachine, String className, String message, byte[] message2) {
         String debugMsg = "";
         if (plantMachine != null) {

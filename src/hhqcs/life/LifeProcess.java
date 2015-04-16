@@ -18,6 +18,8 @@ import java.util.Date;
  */
 public class LifeProcess {
 
+    private long lastMessageTime = 0;
+
     /**
      *
      * @param tcp TCPConnectionServer
@@ -45,6 +47,11 @@ public class LifeProcess {
              * Ha van termelés jelző bitünk is.
              */
             if (tcp.receiveTelegram.length == 4) {
+                if ((lastMessageTime - System.currentTimeMillis() > 3000) & (lastMessageTime != 0)) {
+                    System.err.println("(" + tcp.setup.PLANTNAME + ") Hiba: az utolsó életjel " + Long.toString(lastMessageTime - System.currentTimeMillis()) + " + idővel ezelött jött.");
+                    HHQCS.debug.printDebugMsg(tcp.setup.PLANTNAME, LifeProcess.class.getName(),
+                            "(warning) az utolsó életjel " + Long.toString(lastMessageTime - System.currentTimeMillis()) + " + idővel ezelött jött.");
+                }
                 hhqcsServer.centralografMessage.plantStatus = ByteBuffer.wrap(tcp.receiveTelegram, 2, 2).getShort();
                 if (hhqcsServer.setup.centTerminalMessageEnable) {
                     hhqcsServer.udpCentralograf.sendMessage();

@@ -1,0 +1,13 @@
+2015.04.09. 06:52:23	[INFO]	Alkalmazás elindítva
+2015.04.09. 06:52:23	[INFO]	SetupDataManager.init(): A beállítási adatfájl feldolgozása... Elérési út: /home/allasido/setup.xml
+2015.04.09. 06:52:23	[INFO]	DB.connect(): Csatlakozás az adatbázis szerverhez 'postgres' felhasználóval... 
+2015.04.09. 06:52:23	[INFO]	DB.connect(): OK!
+2015.04.09. 06:52:23	[INFO]	DB.connect(): Csoportok és felhasználók ellenőrzése:
+2015.04.09. 06:52:23	[INFO]	DB.connect(): 'cent' csoport... OK!
+2015.04.09. 06:52:23	[INFO]	DB.connect(): 'centsrv' felhasználó... OK!
+2015.04.09. 06:52:23	[INFO]	DB.connect(): 'centcli' felhasználó... OK!
+2015.04.09. 06:52:23	[INFO]	DB.connect(): 'guests' csoport... OK!
+2015.04.09. 06:52:23	[INFO]	DB.connect(): 'guest' felhasználó... OK!
+2015.04.09. 06:52:23	[INFO]	DB.connect(): Adatbázis ellenőrzése... OK!
+2015.04.09. 06:52:23	[INFO]	DB.connect(): Csatlakozás az adatbázis szerverhez 'centsrv' felhasználóval... 
+2015.04.09. 06:52:23	[HIBA]	DB.connect(): SIKERTELEN: Kivétel történt az adatbázishoz való csatlakozás közben: FATAL: too many connections for role "centsrv"

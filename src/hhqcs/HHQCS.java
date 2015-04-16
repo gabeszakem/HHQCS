@@ -3,6 +3,8 @@
  */
 package hhqcs;
 
+import hhqcs.form.LogViewer;
+import hhqcs.form.TextAreaLogProgram;
 import hhqcs.form.comco.Comco;
 import hhqcs.form.Tray;
 import hhqcs.setup.SetupDataManager;
@@ -19,7 +21,7 @@ public class HHQCS {
     /**
      * Debugolás engedélyezése, Napi loggolással
      */
-    public static Debug debug = new Debug(true, 1);
+    public static Debug debug = new Debug(true, 1, "HHQCS.log");
     /**
      * SQL adatbázis engedélyezése
      */
@@ -28,12 +30,53 @@ public class HHQCS {
     /**
      * Threadeket gyűjtő tömb
      */
-    public static ArrayList<Thread> threads = new ArrayList<Thread>();
+    public static ArrayList<Thread> threads = new ArrayList<>();
+    
+    /**
+     * A berendezés loggolásának kijelzése a képernyőn.
+     */
+    public static TextAreaLogProgram textAreaLog;
+    
+    /**
+     * Loggolás textareában engedélyezése vagy tiltása. (LOGPANELISENABLED =
+     * true)
+     */
+    public static final boolean LOGPANELISENABLED = true;
+    
+    
+    
+    public static LogViewer logViewer;
+    
+    
+    /**
+     * Loggolás megtekintésének az engedélyezése vagy tiltása. (LOGVIEWERISENABLED =
+     * true)
+     */
+    public static final boolean LOGVIEWERISENABLED=true;
 
+    
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
+        
+        
+        if (LOGPANELISENABLED) {
+            HHQCS.debug.printDebugMsg(null, HHQCS.class.getName(), "Logpanel engedélyezve...");
+            try {
+                /**
+                 * Új logPanel létrehozása.
+                 */
+                textAreaLog = new TextAreaLogProgram();
+
+            } catch (Exception ex) {
+                System.out.println("LogPanel inditása nem sikerült");
+                HHQCS.debug.printDebugMsg(null, HHQCS.class.getName(), "(error) Logpanel indítása nem sikerült...", ex);
+            }
+        } else {
+            HHQCS.debug.printDebugMsg(null, HHQCS.class.getName(), "Logpanel letiltva...");
+        }
 
         /**
          * SQL Adatbázis létrehozása
@@ -55,6 +98,10 @@ public class HHQCS {
                     "Hiba történt a tray icon létrehozása közben :", ex);
             Comco comco = new Comco();
             comco.setVisible(true);
+        }
+        
+        if(LOGVIEWERISENABLED){
+            logViewer= new LogViewer(debug);
         }
     }
 }

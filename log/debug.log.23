@@ -1,0 +1,53 @@
+[2014-09-23 00:06:35.482]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6801500200000000,2014-09-22 23:39:12.0,1086,BLOB)
+[2014-09-23 00:19:30.783]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6811490100000000,2014-09-23 00:06:45.0,1083,BLOB)
+[2014-09-23 00:29:58.711]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6811490200000000,2014-09-23 00:19:30.0,1039,BLOB)
+[2014-09-23 10:05:31.073]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: /home/allasido/setup
+[2014-09-23 10:05:31.740]	[hhqcs.net.tcp.TCPNet] Tue Sep 23 10:05:31 CEST 2014 TCP szerver létrehozása a 3020 porton...
+[2014-09-23 10:05:31.742]	[hhqcs.net.tcp.TCPNet] Tue Sep 23 10:05:31 CEST 2014 TCP szerver létrehozása a 3021 porton...
+[2014-09-23 10:05:31.743]	[hhqcs.net.tcp.TCPNet] Tue Sep 23 10:05:31 CEST 2014 TCP szerver kliens kapcsolódásra vár
+[2014-09-23 10:05:31.744]	[hhqcs.net.tcp.TCPNet] Tue Sep 23 10:05:31 CEST 2014 TCP szerver kliens kapcsolódásra vár
+[2014-09-23 10:05:31.765]	[hhqcs.net.tcp.TCPNet] Tue Sep 23 10:05:31 CEST 2014 TCP szerver létrehozása a 3000 porton...
+[2014-09-23 10:05:31.766]	[hhqcs.net.tcp.TCPNet] Tue Sep 23 10:05:31 CEST 2014 TCP szerver létrehozása a 3001 porton...
+[2014-09-23 10:05:31.767]	[hhqcs.net.tcp.TCPNet] Tue Sep 23 10:05:31 CEST 2014 TCP szerver kliens kapcsolódásra vár
+[2014-09-23 10:05:31.769]	[hhqcs.net.tcp.TCPNet] Tue Sep 23 10:05:31 CEST 2014 TCP szerver kliens kapcsolódásra vár
+[2014-09-23 10:05:31.791]	[hhqcs.net.tcp.TCPNet] Tue Sep 23 10:05:31 CEST 2014 TCP szerver létrehozása a 3010 porton...
+[2014-09-23 10:05:31.794]	[hhqcs.net.tcp.TCPNet] Tue Sep 23 10:05:31 CEST 2014 TCP szerver létrehozása a 3011 porton...
+[2014-09-23 10:05:31.794]	[hhqcs.net.tcp.TCPNet] Tue Sep 23 10:05:31 CEST 2014 TCP szerver kliens kapcsolódásra vár
+[2014-09-23 10:05:31.799]	[hhqcs.net.tcp.TCPNet] Tue Sep 23 10:05:31 CEST 2014 TCP szerver kliens kapcsolódásra vár
+[2014-09-23 10:05:31.823]	[hhqcs.net.tcp.TCPNet] Tue Sep 23 10:05:31 CEST 2014 Kliens (/10.1.39.82:2001) kapcsolódott a 3011 porton.
+[2014-09-23 10:05:32.109]	[hhqcs.net.tcp.TCPNet] Tue Sep 23 10:05:32 CEST 2014 Kliens (/10.1.39.82:2000) kapcsolódott a 3010 porton.
+[2014-09-23 10:05:33.626]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (0000000000000000,2014-09-23 09:13:18.0,1833,BLOB)
+[2014-09-23 10:40:44.303]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (0000000000000000,2014-09-23 10:08:05.0,1843,BLOB)
+[2014-09-23 11:15:43.293]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (0000000000000000,2014-09-23 10:44:37.0,1717,BLOB)
+[2014-09-23 11:59:42.441]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (0000000000000000,2014-09-23 11:19:49.0,2144,BLOB)
+[2014-09-23 12:15:35.984]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6810910100000000,2014-09-23 12:04:12.0,1154,BLOB)
+[2014-09-23 12:31:13.978]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6810910200000000,2014-09-23 12:15:54.0,1155,BLOB)
+[2014-09-23 12:54:05.333]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6810910300000000,2014-09-23 12:31:13.0,1128,BLOB)
+[2014-09-23 12:58:42.987]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (0000000000000000,2014-09-23 12:54:43.0,68,BLOB)
+[2014-09-23 13:12:40.295]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6810920100000000,2014-09-23 12:58:42.0,1158,BLOB)
+[2014-09-23 13:27:49.080]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6810920200000000,2014-09-23 13:14:19.0,1179,BLOB)
+[2014-09-23 14:10:23.093]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6810920300000000,2014-09-23 13:27:48.0,1177,BLOB)
+[2014-09-23 14:29:36.417]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6804710100000000,2014-09-23 14:10:48.0,1078,BLOB)
+[2014-09-23 15:32:43.715]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6794710200000000,2014-09-23 14:29:35.0,1174,BLOB)
+[2014-09-23 15:42:48.152]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6811530100000000,2014-09-23 15:33:20.0,580,BLOB)
+[2014-09-23 15:54:00.104]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6811530200000000,2014-09-23 15:42:59.0,574,BLOB)
+[2014-09-23 16:12:24.922]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6811530300000000,2014-09-23 15:53:59.0,569,BLOB)
+[2014-09-23 16:19:45.091]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6811540100000000,2014-09-23 16:12:34.0,566,BLOB)
+[2014-09-23 16:27:06.085]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6811540200000000,2014-09-23 16:19:54.0,562,BLOB)
+[2014-09-23 16:44:45.809]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6811540300000000,2014-09-23 16:27:05.0,589,BLOB)
+[2014-09-23 17:16:05.581]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6777500100000000,2014-09-23 16:44:57.0,1619,BLOB)
+[2014-09-23 18:31:06.305]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6797220100000000,2014-09-23 17:16:04.0,2238,BLOB)
+[2014-09-23 18:43:15.496]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6809790100000000,2014-09-23 18:31:45.0,726,BLOB)
+[2014-09-23 19:03:42.859]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6809770200000000,2014-09-23 18:43:14.0,770,BLOB)
+[2014-09-23 19:16:35.616]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6799820100000000,2014-09-23 19:03:52.0,728,BLOB)
+[2014-09-23 19:36:28.804]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6809820200000000,2014-09-23 19:16:34.0,775,BLOB)
+[2014-09-23 19:48:32.966]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6777500100000000,2014-09-23 19:37:07.0,784,BLOB)
+[2014-09-23 20:09:59.150]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6777500200000000,2014-09-23 19:48:32.0,809,BLOB)
+[2014-09-23 20:38:36.496]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6805590100000000,2014-09-23 20:10:10.0,2563,BLOB)
+[2014-09-23 21:07:28.868]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6805580100000000,2014-09-23 20:39:26.0,2534,BLOB)
+[2014-09-23 21:59:53.595]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6809990100000000,2014-09-23 21:07:39.0,2465,BLOB)
+[2014-09-23 22:10:57.605]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6811470100000000,2014-09-23 22:00:04.0,751,BLOB)
+[2014-09-23 22:22:41.950]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6811470200000000,2014-09-23 22:11:06.0,701,BLOB)
+[2014-09-23 22:39:53.338]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6811470300000000,2014-09-23 22:23:01.0,709,BLOB)
+[2014-09-23 23:22:49.472]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6801230100000000,2014-09-23 22:40:18.0,1432,BLOB)
+[2014-09-23 23:49:00.480]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (6805790100000000,2014-09-23 23:23:00.0,1396,BLOB)

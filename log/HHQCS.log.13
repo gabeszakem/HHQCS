@@ -1,0 +1,892 @@
+[2015-04-13 00:00:59.827]	(Georg hasító) [hhqcs.data.DataProcess]  9220439001000000 7019 tekercshez részüzenet érkezett (1)
+[2015-04-13 00:01:00.097]	(Georg hasító) [hhqcs.data.DataProcess]  9220439001000000 7019 tekercshez részüzenet érkezett (2)
+[2015-04-13 00:01:00.305]	(Georg hasító) [hhqcs.data.DataProcess]  9220439001000000 7019 tekercshez részüzenet érkezett (3)
+[2015-04-13 00:01:00.519]	(Georg hasító) [hhqcs.data.DataProcess]  9220439001000000 7019 tekercshez részüzenet érkezett (4)
+[2015-04-13 00:01:00.704]	(Georg hasító) [hhqcs.data.DataProcess]  9220439001000000 7019 tekercshez részüzenet érkezett (5)
+[2015-04-13 00:01:00.917]	(Georg hasító) [hhqcs.data.DataProcess]  9220439001000000 7019 tekercshez részüzenet érkezett (6)
+[2015-04-13 00:01:01.104]	(Georg hasító) [hhqcs.data.DataProcess]  9220439001000000 7019 tekercshez részüzenet érkezett (7)
+[2015-04-13 00:01:01.329]	(Georg hasító) [hhqcs.data.DataProcess]  9220439001000000 7019 tekercshez részüzenet érkezett (8)
+[2015-04-13 00:01:01.365]	(Georg hasító) [hhqcs.sql.SQL] INSERT INTO minadat_2 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (9220439001000000,2015-04-12 23:34:58.0,3627,BLOB)
+[2015-04-13 00:01:28.361]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071890200000000 37534 tekercshez részüzenet érkezett (1)
+[2015-04-13 00:01:28.657]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071890200000000 37534 tekercshez részüzenet érkezett (2)
+[2015-04-13 00:01:28.860]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071890200000000 37534 tekercshez részüzenet érkezett (3)
+[2015-04-13 00:01:29.074]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071890200000000 37534 tekercshez részüzenet érkezett (4)
+[2015-04-13 00:01:29.250]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071890200000000 37534 tekercshez részüzenet érkezett (5)
+[2015-04-13 00:01:29.447]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071890200000000 37534 tekercshez részüzenet érkezett (6)
+[2015-04-13 00:01:29.644]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071890200000000 37534 tekercshez részüzenet érkezett (7)
+[2015-04-13 00:01:29.845]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071890200000000 37534 tekercshez részüzenet érkezett (8)
+[2015-04-13 00:01:29.886]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7071890200000000,2015-04-12 23:15:19.0,5523,BLOB)
+[2015-04-13 00:06:12.987]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071710200000000 37536 tekercshez részüzenet érkezett (1)
+[2015-04-13 00:06:13.122]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071710200000000 37536 tekercshez részüzenet érkezett (2)
+[2015-04-13 00:06:13.316]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071710200000000 37536 tekercshez részüzenet érkezett (3)
+[2015-04-13 00:06:13.512]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071710200000000 37536 tekercshez részüzenet érkezett (4)
+[2015-04-13 00:06:13.721]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071710200000000 37536 tekercshez részüzenet érkezett (5)
+[2015-04-13 00:06:13.915]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071710200000000 37536 tekercshez részüzenet érkezett (6)
+[2015-04-13 00:06:14.095]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071710200000000 37536 tekercshez részüzenet érkezett (7)
+[2015-04-13 00:06:14.305]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071710200000000 37536 tekercshez részüzenet érkezett (8)
+[2015-04-13 00:06:14.342]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7071710200000000,2015-04-13 00:01:39.0,142,BLOB)
+[2015-04-13 00:40:39.675]	(1550-es hasító) [hhqcs.data.DataProcess]  7082040100000000 8553 tekercshez részüzenet érkezett (1)
+[2015-04-13 00:40:39.977]	(1550-es hasító) [hhqcs.data.DataProcess]  7082040100000000 8553 tekercshez részüzenet érkezett (2)
+[2015-04-13 00:40:40.182]	(1550-es hasító) [hhqcs.data.DataProcess]  7082040100000000 8553 tekercshez részüzenet érkezett (3)
+[2015-04-13 00:40:40.392]	(1550-es hasító) [hhqcs.data.DataProcess]  7082040100000000 8553 tekercshez részüzenet érkezett (4)
+[2015-04-13 00:40:40.589]	(1550-es hasító) [hhqcs.data.DataProcess]  7082040100000000 8553 tekercshez részüzenet érkezett (5)
+[2015-04-13 00:40:40.800]	(1550-es hasító) [hhqcs.data.DataProcess]  7082040100000000 8553 tekercshez részüzenet érkezett (6)
+[2015-04-13 00:40:40.976]	(1550-es hasító) [hhqcs.data.DataProcess]  7082040100000000 8553 tekercshez részüzenet érkezett (7)
+[2015-04-13 00:40:41.166]	(1550-es hasító) [hhqcs.data.DataProcess]  7082040100000000 8553 tekercshez részüzenet érkezett (8)
+[2015-04-13 00:40:41.203]	(1550-es hasító) [hhqcs.sql.SQL] INSERT INTO minadat_3 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7082040100000000,2015-04-12 23:59:24.0,4480,BLOB)
+[2015-04-13 00:47:44.295]	(Georg hasító) [hhqcs.data.DataProcess]  9220439201000000 7020 tekercshez részüzenet érkezett (1)
+[2015-04-13 00:47:44.418]	(Georg hasító) [hhqcs.data.DataProcess]  9220439201000000 7020 tekercshez részüzenet érkezett (2)
+[2015-04-13 00:47:44.631]	(Georg hasító) [hhqcs.data.DataProcess]  9220439201000000 7020 tekercshez részüzenet érkezett (3)
+[2015-04-13 00:47:44.809]	(Georg hasító) [hhqcs.data.DataProcess]  9220439201000000 7020 tekercshez részüzenet érkezett (4)
+[2015-04-13 00:47:45.011]	(Georg hasító) [hhqcs.data.DataProcess]  9220439201000000 7020 tekercshez részüzenet érkezett (5)
+[2015-04-13 00:47:45.193]	(Georg hasító) [hhqcs.data.DataProcess]  9220439201000000 7020 tekercshez részüzenet érkezett (6)
+[2015-04-13 00:47:45.410]	(Georg hasító) [hhqcs.data.DataProcess]  9220439201000000 7020 tekercshez részüzenet érkezett (7)
+[2015-04-13 00:47:45.592]	(Georg hasító) [hhqcs.data.DataProcess]  9220439201000000 7020 tekercshez részüzenet érkezett (8)
+[2015-04-13 00:47:45.631]	(Georg hasító) [hhqcs.sql.SQL] INSERT INTO minadat_2 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (9220439201000000,2015-04-13 00:07:44.0,3609,BLOB)
+[2015-04-13 00:53:19.216]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071710200000000 37537 tekercshez részüzenet érkezett (1)
+[2015-04-13 00:53:19.445]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071710200000000 37537 tekercshez részüzenet érkezett (2)
+[2015-04-13 00:53:19.635]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071710200000000 37537 tekercshez részüzenet érkezett (3)
+[2015-04-13 00:53:19.858]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071710200000000 37537 tekercshez részüzenet érkezett (4)
+[2015-04-13 00:53:20.011]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071710200000000 37537 tekercshez részüzenet érkezett (5)
+[2015-04-13 00:53:20.234]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071710200000000 37537 tekercshez részüzenet érkezett (6)
+[2015-04-13 00:53:20.433]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071710200000000 37537 tekercshez részüzenet érkezett (7)
+[2015-04-13 00:53:20.654]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071710200000000 37537 tekercshez részüzenet érkezett (8)
+[2015-04-13 00:53:20.706]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7071710200000000,2015-04-13 00:06:13.0,5525,BLOB)
+[2015-04-13 01:27:03.138]	(Georg hasító) [hhqcs.data.DataProcess]  9220498491000000 7021 tekercshez részüzenet érkezett (1)
+[2015-04-13 01:27:03.397]	(Georg hasító) [hhqcs.data.DataProcess]  9220498491000000 7021 tekercshez részüzenet érkezett (2)
+[2015-04-13 01:27:03.604]	(Georg hasító) [hhqcs.data.DataProcess]  9220498491000000 7021 tekercshez részüzenet érkezett (3)
+[2015-04-13 01:27:03.803]	(Georg hasító) [hhqcs.data.DataProcess]  9220498491000000 7021 tekercshez részüzenet érkezett (4)
+[2015-04-13 01:27:04.009]	(Georg hasító) [hhqcs.data.DataProcess]  9220498491000000 7021 tekercshez részüzenet érkezett (5)
+[2015-04-13 01:27:04.233]	(Georg hasító) [hhqcs.data.DataProcess]  9220498491000000 7021 tekercshez részüzenet érkezett (6)
+[2015-04-13 01:27:04.400]	(Georg hasító) [hhqcs.data.DataProcess]  9220498491000000 7021 tekercshez részüzenet érkezett (7)
+[2015-04-13 01:27:04.610]	(Georg hasító) [hhqcs.data.DataProcess]  9220498491000000 7021 tekercshez részüzenet érkezett (8)
+[2015-04-13 01:27:04.727]	(Georg hasító) [hhqcs.sql.SQL] INSERT INTO minadat_2 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (9220498491000000,2015-04-13 00:56:21.0,3151,BLOB)
+[2015-04-13 01:32:12.815]	(1550-es hasító) [hhqcs.data.DataProcess]  7083430100000000 8554 tekercshez részüzenet érkezett (1)
+[2015-04-13 01:32:12.929]	(1550-es hasító) [hhqcs.data.DataProcess]  7083430100000000 8554 tekercshez részüzenet érkezett (2)
+[2015-04-13 01:32:13.128]	(1550-es hasító) [hhqcs.data.DataProcess]  7083430100000000 8554 tekercshez részüzenet érkezett (3)
+[2015-04-13 01:32:13.347]	(1550-es hasító) [hhqcs.data.DataProcess]  7083430100000000 8554 tekercshez részüzenet érkezett (4)
+[2015-04-13 01:32:13.528]	(1550-es hasító) [hhqcs.data.DataProcess]  7083430100000000 8554 tekercshez részüzenet érkezett (5)
+[2015-04-13 01:32:13.761]	(1550-es hasító) [hhqcs.data.DataProcess]  7083430100000000 8554 tekercshez részüzenet érkezett (6)
+[2015-04-13 01:32:13.944]	(1550-es hasító) [hhqcs.data.DataProcess]  7083430100000000 8554 tekercshez részüzenet érkezett (7)
+[2015-04-13 01:32:14.145]	(1550-es hasító) [hhqcs.data.DataProcess]  7083430100000000 8554 tekercshez részüzenet érkezett (8)
+[2015-04-13 01:32:14.187]	(1550-es hasító) [hhqcs.sql.SQL] INSERT INTO minadat_3 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7083430100000000,2015-04-13 00:43:12.0,4590,BLOB)
+[2015-04-13 02:18:28.411]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071850200000000 37541 tekercshez részüzenet érkezett (1)
+[2015-04-13 02:18:28.568]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071850200000000 37541 tekercshez részüzenet érkezett (2)
+[2015-04-13 02:18:28.765]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071850200000000 37541 tekercshez részüzenet érkezett (3)
+[2015-04-13 02:18:28.964]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071850200000000 37541 tekercshez részüzenet érkezett (4)
+[2015-04-13 02:18:29.167]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071850200000000 37541 tekercshez részüzenet érkezett (5)
+[2015-04-13 02:18:29.341]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071850200000000 37541 tekercshez részüzenet érkezett (6)
+[2015-04-13 02:18:29.564]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071850200000000 37541 tekercshez részüzenet érkezett (7)
+[2015-04-13 02:18:29.787]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071850200000000 37541 tekercshez részüzenet érkezett (8)
+[2015-04-13 02:18:29.919]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7071850200000000,2015-04-13 00:53:56.0,5066,BLOB)
+[2015-04-13 02:20:01.064]	(1550-es hasító) [hhqcs.data.DataProcess]  7083430100000000 8555 tekercshez részüzenet érkezett (1)
+[2015-04-13 02:20:01.248]	(1550-es hasító) [hhqcs.data.DataProcess]  7083430100000000 8555 tekercshez részüzenet érkezett (2)
+[2015-04-13 02:20:01.442]	(1550-es hasító) [hhqcs.data.DataProcess]  7083430100000000 8555 tekercshez részüzenet érkezett (3)
+[2015-04-13 02:20:01.643]	(1550-es hasító) [hhqcs.data.DataProcess]  7083430100000000 8555 tekercshez részüzenet érkezett (4)
+[2015-04-13 02:20:01.851]	(1550-es hasító) [hhqcs.data.DataProcess]  7083430100000000 8555 tekercshez részüzenet érkezett (5)
+[2015-04-13 02:20:02.067]	(1550-es hasító) [hhqcs.data.DataProcess]  7083430100000000 8555 tekercshez részüzenet érkezett (6)
+[2015-04-13 02:20:02.279]	(1550-es hasító) [hhqcs.data.DataProcess]  7083430100000000 8555 tekercshez részüzenet érkezett (7)
+[2015-04-13 02:20:02.462]	(1550-es hasító) [hhqcs.data.DataProcess]  7083430100000000 8555 tekercshez részüzenet érkezett (8)
+[2015-04-13 02:20:02.510]	(1550-es hasító) [hhqcs.sql.SQL] INSERT INTO minadat_3 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7083430100000000,2015-04-13 01:33:56.0,3670,BLOB)
+[2015-04-13 02:22:50.100]	(Georg hasító) [hhqcs.data.DataProcess]  9229438401000000 7022 tekercshez részüzenet érkezett (1)
+[2015-04-13 02:22:50.413]	(Georg hasító) [hhqcs.data.DataProcess]  9229438401000000 7022 tekercshez részüzenet érkezett (2)
+[2015-04-13 02:22:50.610]	(Georg hasító) [hhqcs.data.DataProcess]  9229438401000000 7022 tekercshez részüzenet érkezett (3)
+[2015-04-13 02:22:50.849]	(Georg hasító) [hhqcs.data.DataProcess]  9229438401000000 7022 tekercshez részüzenet érkezett (4)
+[2015-04-13 02:22:51.050]	(Georg hasító) [hhqcs.data.DataProcess]  9229438401000000 7022 tekercshez részüzenet érkezett (5)
+[2015-04-13 02:22:51.191]	(Georg hasító) [hhqcs.data.DataProcess]  9229438401000000 7022 tekercshez részüzenet érkezett (6)
+[2015-04-13 02:22:51.411]	(Georg hasító) [hhqcs.data.DataProcess]  9229438401000000 7022 tekercshez részüzenet érkezett (7)
+[2015-04-13 02:22:51.595]	(Georg hasító) [hhqcs.data.DataProcess]  9229438401000000 7022 tekercshez részüzenet érkezett (8)
+[2015-04-13 02:22:51.652]	(Georg hasító) [hhqcs.sql.SQL] INSERT INTO minadat_2 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (9229438401000000,2015-04-13 01:48:16.0,3295,BLOB)
+[2015-04-13 02:36:24.810]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071840200000000 37542 tekercshez részüzenet érkezett (1)
+[2015-04-13 02:36:24.973]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071840200000000 37542 tekercshez részüzenet érkezett (2)
+[2015-04-13 02:36:25.175]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071840200000000 37542 tekercshez részüzenet érkezett (3)
+[2015-04-13 02:36:25.386]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071840200000000 37542 tekercshez részüzenet érkezett (4)
+[2015-04-13 02:36:25.564]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071840200000000 37542 tekercshez részüzenet érkezett (5)
+[2015-04-13 02:36:25.794]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071840200000000 37542 tekercshez részüzenet érkezett (6)
+[2015-04-13 02:36:25.975]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071840200000000 37542 tekercshez részüzenet érkezett (7)
+[2015-04-13 02:36:26.189]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071840200000000 37542 tekercshez részüzenet érkezett (8)
+[2015-04-13 02:36:26.218]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7071840200000000,2015-04-13 02:18:29.0,493,BLOB)
+[2015-04-13 02:46:02.502]	(1550-es hasító) [hhqcs.data.DataProcess]  7083410100000000 8556 tekercshez részüzenet érkezett (1)
+[2015-04-13 02:46:02.766]	(1550-es hasító) [hhqcs.data.DataProcess]  7083410100000000 8556 tekercshez részüzenet érkezett (2)
+[2015-04-13 02:46:02.974]	(1550-es hasító) [hhqcs.data.DataProcess]  7083410100000000 8556 tekercshez részüzenet érkezett (3)
+[2015-04-13 02:46:03.184]	(1550-es hasító) [hhqcs.data.DataProcess]  7083410100000000 8556 tekercshez részüzenet érkezett (4)
+[2015-04-13 02:46:03.380]	(1550-es hasító) [hhqcs.data.DataProcess]  7083410100000000 8556 tekercshez részüzenet érkezett (5)
+[2015-04-13 02:46:03.554]	(1550-es hasító) [hhqcs.data.DataProcess]  7083410100000000 8556 tekercshez részüzenet érkezett (6)
+[2015-04-13 02:46:03.757]	(1550-es hasító) [hhqcs.data.DataProcess]  7083410100000000 8556 tekercshez részüzenet érkezett (7)
+[2015-04-13 02:46:03.953]	(1550-es hasító) [hhqcs.data.DataProcess]  7083410100000000 8556 tekercshez részüzenet érkezett (8)
+[2015-04-13 02:46:04.024]	(1550-es hasító) [hhqcs.sql.SQL] INSERT INTO minadat_3 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7083410100000000,2015-04-13 02:22:38.0,3717,BLOB)
+[2015-04-13 03:17:50.899]	(1550-es hasító) [hhqcs.data.DataProcess]  7081070100000000 8560 tekercshez részüzenet érkezett (1)
+[2015-04-13 03:17:51.097]	(1550-es hasító) [hhqcs.data.DataProcess]  7081070100000000 8560 tekercshez részüzenet érkezett (2)
+[2015-04-13 03:17:51.319]	(1550-es hasító) [hhqcs.data.DataProcess]  7081070100000000 8560 tekercshez részüzenet érkezett (3)
+[2015-04-13 03:17:51.501]	(1550-es hasító) [hhqcs.data.DataProcess]  7081070100000000 8560 tekercshez részüzenet érkezett (4)
+[2015-04-13 03:17:51.713]	(1550-es hasító) [hhqcs.data.DataProcess]  7081070100000000 8560 tekercshez részüzenet érkezett (5)
+[2015-04-13 03:17:51.891]	(1550-es hasító) [hhqcs.data.DataProcess]  7081070100000000 8560 tekercshez részüzenet érkezett (6)
+[2015-04-13 03:17:52.100]	(1550-es hasító) [hhqcs.data.DataProcess]  7081070100000000 8560 tekercshez részüzenet érkezett (7)
+[2015-04-13 03:17:52.311]	(1550-es hasító) [hhqcs.data.DataProcess]  7081070100000000 8560 tekercshez részüzenet érkezett (8)
+[2015-04-13 03:17:52.346]	(1550-es hasító) [hhqcs.sql.SQL] INSERT INTO minadat_3 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7081070100000000,2015-04-13 02:54:35.0,3623,BLOB)
+[2015-04-13 03:25:15.194]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071840200000000 37543 tekercshez részüzenet érkezett (1)
+[2015-04-13 03:25:15.319]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071840200000000 37543 tekercshez részüzenet érkezett (2)
+[2015-04-13 03:25:15.565]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071840200000000 37543 tekercshez részüzenet érkezett (3)
+[2015-04-13 03:25:15.719]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071840200000000 37543 tekercshez részüzenet érkezett (4)
+[2015-04-13 03:25:15.942]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071840200000000 37543 tekercshez részüzenet érkezett (5)
+[2015-04-13 03:25:16.132]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071840200000000 37543 tekercshez részüzenet érkezett (6)
+[2015-04-13 03:25:16.328]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071840200000000 37543 tekercshez részüzenet érkezett (7)
+[2015-04-13 03:25:16.521]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7071840200000000 37543 tekercshez részüzenet érkezett (8)
+[2015-04-13 03:25:16.625]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7071840200000000,2015-04-13 02:36:25.0,5224,BLOB)
+[2015-04-13 03:39:00.647]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076470100000000 37549 tekercshez részüzenet érkezett (1)
+[2015-04-13 03:39:00.885]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076470100000000 37549 tekercshez részüzenet érkezett (2)
+[2015-04-13 03:39:01.115]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076470100000000 37549 tekercshez részüzenet érkezett (3)
+[2015-04-13 03:39:01.289]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076470100000000 37549 tekercshez részüzenet érkezett (4)
+[2015-04-13 03:39:01.485]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076470100000000 37549 tekercshez részüzenet érkezett (5)
+[2015-04-13 03:39:01.694]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076470100000000 37549 tekercshez részüzenet érkezett (6)
+[2015-04-13 03:39:01.889]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076470100000000 37549 tekercshez részüzenet érkezett (7)
+[2015-04-13 03:39:02.106]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076470100000000 37549 tekercshez részüzenet érkezett (8)
+[2015-04-13 03:39:02.156]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7076470100000000,2015-04-13 03:26:57.0,1110,BLOB)
+[2015-04-13 03:43:20.220]	(1550-es hasító) [hhqcs.data.DataProcess]  7081060100000000 8562 tekercshez részüzenet érkezett (1)
+[2015-04-13 03:43:20.399]	(1550-es hasító) [hhqcs.data.DataProcess]  7081060100000000 8562 tekercshez részüzenet érkezett (2)
+[2015-04-13 03:43:20.582]	(1550-es hasító) [hhqcs.data.DataProcess]  7081060100000000 8562 tekercshez részüzenet érkezett (3)
+[2015-04-13 03:43:20.803]	(1550-es hasító) [hhqcs.data.DataProcess]  7081060100000000 8562 tekercshez részüzenet érkezett (4)
+[2015-04-13 03:43:20.986]	(1550-es hasító) [hhqcs.data.DataProcess]  7081060100000000 8562 tekercshez részüzenet érkezett (5)
+[2015-04-13 03:43:21.194]	(1550-es hasító) [hhqcs.data.DataProcess]  7081060100000000 8562 tekercshez részüzenet érkezett (6)
+[2015-04-13 03:43:21.406]	(1550-es hasító) [hhqcs.data.DataProcess]  7081060100000000 8562 tekercshez részüzenet érkezett (7)
+[2015-04-13 03:43:21.579]	(1550-es hasító) [hhqcs.data.DataProcess]  7081060100000000 8562 tekercshez részüzenet érkezett (8)
+[2015-04-13 03:43:21.610]	(1550-es hasító) [hhqcs.sql.SQL] INSERT INTO minadat_3 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7081060100000000,2015-04-13 03:23:25.0,3591,BLOB)
+[2015-04-13 03:50:03.299]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076470200000000 37550 tekercshez részüzenet érkezett (1)
+[2015-04-13 03:50:03.416]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076470200000000 37550 tekercshez részüzenet érkezett (2)
+[2015-04-13 03:50:03.632]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076470200000000 37550 tekercshez részüzenet érkezett (3)
+[2015-04-13 03:50:03.835]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076470200000000 37550 tekercshez részüzenet érkezett (4)
+[2015-04-13 03:50:04.044]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076470200000000 37550 tekercshez részüzenet érkezett (5)
+[2015-04-13 03:50:04.281]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076470200000000 37550 tekercshez részüzenet érkezett (6)
+[2015-04-13 03:50:04.433]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076470200000000 37550 tekercshez részüzenet érkezett (7)
+[2015-04-13 03:50:04.647]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076470200000000 37550 tekercshez részüzenet érkezett (8)
+[2015-04-13 03:50:04.681]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7076470200000000,2015-04-13 03:39:01.0,1188,BLOB)
+[2015-04-13 04:07:32.134]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076470300000000 37551 tekercshez részüzenet érkezett (1)
+[2015-04-13 04:07:32.236]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076470300000000 37551 tekercshez részüzenet érkezett (2)
+[2015-04-13 04:07:32.461]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076470300000000 37551 tekercshez részüzenet érkezett (3)
+[2015-04-13 04:07:32.667]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076470300000000 37551 tekercshez részüzenet érkezett (4)
+[2015-04-13 04:07:32.858]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076470300000000 37551 tekercshez részüzenet érkezett (5)
+[2015-04-13 04:07:33.068]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076470300000000 37551 tekercshez részüzenet érkezett (6)
+[2015-04-13 04:07:33.243]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076470300000000 37551 tekercshez részüzenet érkezett (7)
+[2015-04-13 04:07:33.438]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076470300000000 37551 tekercshez részüzenet érkezett (8)
+[2015-04-13 04:07:33.460]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7076470300000000,2015-04-13 03:50:04.0,1130,BLOB)
+[2015-04-13 04:27:50.421]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076430100000000 37555 tekercshez részüzenet érkezett (1)
+[2015-04-13 04:27:50.639]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076430100000000 37555 tekercshez részüzenet érkezett (2)
+[2015-04-13 04:27:50.850]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076430100000000 37555 tekercshez részüzenet érkezett (3)
+[2015-04-13 04:27:51.050]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076430100000000 37555 tekercshez részüzenet érkezett (4)
+[2015-04-13 04:27:51.223]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076430100000000 37555 tekercshez részüzenet érkezett (5)
+[2015-04-13 04:27:51.436]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076430100000000 37555 tekercshez részüzenet érkezett (6)
+[2015-04-13 04:27:51.638]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076430100000000 37555 tekercshez részüzenet érkezett (7)
+[2015-04-13 04:27:51.853]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076430100000000 37555 tekercshez részüzenet érkezett (8)
+[2015-04-13 04:27:51.954]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7076430100000000,2015-04-13 04:11:41.0,2073,BLOB)
+[2015-04-13 04:30:00.986]	(1550-es hasító) [hhqcs.data.DataProcess]  7078840100000000 8565 tekercshez részüzenet érkezett (1)
+[2015-04-13 04:30:01.080]	(1550-es hasító) [hhqcs.data.DataProcess]  7078840100000000 8565 tekercshez részüzenet érkezett (2)
+[2015-04-13 04:30:01.286]	(1550-es hasító) [hhqcs.data.DataProcess]  7078840100000000 8565 tekercshez részüzenet érkezett (3)
+[2015-04-13 04:30:01.515]	(1550-es hasító) [hhqcs.data.DataProcess]  7078840100000000 8565 tekercshez részüzenet érkezett (4)
+[2015-04-13 04:30:01.708]	(1550-es hasító) [hhqcs.data.DataProcess]  7078840100000000 8565 tekercshez részüzenet érkezett (5)
+[2015-04-13 04:30:01.898]	(1550-es hasító) [hhqcs.data.DataProcess]  7078840100000000 8565 tekercshez részüzenet érkezett (6)
+[2015-04-13 04:30:02.131]	(1550-es hasító) [hhqcs.data.DataProcess]  7078840100000000 8565 tekercshez részüzenet érkezett (7)
+[2015-04-13 04:30:02.298]	(1550-es hasító) [hhqcs.data.DataProcess]  7078840100000000 8565 tekercshez részüzenet érkezett (8)
+[2015-04-13 04:30:02.362]	(1550-es hasító) [hhqcs.sql.SQL] INSERT INTO minadat_3 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7078840100000000,2015-04-13 03:52:00.0,5974,BLOB)
+[2015-04-13 04:53:05.024]	(1550-es hasító) [hhqcs.data.DataProcess]  7079440100000000 8566 tekercshez részüzenet érkezett (1)
+[2015-04-13 04:53:05.162]	(1550-es hasító) [hhqcs.data.DataProcess]  7079440100000000 8566 tekercshez részüzenet érkezett (2)
+[2015-04-13 04:53:05.407]	(1550-es hasító) [hhqcs.data.DataProcess]  7079440100000000 8566 tekercshez részüzenet érkezett (3)
+[2015-04-13 04:53:05.581]	(1550-es hasító) [hhqcs.data.DataProcess]  7079440100000000 8566 tekercshez részüzenet érkezett (4)
+[2015-04-13 04:53:05.792]	(1550-es hasító) [hhqcs.data.DataProcess]  7079440100000000 8566 tekercshez részüzenet érkezett (5)
+[2015-04-13 04:53:05.977]	(1550-es hasító) [hhqcs.data.DataProcess]  7079440100000000 8566 tekercshez részüzenet érkezett (6)
+[2015-04-13 04:53:06.179]	(1550-es hasító) [hhqcs.data.DataProcess]  7079440100000000 8566 tekercshez részüzenet érkezett (7)
+[2015-04-13 04:53:06.385]	(1550-es hasító) [hhqcs.data.DataProcess]  7079440100000000 8566 tekercshez részüzenet érkezett (8)
+[2015-04-13 04:53:06.498]	(1550-es hasító) [hhqcs.sql.SQL] INSERT INTO minadat_3 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7079440100000000,2015-04-13 04:32:04.0,3954,BLOB)
+[2015-04-13 04:56:30.306]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076430200000000 37556 tekercshez részüzenet érkezett (1)
+[2015-04-13 04:56:30.582]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076430200000000 37556 tekercshez részüzenet érkezett (2)
+[2015-04-13 04:56:30.802]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076430200000000 37556 tekercshez részüzenet érkezett (3)
+[2015-04-13 04:56:30.983]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076430200000000 37556 tekercshez részüzenet érkezett (4)
+[2015-04-13 04:56:31.197]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076430200000000 37556 tekercshez részüzenet érkezett (5)
+[2015-04-13 04:56:31.383]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076430200000000 37556 tekercshez részüzenet érkezett (6)
+[2015-04-13 04:56:31.592]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076430200000000 37556 tekercshez részüzenet érkezett (7)
+[2015-04-13 04:56:31.806]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076430200000000 37556 tekercshez részüzenet érkezett (8)
+[2015-04-13 04:56:31.846]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7076430200000000,2015-04-13 04:27:51.0,2237,BLOB)
+[2015-04-13 05:19:13.864]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076420100000000 37558 tekercshez részüzenet érkezett (1)
+[2015-04-13 05:19:14.018]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076420100000000 37558 tekercshez részüzenet érkezett (2)
+[2015-04-13 05:19:14.219]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076420100000000 37558 tekercshez részüzenet érkezett (3)
+[2015-04-13 05:19:14.446]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076420100000000 37558 tekercshez részüzenet érkezett (4)
+[2015-04-13 05:19:14.605]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076420100000000 37558 tekercshez részüzenet érkezett (5)
+[2015-04-13 05:19:14.833]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076420100000000 37558 tekercshez részüzenet érkezett (6)
+[2015-04-13 05:19:15.029]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076420100000000 37558 tekercshez részüzenet érkezett (7)
+[2015-04-13 05:19:15.205]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076420100000000 37558 tekercshez részüzenet érkezett (8)
+[2015-04-13 05:19:15.244]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7076420100000000,2015-04-13 04:56:40.0,2112,BLOB)
+[2015-04-13 05:20:14.759]	(1550-es hasító) [hhqcs.data.DataProcess]  7061010100000000 8567 tekercshez részüzenet érkezett (1)
+[2015-04-13 05:20:15.030]	(1550-es hasító) [hhqcs.data.DataProcess]  7061010100000000 8567 tekercshez részüzenet érkezett (2)
+[2015-04-13 05:20:15.254]	(1550-es hasító) [hhqcs.data.DataProcess]  7061010100000000 8567 tekercshez részüzenet érkezett (3)
+[2015-04-13 05:20:15.446]	(1550-es hasító) [hhqcs.data.DataProcess]  7061010100000000 8567 tekercshez részüzenet érkezett (4)
+[2015-04-13 05:20:15.664]	(1550-es hasító) [hhqcs.data.DataProcess]  7061010100000000 8567 tekercshez részüzenet érkezett (5)
+[2015-04-13 05:20:15.853]	(1550-es hasító) [hhqcs.data.DataProcess]  7061010100000000 8567 tekercshez részüzenet érkezett (6)
+[2015-04-13 05:20:16.055]	(1550-es hasító) [hhqcs.data.DataProcess]  7061010100000000 8567 tekercshez részüzenet érkezett (7)
+[2015-04-13 05:20:16.256]	(1550-es hasító) [hhqcs.data.DataProcess]  7061010100000000 8567 tekercshez részüzenet érkezett (8)
+[2015-04-13 05:20:16.365]	(1550-es hasító) [hhqcs.sql.SQL] INSERT INTO minadat_3 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7061010100000000,2015-04-13 04:55:33.0,3621,BLOB)
+[2015-04-13 06:05:28.766]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076420200000000 37559 tekercshez részüzenet érkezett (1)
+[2015-04-13 06:05:28.993]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076420200000000 37559 tekercshez részüzenet érkezett (2)
+[2015-04-13 06:05:29.192]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076420200000000 37559 tekercshez részüzenet érkezett (3)
+[2015-04-13 06:05:29.375]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076420200000000 37559 tekercshez részüzenet érkezett (4)
+[2015-04-13 06:05:29.615]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076420200000000 37559 tekercshez részüzenet érkezett (5)
+[2015-04-13 06:05:29.776]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076420200000000 37559 tekercshez részüzenet érkezett (6)
+[2015-04-13 06:05:29.986]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076420200000000 37559 tekercshez részüzenet érkezett (7)
+[2015-04-13 06:05:30.206]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076420200000000 37559 tekercshez részüzenet érkezett (8)
+[2015-04-13 06:05:30.314]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7076420200000000,2015-04-13 05:19:14.0,2244,BLOB)
+[2015-04-13 06:07:53.289]	(Georg hasító) [hhqcs.data.DataProcess]  9220498601000000 7023 tekercshez részüzenet érkezett (1)
+[2015-04-13 06:07:53.457]	(Georg hasító) [hhqcs.data.DataProcess]  9220498601000000 7023 tekercshez részüzenet érkezett (2)
+[2015-04-13 06:07:53.661]	(Georg hasító) [hhqcs.data.DataProcess]  9220498601000000 7023 tekercshez részüzenet érkezett (3)
+[2015-04-13 06:07:53.857]	(Georg hasító) [hhqcs.data.DataProcess]  9220498601000000 7023 tekercshez részüzenet érkezett (4)
+[2015-04-13 06:07:54.055]	(Georg hasító) [hhqcs.data.DataProcess]  9220498601000000 7023 tekercshez részüzenet érkezett (5)
+[2015-04-13 06:07:54.259]	(Georg hasító) [hhqcs.data.DataProcess]  9220498601000000 7023 tekercshez részüzenet érkezett (6)
+[2015-04-13 06:07:54.469]	(Georg hasító) [hhqcs.data.DataProcess]  9220498601000000 7023 tekercshez részüzenet érkezett (7)
+[2015-04-13 06:07:54.659]	(Georg hasító) [hhqcs.data.DataProcess]  9220498601000000 7023 tekercshez részüzenet érkezett (8)
+[2015-04-13 06:07:54.700]	(Georg hasító) [hhqcs.sql.SQL] INSERT INTO minadat_2 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (9220498601000000,2015-04-13 02:27:16.0,3252,BLOB)
+[2015-04-13 06:33:48.722]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7040900100000000 37562 tekercshez részüzenet érkezett (1)
+[2015-04-13 06:33:48.878]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7040900100000000 37562 tekercshez részüzenet érkezett (2)
+[2015-04-13 06:33:49.099]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7040900100000000 37562 tekercshez részüzenet érkezett (3)
+[2015-04-13 06:33:49.282]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7040900100000000 37562 tekercshez részüzenet érkezett (4)
+[2015-04-13 06:33:49.464]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7040900100000000 37562 tekercshez részüzenet érkezett (5)
+[2015-04-13 06:33:49.684]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7040900100000000 37562 tekercshez részüzenet érkezett (6)
+[2015-04-13 06:33:49.865]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7040900100000000 37562 tekercshez részüzenet érkezett (7)
+[2015-04-13 06:33:50.086]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7040900100000000 37562 tekercshez részüzenet érkezett (8)
+[2015-04-13 06:33:50.113]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7040900100000000,2015-04-13 06:05:51.0,2801,BLOB)
+[2015-04-13 06:37:59.553]	(1550-es hasító) [hhqcs.data.DataProcess]  7081120100000000 8570 tekercshez részüzenet érkezett (1)
+[2015-04-13 06:37:59.733]	(1550-es hasító) [hhqcs.data.DataProcess]  7081120100000000 8570 tekercshez részüzenet érkezett (2)
+[2015-04-13 06:37:59.920]	(1550-es hasító) [hhqcs.data.DataProcess]  7081120100000000 8570 tekercshez részüzenet érkezett (3)
+[2015-04-13 06:38:00.112]	(1550-es hasító) [hhqcs.data.DataProcess]  7081120100000000 8570 tekercshez részüzenet érkezett (4)
+[2015-04-13 06:38:00.325]	(1550-es hasító) [hhqcs.data.DataProcess]  7081120100000000 8570 tekercshez részüzenet érkezett (5)
+[2015-04-13 06:38:00.517]	(1550-es hasító) [hhqcs.data.DataProcess]  7081120100000000 8570 tekercshez részüzenet érkezett (6)
+[2015-04-13 06:38:00.718]	(1550-es hasító) [hhqcs.data.DataProcess]  7081120100000000 8570 tekercshez részüzenet érkezett (7)
+[2015-04-13 06:38:00.893]	(1550-es hasító) [hhqcs.data.DataProcess]  7081120100000000 8570 tekercshez részüzenet érkezett (8)
+[2015-04-13 06:38:00.982]	(1550-es hasító) [hhqcs.sql.SQL] INSERT INTO minadat_3 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7081120100000000,2015-04-13 06:06:20.0,6172,BLOB)
+[2015-04-13 06:59:58.083]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7040890100000000 37565 tekercshez részüzenet érkezett (1)
+[2015-04-13 06:59:58.197]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7040890100000000 37565 tekercshez részüzenet érkezett (2)
+[2015-04-13 06:59:58.386]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7040890100000000 37565 tekercshez részüzenet érkezett (3)
+[2015-04-13 06:59:58.584]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7040890100000000 37565 tekercshez részüzenet érkezett (4)
+[2015-04-13 06:59:58.820]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7040890100000000 37565 tekercshez részüzenet érkezett (5)
+[2015-04-13 06:59:59.008]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7040890100000000 37565 tekercshez részüzenet érkezett (6)
+[2015-04-13 06:59:59.214]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7040890100000000 37565 tekercshez részüzenet érkezett (7)
+[2015-04-13 06:59:59.389]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7040890100000000 37565 tekercshez részüzenet érkezett (8)
+[2015-04-13 06:59:59.417]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7040890100000000,2015-04-13 06:34:11.0,2441,BLOB)
+[2015-04-13 07:02:54.689]	(1550-es hasító) [hhqcs.data.DataProcess]  7079490100000000 8572 tekercshez részüzenet érkezett (1)
+[2015-04-13 07:02:54.804]	(1550-es hasító) [hhqcs.data.DataProcess]  7079490100000000 8572 tekercshez részüzenet érkezett (2)
+[2015-04-13 07:02:55.029]	(1550-es hasító) [hhqcs.data.DataProcess]  7079490100000000 8572 tekercshez részüzenet érkezett (3)
+[2015-04-13 07:02:55.216]	(1550-es hasító) [hhqcs.data.DataProcess]  7079490100000000 8572 tekercshez részüzenet érkezett (4)
+[2015-04-13 07:02:55.429]	(1550-es hasító) [hhqcs.data.DataProcess]  7079490100000000 8572 tekercshez részüzenet érkezett (5)
+[2015-04-13 07:02:55.627]	(1550-es hasító) [hhqcs.data.DataProcess]  7079490100000000 8572 tekercshez részüzenet érkezett (6)
+[2015-04-13 07:02:55.828]	(1550-es hasító) [hhqcs.data.DataProcess]  7079490100000000 8572 tekercshez részüzenet érkezett (7)
+[2015-04-13 07:02:56.033]	(1550-es hasító) [hhqcs.data.DataProcess]  7079490100000000 8572 tekercshez részüzenet érkezett (8)
+[2015-04-13 07:02:56.133]	(1550-es hasító) [hhqcs.sql.SQL] INSERT INTO minadat_3 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7079490100000000,2015-04-13 06:45:08.0,3515,BLOB)
+[2015-04-13 07:05:57.301]	(Georg hasító) [hhqcs.data.DataProcess]  9220445501000000 7025 tekercshez részüzenet érkezett (1)
+[2015-04-13 07:05:57.454]	(Georg hasító) [hhqcs.data.DataProcess]  9220445501000000 7025 tekercshez részüzenet érkezett (2)
+[2015-04-13 07:05:57.653]	(Georg hasító) [hhqcs.data.DataProcess]  9220445501000000 7025 tekercshez részüzenet érkezett (3)
+[2015-04-13 07:05:57.861]	(Georg hasító) [hhqcs.data.DataProcess]  9220445501000000 7025 tekercshez részüzenet érkezett (4)
+[2015-04-13 07:05:58.064]	(Georg hasító) [hhqcs.data.DataProcess]  9220445501000000 7025 tekercshez részüzenet érkezett (5)
+[2015-04-13 07:05:58.259]	(Georg hasító) [hhqcs.data.DataProcess]  9220445501000000 7025 tekercshez részüzenet érkezett (6)
+[2015-04-13 07:05:58.479]	(Georg hasító) [hhqcs.data.DataProcess]  9220445501000000 7025 tekercshez részüzenet érkezett (7)
+[2015-04-13 07:05:58.707]	(Georg hasító) [hhqcs.data.DataProcess]  9220445501000000 7025 tekercshez részüzenet érkezett (8)
+[2015-04-13 07:05:58.768]	(Georg hasító) [hhqcs.sql.SQL] INSERT INTO minadat_2 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (9220445501000000,2015-04-13 06:26:09.0,2901,BLOB)
+[2015-04-13 07:15:03.900]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076330100000000 37567 tekercshez részüzenet érkezett (1)
+[2015-04-13 07:15:04.184]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076330100000000 37567 tekercshez részüzenet érkezett (2)
+[2015-04-13 07:15:04.360]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076330100000000 37567 tekercshez részüzenet érkezett (3)
+[2015-04-13 07:15:04.591]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076330100000000 37567 tekercshez részüzenet érkezett (4)
+[2015-04-13 07:15:04.791]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076330100000000 37567 tekercshez részüzenet érkezett (5)
+[2015-04-13 07:15:04.965]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076330100000000 37567 tekercshez részüzenet érkezett (6)
+[2015-04-13 07:15:05.195]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076330100000000 37567 tekercshez részüzenet érkezett (7)
+[2015-04-13 07:15:05.392]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076330100000000 37567 tekercshez részüzenet érkezett (8)
+[2015-04-13 07:15:05.468]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7076330100000000,2015-04-13 07:00:09.0,1521,BLOB)
+[2015-04-13 07:33:24.892]	(1550-es hasító) [hhqcs.data.DataProcess]  7079430100000000 8574 tekercshez részüzenet érkezett (1)
+[2015-04-13 07:33:25.128]	(1550-es hasító) [hhqcs.data.DataProcess]  7079430100000000 8574 tekercshez részüzenet érkezett (2)
+[2015-04-13 07:33:25.333]	(1550-es hasító) [hhqcs.data.DataProcess]  7079430100000000 8574 tekercshez részüzenet érkezett (3)
+[2015-04-13 07:33:25.535]	(1550-es hasító) [hhqcs.data.DataProcess]  7079430100000000 8574 tekercshez részüzenet érkezett (4)
+[2015-04-13 07:33:25.728]	(1550-es hasító) [hhqcs.data.DataProcess]  7079430100000000 8574 tekercshez részüzenet érkezett (5)
+[2015-04-13 07:33:25.938]	(1550-es hasító) [hhqcs.data.DataProcess]  7079430100000000 8574 tekercshez részüzenet érkezett (6)
+[2015-04-13 07:33:26.125]	(1550-es hasító) [hhqcs.data.DataProcess]  7079430100000000 8574 tekercshez részüzenet érkezett (7)
+[2015-04-13 07:33:26.323]	(1550-es hasító) [hhqcs.data.DataProcess]  7079430100000000 8574 tekercshez részüzenet érkezett (8)
+[2015-04-13 07:33:26.504]	(1550-es hasító) [hhqcs.sql.SQL] INSERT INTO minadat_3 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7079430100000000,2015-04-13 07:15:14.0,3546,BLOB)
+[2015-04-13 07:34:28.420]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076330200000000 37568 tekercshez részüzenet érkezett (1)
+[2015-04-13 07:34:28.561]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076330200000000 37568 tekercshez részüzenet érkezett (2)
+[2015-04-13 07:34:28.757]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076330200000000 37568 tekercshez részüzenet érkezett (3)
+[2015-04-13 07:34:28.959]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076330200000000 37568 tekercshez részüzenet érkezett (4)
+[2015-04-13 07:34:29.140]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076330200000000 37568 tekercshez részüzenet érkezett (5)
+[2015-04-13 07:34:29.378]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076330200000000 37568 tekercshez részüzenet érkezett (6)
+[2015-04-13 07:34:29.558]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076330200000000 37568 tekercshez részüzenet érkezett (7)
+[2015-04-13 07:34:29.771]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076330200000000 37568 tekercshez részüzenet érkezett (8)
+[2015-04-13 07:34:29.798]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7076330200000000,2015-04-13 07:15:04.0,1501,BLOB)
+[2015-04-13 07:46:38.413]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076340100000000 37570 tekercshez részüzenet érkezett (1)
+[2015-04-13 07:46:38.715]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076340100000000 37570 tekercshez részüzenet érkezett (2)
+[2015-04-13 07:46:38.910]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076340100000000 37570 tekercshez részüzenet érkezett (3)
+[2015-04-13 07:46:39.140]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076340100000000 37570 tekercshez részüzenet érkezett (4)
+[2015-04-13 07:46:39.326]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076340100000000 37570 tekercshez részüzenet érkezett (5)
+[2015-04-13 07:46:39.544]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076340100000000 37570 tekercshez részüzenet érkezett (6)
+[2015-04-13 07:46:39.729]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076340100000000 37570 tekercshez részüzenet érkezett (7)
+[2015-04-13 07:46:39.918]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076340100000000 37570 tekercshez részüzenet érkezett (8)
+[2015-04-13 07:46:39.947]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7076340100000000,2015-04-13 07:34:39.0,1497,BLOB)
+[2015-04-13 08:02:38.661]	(1550-es hasító) [hhqcs.data.DataProcess]  7081980100000000 8576 tekercshez részüzenet érkezett (1)
+[2015-04-13 08:02:38.875]	(1550-es hasító) [hhqcs.data.DataProcess]  7081980100000000 8576 tekercshez részüzenet érkezett (2)
+[2015-04-13 08:02:39.105]	(1550-es hasító) [hhqcs.data.DataProcess]  7081980100000000 8576 tekercshez részüzenet érkezett (3)
+[2015-04-13 08:02:39.264]	(1550-es hasító) [hhqcs.data.DataProcess]  7081980100000000 8576 tekercshez részüzenet érkezett (4)
+[2015-04-13 08:02:39.477]	(1550-es hasító) [hhqcs.data.DataProcess]  7081980100000000 8576 tekercshez részüzenet érkezett (5)
+[2015-04-13 08:02:39.692]	(1550-es hasító) [hhqcs.data.DataProcess]  7081980100000000 8576 tekercshez részüzenet érkezett (6)
+[2015-04-13 08:02:39.866]	(1550-es hasító) [hhqcs.data.DataProcess]  7081980100000000 8576 tekercshez részüzenet érkezett (7)
+[2015-04-13 08:02:40.082]	(1550-es hasító) [hhqcs.data.DataProcess]  7081980100000000 8576 tekercshez részüzenet érkezett (8)
+[2015-04-13 08:02:40.120]	(1550-es hasító) [hhqcs.sql.SQL] INSERT INTO minadat_3 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7081980100000000,2015-04-13 07:44:03.0,3813,BLOB)
+[2015-04-13 08:06:28.784]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076340200000000 37571 tekercshez részüzenet érkezett (1)
+[2015-04-13 08:06:28.976]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076340200000000 37571 tekercshez részüzenet érkezett (2)
+[2015-04-13 08:06:29.151]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076340200000000 37571 tekercshez részüzenet érkezett (3)
+[2015-04-13 08:06:29.365]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076340200000000 37571 tekercshez részüzenet érkezett (4)
+[2015-04-13 08:06:29.570]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076340200000000 37571 tekercshez részüzenet érkezett (5)
+[2015-04-13 08:06:29.771]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076340200000000 37571 tekercshez részüzenet érkezett (6)
+[2015-04-13 08:06:29.972]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076340200000000 37571 tekercshez részüzenet érkezett (7)
+[2015-04-13 08:06:30.171]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076340200000000 37571 tekercshez részüzenet érkezett (8)
+[2015-04-13 08:06:30.206]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7076340200000000,2015-04-13 07:46:39.0,1480,BLOB)
+[2015-04-13 08:12:29.334]	(1550-es hasító) [hhqcs.data.DataProcess]  7070950100000000 8577 tekercshez részüzenet érkezett (1)
+[2015-04-13 08:12:29.588]	(1550-es hasító) [hhqcs.data.DataProcess]  7070950100000000 8577 tekercshez részüzenet érkezett (2)
+[2015-04-13 08:12:29.781]	(1550-es hasító) [hhqcs.data.DataProcess]  7070950100000000 8577 tekercshez részüzenet érkezett (3)
+[2015-04-13 08:12:30.011]	(1550-es hasító) [hhqcs.data.DataProcess]  7070950100000000 8577 tekercshez részüzenet érkezett (4)
+[2015-04-13 08:12:30.195]	(1550-es hasító) [hhqcs.data.DataProcess]  7070950100000000 8577 tekercshez részüzenet érkezett (5)
+[2015-04-13 08:12:30.382]	(1550-es hasító) [hhqcs.data.DataProcess]  7070950100000000 8577 tekercshez részüzenet érkezett (6)
+[2015-04-13 08:12:30.593]	(1550-es hasító) [hhqcs.data.DataProcess]  7070950100000000 8577 tekercshez részüzenet érkezett (7)
+[2015-04-13 08:12:30.815]	(1550-es hasító) [hhqcs.data.DataProcess]  7070950100000000 8577 tekercshez részüzenet érkezett (8)
+[2015-04-13 08:12:30.842]	(1550-es hasító) [hhqcs.sql.SQL] INSERT INTO minadat_3 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7070950100000000,2015-04-13 08:08:46.0,111,BLOB)
+[2015-04-13 08:23:28.187]	(Georg hasító) [hhqcs.data.DataProcess]  9220495101000000 7026 tekercshez részüzenet érkezett (1)
+[2015-04-13 08:23:28.445]	(Georg hasító) [hhqcs.data.DataProcess]  9220495101000000 7026 tekercshez részüzenet érkezett (2)
+[2015-04-13 08:23:28.655]	(Georg hasító) [hhqcs.data.DataProcess]  9220495101000000 7026 tekercshez részüzenet érkezett (3)
+[2015-04-13 08:23:28.857]	(Georg hasító) [hhqcs.data.DataProcess]  9220495101000000 7026 tekercshez részüzenet érkezett (4)
+[2015-04-13 08:23:29.066]	(Georg hasító) [hhqcs.data.DataProcess]  9220495101000000 7026 tekercshez részüzenet érkezett (5)
+[2015-04-13 08:23:29.273]	(Georg hasító) [hhqcs.data.DataProcess]  9220495101000000 7026 tekercshez részüzenet érkezett (6)
+[2015-04-13 08:23:29.454]	(Georg hasító) [hhqcs.data.DataProcess]  9220495101000000 7026 tekercshez részüzenet érkezett (7)
+[2015-04-13 08:23:29.656]	(Georg hasító) [hhqcs.data.DataProcess]  9220495101000000 7026 tekercshez részüzenet érkezett (8)
+[2015-04-13 08:23:29.720]	(Georg hasító) [hhqcs.sql.SQL] INSERT INTO minadat_2 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (9220495101000000,2015-04-13 07:10:45.0,2901,BLOB)
+[2015-04-13 08:27:37.288]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076260100000000 37573 tekercshez részüzenet érkezett (1)
+[2015-04-13 08:27:37.539]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076260100000000 37573 tekercshez részüzenet érkezett (2)
+[2015-04-13 08:27:37.766]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076260100000000 37573 tekercshez részüzenet érkezett (3)
+[2015-04-13 08:27:37.965]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076260100000000 37573 tekercshez részüzenet érkezett (4)
+[2015-04-13 08:27:38.139]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076260100000000 37573 tekercshez részüzenet érkezett (5)
+[2015-04-13 08:27:38.370]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076260100000000 37573 tekercshez részüzenet érkezett (6)
+[2015-04-13 08:27:38.575]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076260100000000 37573 tekercshez részüzenet érkezett (7)
+[2015-04-13 08:27:38.760]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076260100000000 37573 tekercshez részüzenet érkezett (8)
+[2015-04-13 08:27:38.869]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7076260100000000,2015-04-13 08:06:40.0,1528,BLOB)
+[2015-04-13 08:48:33.680]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076290100000000 37575 tekercshez részüzenet érkezett (1)
+[2015-04-13 08:48:33.810]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076290100000000 37575 tekercshez részüzenet érkezett (2)
+[2015-04-13 08:48:34.030]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076290100000000 37575 tekercshez részüzenet érkezett (3)
+[2015-04-13 08:48:34.207]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076290100000000 37575 tekercshez részüzenet érkezett (4)
+[2015-04-13 08:48:34.427]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076290100000000 37575 tekercshez részüzenet érkezett (5)
+[2015-04-13 08:48:34.646]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076290100000000 37575 tekercshez részüzenet érkezett (6)
+[2015-04-13 08:48:34.841]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076290100000000 37575 tekercshez részüzenet érkezett (7)
+[2015-04-13 08:48:35.005]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076290100000000 37575 tekercshez részüzenet érkezett (8)
+[2015-04-13 08:48:35.042]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7076290100000000,2015-04-13 08:27:48.0,1507,BLOB)
+[2015-04-13 08:57:01.296]	(Georg hasító) [hhqcs.data.DataProcess]  7083300100000000 7029 tekercshez részüzenet érkezett (1)
+[2015-04-13 08:57:01.453]	(Georg hasító) [hhqcs.data.DataProcess]  7083300100000000 7029 tekercshez részüzenet érkezett (2)
+[2015-04-13 08:57:01.656]	(Georg hasító) [hhqcs.data.DataProcess]  7083300100000000 7029 tekercshez részüzenet érkezett (3)
+[2015-04-13 08:57:01.837]	(Georg hasító) [hhqcs.data.DataProcess]  7083300100000000 7029 tekercshez részüzenet érkezett (4)
+[2015-04-13 08:57:02.057]	(Georg hasító) [hhqcs.data.DataProcess]  7083300100000000 7029 tekercshez részüzenet érkezett (5)
+[2015-04-13 08:57:02.247]	(Georg hasító) [hhqcs.data.DataProcess]  7083300100000000 7029 tekercshez részüzenet érkezett (6)
+[2015-04-13 08:57:02.483]	(Georg hasító) [hhqcs.data.DataProcess]  7083300100000000 7029 tekercshez részüzenet érkezett (7)
+[2015-04-13 08:57:02.645]	(Georg hasító) [hhqcs.data.DataProcess]  7083300100000000 7029 tekercshez részüzenet érkezett (8)
+[2015-04-13 08:57:02.668]	(Georg hasító) [hhqcs.sql.SQL] INSERT INTO minadat_2 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7083300100000000,2015-04-13 08:45:05.0,492,BLOB)
+[2015-04-13 09:05:50.891]	(1550-es hasító) [hhqcs.data.DataProcess]  7080950100000000 8579 tekercshez részüzenet érkezett (1)
+[2015-04-13 09:05:51.174]	(1550-es hasító) [hhqcs.data.DataProcess]  7080950100000000 8579 tekercshez részüzenet érkezett (2)
+[2015-04-13 09:05:51.402]	(1550-es hasító) [hhqcs.data.DataProcess]  7080950100000000 8579 tekercshez részüzenet érkezett (3)
+[2015-04-13 09:05:51.583]	(1550-es hasító) [hhqcs.data.DataProcess]  7080950100000000 8579 tekercshez részüzenet érkezett (4)
+[2015-04-13 09:05:51.752]	(1550-es hasító) [hhqcs.data.DataProcess]  7080950100000000 8579 tekercshez részüzenet érkezett (5)
+[2015-04-13 09:05:51.978]	(1550-es hasító) [hhqcs.data.DataProcess]  7080950100000000 8579 tekercshez részüzenet érkezett (6)
+[2015-04-13 09:05:52.182]	(1550-es hasító) [hhqcs.data.DataProcess]  7080950100000000 8579 tekercshez részüzenet érkezett (7)
+[2015-04-13 09:05:52.392]	(1550-es hasító) [hhqcs.data.DataProcess]  7080950100000000 8579 tekercshez részüzenet érkezett (8)
+[2015-04-13 09:05:52.450]	(1550-es hasító) [hhqcs.sql.SQL] INSERT INTO minadat_3 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7080950100000000,2015-04-13 08:14:20.0,3936,BLOB)
+[2015-04-13 09:08:22.669]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076220100000000 37577 tekercshez részüzenet érkezett (1)
+[2015-04-13 09:08:22.854]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076220100000000 37577 tekercshez részüzenet érkezett (2)
+[2015-04-13 09:08:23.054]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076220100000000 37577 tekercshez részüzenet érkezett (3)
+[2015-04-13 09:08:23.269]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076220100000000 37577 tekercshez részüzenet érkezett (4)
+[2015-04-13 09:08:23.439]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076220100000000 37577 tekercshez részüzenet érkezett (5)
+[2015-04-13 09:08:23.675]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076220100000000 37577 tekercshez részüzenet érkezett (6)
+[2015-04-13 09:08:23.869]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076220100000000 37577 tekercshez részüzenet érkezett (7)
+[2015-04-13 09:08:24.054]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076220100000000 37577 tekercshez részüzenet érkezett (8)
+[2015-04-13 09:08:24.100]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7076220100000000,2015-04-13 08:48:46.0,1534,BLOB)
+[2015-04-13 09:15:06.463]	(Georg hasító) [hhqcs.data.DataProcess]  7083310100000000 7030 tekercshez részüzenet érkezett (1)
+[2015-04-13 09:15:06.651]	(Georg hasító) [hhqcs.data.DataProcess]  7083310100000000 7030 tekercshez részüzenet érkezett (2)
+[2015-04-13 09:15:06.869]	(Georg hasító) [hhqcs.data.DataProcess]  7083310100000000 7030 tekercshez részüzenet érkezett (3)
+[2015-04-13 09:15:07.070]	(Georg hasító) [hhqcs.data.DataProcess]  7083310100000000 7030 tekercshez részüzenet érkezett (4)
+[2015-04-13 09:15:07.258]	(Georg hasító) [hhqcs.data.DataProcess]  7083310100000000 7030 tekercshez részüzenet érkezett (5)
+[2015-04-13 09:15:07.472]	(Georg hasító) [hhqcs.data.DataProcess]  7083310100000000 7030 tekercshez részüzenet érkezett (6)
+[2015-04-13 09:15:07.658]	(Georg hasító) [hhqcs.data.DataProcess]  7083310100000000 7030 tekercshez részüzenet érkezett (7)
+[2015-04-13 09:15:07.863]	(Georg hasító) [hhqcs.data.DataProcess]  7083310100000000 7030 tekercshez részüzenet érkezett (8)
+[2015-04-13 09:15:07.911]	(Georg hasító) [hhqcs.sql.SQL] INSERT INTO minadat_2 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7083310100000000,2015-04-13 09:06:58.0,584,BLOB)
+[2015-04-13 09:39:16.886]	(1550-es hasító) [hhqcs.data.DataProcess]  7080960100000000 8580 tekercshez részüzenet érkezett (1)
+[2015-04-13 09:39:17.131]	(1550-es hasító) [hhqcs.data.DataProcess]  7080960100000000 8580 tekercshez részüzenet érkezett (2)
+[2015-04-13 09:39:17.339]	(1550-es hasító) [hhqcs.data.DataProcess]  7080960100000000 8580 tekercshez részüzenet érkezett (3)
+[2015-04-13 09:39:17.521]	(1550-es hasító) [hhqcs.data.DataProcess]  7080960100000000 8580 tekercshez részüzenet érkezett (4)
+[2015-04-13 09:39:17.715]	(1550-es hasító) [hhqcs.data.DataProcess]  7080960100000000 8580 tekercshez részüzenet érkezett (5)
+[2015-04-13 09:39:17.924]	(1550-es hasító) [hhqcs.data.DataProcess]  7080960100000000 8580 tekercshez részüzenet érkezett (6)
+[2015-04-13 09:39:18.131]	(1550-es hasító) [hhqcs.data.DataProcess]  7080960100000000 8580 tekercshez részüzenet érkezett (7)
+[2015-04-13 09:39:18.319]	(1550-es hasító) [hhqcs.data.DataProcess]  7080960100000000 8580 tekercshez részüzenet érkezett (8)
+[2015-04-13 09:39:18.369]	(1550-es hasító) [hhqcs.sql.SQL] INSERT INTO minadat_3 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7080960100000000,2015-04-13 09:17:54.0,3767,BLOB)
+[2015-04-13 10:02:18.827]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076230100000000 37579 tekercshez részüzenet érkezett (1)
+[2015-04-13 10:02:19.070]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076230100000000 37579 tekercshez részüzenet érkezett (2)
+[2015-04-13 10:02:19.283]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076230100000000 37579 tekercshez részüzenet érkezett (3)
+[2015-04-13 10:02:19.469]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076230100000000 37579 tekercshez részüzenet érkezett (4)
+[2015-04-13 10:02:19.672]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076230100000000 37579 tekercshez részüzenet érkezett (5)
+[2015-04-13 10:02:19.882]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076230100000000 37579 tekercshez részüzenet érkezett (6)
+[2015-04-13 10:02:20.061]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076230100000000 37579 tekercshez részüzenet érkezett (7)
+[2015-04-13 10:02:20.284]	(Húzvaegyengető) [hhqcs.data.DataProcess]  7076230100000000 37579 tekercshez részüzenet érkezett (8)
+[2015-04-13 10:02:20.324]	(Húzvaegyengető) [hhqcs.sql.SQL] INSERT INTO minadat_1 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (7076230100000000,2015-04-13 09:08:34.0,1549,BLOB)
+[2015-04-13 10:09:03.825]	(Georg hasító) [hhqcs.data.DataProcess]  4083290100000000 7031 tekercshez részüzenet érkezett (1)
+[2015-04-13 10:09:04.013]	(Georg hasító) [hhqcs.data.DataProcess]  4083290100000000 7031 tekercshez részüzenet érkezett (2)
+[2015-04-13 10:09:04.240]	(Georg hasító) [hhqcs.data.DataProcess]  4083290100000000 7031 tekercshez részüzenet érkezett (3)
+[2015-04-13 10:09:04.442]	(Georg hasító) [hhqcs.data.DataProcess]  4083290100000000 7031 tekercshez részüzenet érkezett (4)
+[2015-04-13 10:09:04.622]	(Georg hasító) [hhqcs.data.DataProcess]  4083290100000000 7031 tekercshez részüzenet érkezett (5)
+[2015-04-13 10:09:04.866]	(Georg hasító) [hhqcs.data.DataProcess]  4083290100000000 7031 tekercshez részüzenet érkezett (6)
+[2015-04-13 10:09:05.075]	(Georg hasító) [hhqcs.data.DataProcess]  4083290100000000 7031 tekercshez részüzenet érkezett (7)
+[2015-04-13 10:09:05.241]	(Georg hasító) [hhqcs.data.DataProcess]  4083290100000000 7031 tekercshez részüzenet érkezett (8)
+[2015-04-13 10:09:05.273]	(Georg hasító) [hhqcs.sql.SQL] INSERT INTO minadat_2 (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (4083290100000000,2015-04-13 09:26:47.0,588,BLOB)
+[2015-04-13 10:13:09.733]	[hhqcs.HHQCS] Logpanel letiltva...
+[2015-04-13 10:13:09.733]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
+[2015-04-13 10:13:09.858]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:13:09 CEST 2015 TCP szerver létrehozása a 3010 porton...
+[2015-04-13 10:13:09.858]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:13:09 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:13:09.858]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:13:09 CEST 2015 TCP szerver létrehozása a 3011 porton...
+[2015-04-13 10:13:09.858]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:13:09 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:13:09.873]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:13:09 CEST 2015 TCP szerver létrehozása a 3000 porton...
+[2015-04-13 10:13:09.873]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:13:09 CEST 2015 TCP szerver létrehozása a 3001 porton...
+[2015-04-13 10:13:09.873]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:13:09 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:13:09.873]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:13:09 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:13:09.873]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:13:09 CEST 2015 TCP szerver létrehozása a 3002 porton...
+[2015-04-13 10:13:09.873]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:13:09 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:13:09.889]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup\setup_03.xml beállítási könyvtár feldolgozása közben:
+								Nem található a "centterm_ip_address" kulcs érték
+[2015-04-13 10:13:09.889]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:13:09 CEST 2015 TCP szerver létrehozása a 3020 porton...
+[2015-04-13 10:13:09.889]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:13:09 CEST 2015 TCP szerver létrehozása a 3021 porton...
+[2015-04-13 10:13:09.889]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:13:09 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:13:09.889]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:13:09 CEST 2015 TCP szerver létrehozása a 3022 porton...
+[2015-04-13 10:13:09.889]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:13:09 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:13:09.889]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:13:09 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:13:10.297]	[hhqcs.form.LogViewer] LogViewer létrehozva
+[2015-04-13 10:18:27.334]	[hhqcs.HHQCS] Logpanel letiltva...
+[2015-04-13 10:18:27.334]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
+[2015-04-13 10:18:27.443]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:18:27 CEST 2015 TCP szerver létrehozása a 3010 porton...
+[2015-04-13 10:18:27.459]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:18:27 CEST 2015 TCP szerver kliens kapcsolódásra vár[2015-04-13 10:18:27.459]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:18:27 CEST 2015 TCP szerver létrehozása a 3011 porton...
+
+[2015-04-13 10:18:27.459]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:18:27 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:18:27.474]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:18:27 CEST 2015 TCP szerver létrehozása a 3000 porton...
+[2015-04-13 10:18:27.474]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:18:27 CEST 2015 TCP szerver létrehozása a 3001 porton...
+[2015-04-13 10:18:27.474]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:18:27 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:18:27.474]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:18:27 CEST 2015 TCP szerver létrehozása a 3002 porton...
+[2015-04-13 10:18:27.474]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:18:27 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:18:27.474]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:18:27 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:18:27.490]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup\setup_03.xml beállítási könyvtár feldolgozása közben:
+								Nem található a "centterm_ip_address" kulcs érték
+[2015-04-13 10:18:27.490]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:18:27 CEST 2015 TCP szerver létrehozása a 3020 porton...
+[2015-04-13 10:18:27.490]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:18:27 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:18:27.490]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:18:27 CEST 2015 TCP szerver létrehozása a 3021 porton...
+[2015-04-13 10:18:27.490]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:18:27 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:18:27.490]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:18:27 CEST 2015 TCP szerver létrehozása a 3022 porton...
+[2015-04-13 10:18:27.490]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:18:27 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:18:27.864]	[hhqcs.form.LogViewer] LogViewer létrehozva
+[2015-04-13 10:24:31.318]	[hhqcs.HHQCS] Logpanel letiltva...
+[2015-04-13 10:24:31.334]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
+[2015-04-13 10:24:31.444]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:24:31 CEST 2015 TCP szerver létrehozása a 3010 porton...
+[2015-04-13 10:24:31.444]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:24:31 CEST 2015 TCP szerver létrehozása a 3011 porton...
+[2015-04-13 10:24:31.444]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:24:31 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:24:31.444]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:24:31 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:24:31.460]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:24:31 CEST 2015 TCP szerver létrehozása a 3000 porton...
+[2015-04-13 10:24:31.460]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:24:31 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:24:31.460]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:24:31 CEST 2015 TCP szerver létrehozása a 3001 porton...
+[2015-04-13 10:24:31.460]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:24:31 CEST 2015 TCP szerver létrehozása a 3002 porton...
+[2015-04-13 10:24:31.460]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:24:31 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:24:31.460]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:24:31 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:24:31.475]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup\setup_03.xml beállítási könyvtár feldolgozása közben:
+								Nem található a "centterm_ip_address" kulcs érték
+[2015-04-13 10:24:31.475]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:24:31 CEST 2015 TCP szerver létrehozása a 3020 porton...
+[2015-04-13 10:24:31.475]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:24:31 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:24:31.475]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:24:31 CEST 2015 TCP szerver létrehozása a 3021 porton...
+[2015-04-13 10:24:31.475]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:24:31 CEST 2015 TCP szerver létrehozása a 3022 porton...
+[2015-04-13 10:24:31.475]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:24:31 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:24:31.475]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:24:31 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:24:31.881]	[hhqcs.form.LogViewer] LogViewer létrehozva
+[2015-04-13 10:26:40.198]	[hhqcs.HHQCS] Logpanel letiltva...
+[2015-04-13 10:26:40.213]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
+[2015-04-13 10:26:40.323]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:26:40 CEST 2015 TCP szerver létrehozása a 3010 porton...
+[2015-04-13 10:26:40.323]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:26:40 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:26:40.323]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:26:40 CEST 2015 TCP szerver létrehozása a 3011 porton...
+[2015-04-13 10:26:40.323]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:26:40 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:26:40.338]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:26:40 CEST 2015 TCP szerver létrehozása a 3000 porton...
+[2015-04-13 10:26:40.338]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:26:40 CEST 2015 TCP szerver létrehozása a 3001 porton...
+[2015-04-13 10:26:40.338]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:26:40 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:26:40.338]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:26:40 CEST 2015 TCP szerver létrehozása a 3002 porton...
+[2015-04-13 10:26:40.338]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:26:40 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:26:40.354]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:26:40 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:26:40.354]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup\setup_03.xml beállítási könyvtár feldolgozása közben:
+								Nem található a "centterm_ip_address" kulcs érték
+[2015-04-13 10:26:40.354]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:26:40 CEST 2015 TCP szerver létrehozása a 3020 porton...
+[2015-04-13 10:26:40.354]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:26:40 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:26:40.354]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:26:40 CEST 2015 TCP szerver létrehozása a 3021 porton...
+[2015-04-13 10:26:40.354]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:26:40 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:26:40.354]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:26:40 CEST 2015 TCP szerver létrehozása a 3022 porton...
+[2015-04-13 10:26:40.354]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:26:40 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:26:40.759]	[hhqcs.form.LogViewer] LogViewer létrehozva
+[2015-04-13 10:39:18.240]	[hhqcs.HHQCS] Logpanel letiltva...
+[2015-04-13 10:39:18.255]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
+[2015-04-13 10:39:18.411]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:18 CEST 2015 TCP szerver létrehozása a 3010 porton...
+[2015-04-13 10:39:18.458]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:18 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:39:18.458]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:18 CEST 2015 TCP szerver létrehozása a 3011 porton...
+[2015-04-13 10:39:18.458]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:18 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:39:18.599]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:18 CEST 2015 TCP szerver létrehozása a 3000 porton...
+[2015-04-13 10:39:18.599]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:18 CEST 2015 TCP szerver létrehozása a 3001 porton...
+[2015-04-13 10:39:18.599]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:18 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:39:18.599]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:18 CEST 2015 TCP szerver létrehozása a 3002 porton...
+[2015-04-13 10:39:18.599]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:18 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:39:18.599]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:18 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:39:18.614]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup\setup_03.xml beállítási könyvtár feldolgozása közben:
+								Nem található a "centterm_ip_address" kulcs érték
+[2015-04-13 10:39:18.614]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:18 CEST 2015 TCP szerver létrehozása a 3020 porton...
+[2015-04-13 10:39:18.614]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:18 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:39:18.614]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:18 CEST 2015 TCP szerver létrehozása a 3021 porton...
+[2015-04-13 10:39:18.614]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:18 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:39:18.614]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:18 CEST 2015 TCP szerver létrehozása a 3022 porton...
+[2015-04-13 10:39:18.614]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:18 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:39:57.454]	[hhqcs.HHQCS] Logpanel letiltva...
+[2015-04-13 10:39:57.454]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
+[2015-04-13 10:39:57.610]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:57 CEST 2015 TCP szerver létrehozása a 3010 porton...
+[2015-04-13 10:39:57.610]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:57 CEST 2015 TCP szerver létrehozása a 3011 porton...
+[2015-04-13 10:39:57.610]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:57 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:39:57.610]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:57 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:39:57.625]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:57 CEST 2015 TCP szerver létrehozása a 3000 porton...
+[2015-04-13 10:39:57.625]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:57 CEST 2015 TCP szerver létrehozása a 3001 porton...
+[2015-04-13 10:39:57.625]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:57 CEST 2015 TCP szerver létrehozása a 3002 porton...
+[2015-04-13 10:39:57.625]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:57 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:39:57.625]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:57 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:39:57.625]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:57 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:39:57.641]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup\setup_03.xml beállítási könyvtár feldolgozása közben:
+								Nem található a "centterm_ip_address" kulcs érték
+[2015-04-13 10:39:57.641]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:57 CEST 2015 TCP szerver létrehozása a 3020 porton...
+[2015-04-13 10:39:57.641]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:57 CEST 2015 TCP szerver létrehozása a 3021 porton...
+[2015-04-13 10:39:57.641]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:57 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:39:57.641]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:57 CEST 2015 TCP szerver létrehozása a 3022 porton...
+[2015-04-13 10:39:57.641]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:57 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:39:57.641]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:39:57 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:40:59.558]	[hhqcs.HHQCS] Logpanel letiltva...
+[2015-04-13 10:40:59.558]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
+[2015-04-13 10:40:59.730]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:40:59 CEST 2015 TCP szerver létrehozása a 3010 porton...
+[2015-04-13 10:40:59.730]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:40:59 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:40:59.730]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:40:59 CEST 2015 TCP szerver létrehozása a 3011 porton...
+[2015-04-13 10:40:59.746]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:40:59 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:40:59.761]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:40:59 CEST 2015 TCP szerver létrehozása a 3000 porton...
+[2015-04-13 10:40:59.761]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:40:59 CEST 2015 TCP szerver létrehozása a 3001 porton...
+[2015-04-13 10:40:59.761]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:40:59 CEST 2015 TCP szerver létrehozása a 3002 porton...
+[2015-04-13 10:40:59.761]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:40:59 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:40:59.761]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:40:59 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:40:59.777]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:40:59 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:40:59.777]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup\setup_03.xml beállítási könyvtár feldolgozása közben:
+								Nem található a "centterm_ip_address" kulcs érték
+[2015-04-13 10:40:59.777]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:40:59 CEST 2015 TCP szerver létrehozása a 3020 porton...
+[2015-04-13 10:40:59.777]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:40:59 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:40:59.777]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:40:59 CEST 2015 TCP szerver létrehozása a 3021 porton...
+[2015-04-13 10:40:59.777]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:40:59 CEST 2015 TCP szerver létrehozása a 3022 porton...
+[2015-04-13 10:40:59.777]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:40:59 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:40:59.777]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:40:59 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:41:12.417]	[hhqcs.HHQCS] Logpanel letiltva...
+[2015-04-13 10:41:12.417]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
+[2015-04-13 10:41:12.557]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:12 CEST 2015 TCP szerver létrehozása a 3010 porton...
+[2015-04-13 10:41:12.557]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:12 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:41:12.557]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:12 CEST 2015 TCP szerver létrehozása a 3011 porton...
+[2015-04-13 10:41:12.557]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:12 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:41:12.573]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:12 CEST 2015 TCP szerver létrehozása a 3000 porton...
+[2015-04-13 10:41:12.573]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:12 CEST 2015 TCP szerver létrehozása a 3001 porton...
+[2015-04-13 10:41:12.573]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:12 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:41:12.573]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:12 CEST 2015 TCP szerver létrehozása a 3002 porton...
+[2015-04-13 10:41:12.573]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:12 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:41:12.573]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:12 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:41:12.589]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup\setup_03.xml beállítási könyvtár feldolgozása közben:
+								Nem található a "centterm_ip_address" kulcs érték
+[2015-04-13 10:41:12.589]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:12 CEST 2015 TCP szerver létrehozása a 3020 porton...
+[2015-04-13 10:41:12.589]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:12 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:41:12.589]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:12 CEST 2015 TCP szerver létrehozása a 3021 porton...
+[2015-04-13 10:41:12.589]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:12 CEST 2015 TCP szerver létrehozása a 3022 porton...
+[2015-04-13 10:41:12.589]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:12 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:41:12.589]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:12 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:41:50.196]	[hhqcs.HHQCS] Logpanel letiltva...
+[2015-04-13 10:41:50.211]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
+[2015-04-13 10:41:50.323]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:50 CEST 2015 TCP szerver létrehozása a 3010 porton...
+[2015-04-13 10:41:50.323]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:50 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:41:50.354]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:50 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:41:50.401]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:50 CEST 2015 TCP szerver létrehozása a 3000 porton...
+[2015-04-13 10:41:50.401]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:50 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:41:50.401]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:50 CEST 2015 TCP szerver létrehozása a 3001 porton...
+[2015-04-13 10:41:50.401]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:50 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:41:50.401]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:50 CEST 2015 TCP szerver létrehozása a 3002 porton...
+[2015-04-13 10:41:50.401]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:50 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:41:50.416]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup\setup_03.xml beállítási könyvtár feldolgozása közben:
+								Nem található a "centterm_ip_address" kulcs érték
+[2015-04-13 10:41:50.416]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:50 CEST 2015 TCP szerver létrehozása a 3020 porton...
+[2015-04-13 10:41:50.416]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:50 CEST 2015 TCP szerver kliens kapcsolódásra vár[2015-04-13 10:41:50.416]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:50 CEST 2015 TCP szerver létrehozása a 3021 porton...
+
+[2015-04-13 10:41:50.416]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:50 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:41:50.416]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:50 CEST 2015 TCP szerver létrehozása a 3022 porton...
+[2015-04-13 10:41:50.416]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:41:50 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:41:50.713]	[hhqcs.form.LogViewer] LogViewer létrehozva
+[2015-04-13 10:56:49.213]	[hhqcs.HHQCS] Logpanel letiltva...
+[2015-04-13 10:56:49.213]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
+[2015-04-13 10:56:49.338]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:56:49 CEST 2015 TCP szerver létrehozása a 3010 porton...
+[2015-04-13 10:56:49.338]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:56:49 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:56:49.338]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:56:49 CEST 2015 TCP szerver létrehozása a 3011 porton...
+[2015-04-13 10:56:49.338]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:56:49 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:56:49.353]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:56:49 CEST 2015 TCP szerver létrehozása a 3000 porton...
+[2015-04-13 10:56:49.353]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:56:49 CEST 2015 TCP szerver létrehozása a 3001 porton...
+[2015-04-13 10:56:49.353]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:56:49 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:56:49.353]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:56:49 CEST 2015 TCP szerver létrehozása a 3002 porton...
+[2015-04-13 10:56:49.353]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:56:49 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:56:49.353]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:56:49 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:56:49.369]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup\setup_03.xml beállítási könyvtár feldolgozása közben:
+								Nem található a "centterm_ip_address" kulcs érték
+[2015-04-13 10:56:49.369]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:56:49 CEST 2015 TCP szerver létrehozása a 3020 porton...
+[2015-04-13 10:56:49.369]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:56:49 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:56:49.369]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:56:49 CEST 2015 TCP szerver létrehozása a 3021 porton...
+[2015-04-13 10:56:49.369]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:56:49 CEST 2015 TCP szerver létrehozása a 3022 porton...
+[2015-04-13 10:56:49.369]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:56:49 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:56:49.369]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 10:56:49 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 10:56:49.806]	[hhqcs.form.LogViewer] LogViewer létrehozva
+[2015-04-13 11:28:59.066]	[hhqcs.HHQCS] Logpanel letiltva...
+[2015-04-13 11:28:59.066]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
+[2015-04-13 11:28:59.175]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 11:28:59 CEST 2015 TCP szerver létrehozása a 3010 porton...
+[2015-04-13 11:28:59.191]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 11:28:59 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 11:28:59.191]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 11:28:59 CEST 2015 TCP szerver létrehozása a 3011 porton...
+[2015-04-13 11:28:59.191]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 11:28:59 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 11:28:59.207]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 11:28:59 CEST 2015 TCP szerver létrehozása a 3000 porton...
+[2015-04-13 11:28:59.207]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 11:28:59 CEST 2015 TCP szerver létrehozása a 3001 porton...
+[2015-04-13 11:28:59.207]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 11:28:59 CEST 2015 TCP szerver létrehozása a 3002 porton...
+[2015-04-13 11:28:59.207]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 11:28:59 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 11:28:59.207]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 11:28:59 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 11:28:59.207]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 11:28:59 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 11:28:59.222]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup\setup_03.xml beállítási könyvtár feldolgozása közben:
+								Nem található a "centterm_ip_address" kulcs érték
+[2015-04-13 11:28:59.222]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 11:28:59 CEST 2015 TCP szerver létrehozása a 3020 porton...
+[2015-04-13 11:28:59.222]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 11:28:59 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 11:28:59.222]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 11:28:59 CEST 2015 TCP szerver létrehozása a 3021 porton...
+[2015-04-13 11:28:59.222]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 11:28:59 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 11:28:59.222]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 11:28:59 CEST 2015 TCP szerver létrehozása a 3022 porton...
+[2015-04-13 11:28:59.222]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 11:28:59 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 11:28:59.706]	[hhqcs.form.LogViewer] LogViewer létrehozva
+[2015-04-13 12:04:59.602]	[hhqcs.HHQCS] Logpanel letiltva...
+[2015-04-13 12:04:59.602]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
+[2015-04-13 12:04:59.711]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:04:59 CEST 2015 TCP szerver létrehozása a 3010 porton...
+[2015-04-13 12:04:59.726]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:04:59 CEST 2015 TCP szerver létrehozása a 3011 porton...
+[2015-04-13 12:04:59.726]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:04:59 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:04:59.726]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:04:59 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:04:59.742]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:04:59 CEST 2015 TCP szerver létrehozása a 3000 porton...
+[2015-04-13 12:04:59.742]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:04:59 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:04:59.742]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:04:59 CEST 2015 TCP szerver létrehozása a 3001 porton...
+[2015-04-13 12:04:59.742]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:04:59 CEST 2015 TCP szerver létrehozása a 3002 porton...
+[2015-04-13 12:04:59.742]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:04:59 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:04:59.742]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:04:59 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:04:59.758]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup\setup_03.xml beállítási könyvtár feldolgozása közben:
+								Nem található a "centterm_ip_address" kulcs érték
+[2015-04-13 12:04:59.758]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:04:59 CEST 2015 TCP szerver létrehozása a 3020 porton...
+[2015-04-13 12:04:59.758]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:04:59 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:04:59.758]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:04:59 CEST 2015 TCP szerver létrehozása a 3021 porton...
+[2015-04-13 12:04:59.758]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:04:59 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:04:59.758]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:04:59 CEST 2015 TCP szerver létrehozása a 3022 porton...
+[2015-04-13 12:04:59.758]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:04:59 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:05:00.304]	[hhqcs.form.LogViewer] LogViewer létrehozva
+[2015-04-13 12:05:50.604]	[hhqcs.HHQCS] Logpanel letiltva...
+[2015-04-13 12:05:50.604]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
+[2015-04-13 12:05:50.745]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:05:50 CEST 2015 TCP szerver létrehozása a 3010 porton...
+[2015-04-13 12:05:50.745]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:05:50 CEST 2015 TCP szerver létrehozása a 3011 porton...
+[2015-04-13 12:05:50.745]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:05:50 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:05:50.745]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:05:50 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:05:50.760]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:05:50 CEST 2015 TCP szerver létrehozása a 3000 porton...
+[2015-04-13 12:05:50.760]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:05:50 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:05:50.760]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:05:50 CEST 2015 TCP szerver létrehozása a 3001 porton...
+[2015-04-13 12:05:50.760]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:05:50 CEST 2015 TCP szerver létrehozása a 3002 porton...
+[2015-04-13 12:05:50.760]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:05:50 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:05:50.760]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:05:50 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:05:50.776]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup\setup_03.xml beállítási könyvtár feldolgozása közben:
+								Nem található a "centterm_ip_address" kulcs érték
+[2015-04-13 12:05:50.776]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:05:50 CEST 2015 TCP szerver létrehozása a 3020 porton...
+[2015-04-13 12:05:50.776]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:05:50 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:05:50.776]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:05:50 CEST 2015 TCP szerver létrehozása a 3021 porton...
+[2015-04-13 12:05:50.776]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:05:50 CEST 2015 TCP szerver létrehozása a 3022 porton...
+[2015-04-13 12:05:50.776]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:05:50 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:05:50.776]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:05:50 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:05:51.228]	[hhqcs.form.LogViewer] LogViewer létrehozva
+[2015-04-13 12:06:41.704]	[hhqcs.HHQCS] Logpanel letiltva...
+[2015-04-13 12:06:41.704]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
+[2015-04-13 12:06:41.829]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:06:41 CEST 2015 TCP szerver létrehozása a 3010 porton...
+[2015-04-13 12:06:41.844]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:06:41 CEST 2015 TCP szerver létrehozása a 3011 porton...
+[2015-04-13 12:06:41.844]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:06:41 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:06:41.860]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:06:41 CEST 2015 TCP szerver létrehozása a 3000 porton...
+[2015-04-13 12:06:41.860]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:06:41 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:06:41.860]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:06:41 CEST 2015 TCP szerver létrehozása a 3001 porton...
+[2015-04-13 12:06:41.860]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:06:41 CEST 2015 TCP szerver létrehozása a 3002 porton...
+[2015-04-13 12:06:41.860]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:06:41 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:06:41.860]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:06:41 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:06:41.876]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup\setup_03.xml beállítási könyvtár feldolgozása közben:
+								Nem található a "centterm_ip_address" kulcs érték
+[2015-04-13 12:06:41.876]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:06:41 CEST 2015 TCP szerver létrehozása a 3020 porton...
+[2015-04-13 12:06:41.876]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:06:41 CEST 2015 TCP szerver létrehozása a 3021 porton...
+[2015-04-13 12:06:41.876]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:06:41 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:06:41.876]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:06:41 CEST 2015 TCP szerver létrehozása a 3022 porton...
+[2015-04-13 12:06:41.876]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:06:41 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:06:41.876]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:06:41 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:06:42.328]	[hhqcs.form.LogViewer] LogViewer létrehozva
+[2015-04-13 12:06:41.876]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:06:41 CEST 2015 TCP szerver létrehozása a 3020 porton...
+[2015-04-13 12:06:41.876]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:06:41 CEST 2015 TCP szerver létrehozása a 3021 porton...
+[2015-04-13 12:06:41.876]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:06:41 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:06:41.876]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:06:41 CEST 2015 TCP szerver létrehozása a 3022 porton...
+[2015-04-13 12:06:41.876]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:06:41 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:06:41.876]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:06:41 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:06:42.328]	[hhqcs.form.LogViewer] LogViewer létrehozva
+[2015-04-13 12:31:08.180]	[hhqcs.HHQCS] Logpanel letiltva...
+[2015-04-13 12:31:08.180]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
+[2015-04-13 12:31:08.305]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:31:08 CEST 2015 TCP szerver létrehozása a 3010 porton...
+[2015-04-13 12:31:08.305]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:31:08 CEST 2015 TCP szerver létrehozása a 3011 porton...
+[2015-04-13 12:31:08.305]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:31:08 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:31:08.305]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:31:08 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:31:08.320]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:31:08 CEST 2015 TCP szerver létrehozása a 3000 porton...
+[2015-04-13 12:31:08.320]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:31:08 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:31:08.320]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:31:08 CEST 2015 TCP szerver létrehozása a 3001 porton...
+[2015-04-13 12:31:08.320]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:31:08 CEST 2015 TCP szerver létrehozása a 3002 porton...
+[2015-04-13 12:31:08.320]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:31:08 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:31:08.320]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:31:08 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:31:08.336]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup\setup_03.xml beállítási könyvtár feldolgozása közben:
+								Nem található a "centterm_ip_address" kulcs érték
+[2015-04-13 12:31:08.336]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:31:08 CEST 2015 TCP szerver létrehozása a 3020 porton...
+[2015-04-13 12:31:08.336]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:31:08 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:31:08.336]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:31:08 CEST 2015 TCP szerver létrehozása a 3021 porton...
+[2015-04-13 12:31:08.336]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:31:08 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:31:08.336]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:31:08 CEST 2015 TCP szerver létrehozása a 3022 porton...
+[2015-04-13 12:31:08.351]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:31:08 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:31:08.726]	[hhqcs.form.LogViewer] LogViewer létrehozva[2015-04-13 12:31:08.726]	
+[hhqcs.form.LogViewer] LogViewer létrehozva
+[2015-04-13 12:31:08.726]	[hhqcs.form.LogViewer] LogViewer létrehozva2
+[2015-04-13 12:31:08.726]	[hhqcs.form.LogViewer] LogViewer létrehozva
+[2015-04-13 12:31:08.726]	[hhqcs.form.LogViewer] LogViewer létrehozva2[2015-04-13 12:34:43.328]	[hhqcs.HHQCS] Logpanel letiltva...
+[2015-04-13 12:34:43.328]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
+[2015-04-13 12:34:43.437]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:34:43 CEST 2015 TCP szerver létrehozása a 3010 porton...
+[2015-04-13 12:34:43.453]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:34:43 CEST 2015 TCP szerver létrehozása a 3011 porton...
+[2015-04-13 12:34:43.453]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:34:43 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:34:43.453]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:34:43 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:34:43.468]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:34:43 CEST 2015 TCP szerver létrehozása a 3000 porton...
+[2015-04-13 12:34:43.468]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:34:43 CEST 2015 TCP szerver létrehozása a 3001 porton...
+[2015-04-13 12:34:43.468]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:34:43 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:34:43.468]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:34:43 CEST 2015 TCP szerver létrehozása a 3002 porton...
+[2015-04-13 12:34:43.468]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:34:43 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:34:43.468]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:34:43 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:34:43.484]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup\setup_03.xml beállítási könyvtár feldolgozása közben:
+								Nem található a "centterm_ip_address" kulcs érték
+[2015-04-13 12:34:43.484]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:34:43 CEST 2015 TCP szerver létrehozása a 3020 porton...
+[2015-04-13 12:34:43.484]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:34:43 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:34:43.484]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:34:43 CEST 2015 TCP szerver létrehozása a 3021 porton...
+[2015-04-13 12:34:43.484]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:34:43 CEST 2015 TCP szerver létrehozása a 3022 porton...
+[2015-04-13 12:34:43.484]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:34:43 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:34:43.484]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:34:43 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:34:43.874]	[hhqcs.form.LogViewer] LogViewer létrehozva
+[2015-04-13 12:34:43.484]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:34:43 CEST 2015 TCP szerver létrehozása a 3020 porton...
+[2015-04-13 12:34:43.484]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:34:43 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:34:43.484]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:34:43 CEST 2015 TCP szerver létrehozása a 3021 porton...
+[2015-04-13 12:34:43.484]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:34:43 CEST 2015 TCP szerver létrehozása a 3022 porton...
+[2015-04-13 12:34:43.484]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:34:43 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:34:43.484]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:34:43 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:34:43.874]	[hhqcs.form.LogViewer] LogViewer létrehozva[2015-04-13 12:40:12.806]	[hhqcs.HHQCS] Logpanel letiltva...
+[2015-04-13 12:40:12.822]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
+[2015-04-13 12:40:12.931]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:40:12 CEST 2015 TCP szerver létrehozása a 3010 porton...
+[2015-04-13 12:40:12.931]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:40:12 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:40:12.931]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:40:12 CEST 2015 TCP szerver létrehozása a 3011 porton...
+[2015-04-13 12:40:12.931]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:40:12 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:40:12.946]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:40:12 CEST 2015 TCP szerver létrehozása a 3000 porton...
+[2015-04-13 12:40:12.962]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:40:12 CEST 2015 TCP szerver létrehozása a 3001 porton...
+[2015-04-13 12:40:12.962]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:40:12 CEST 2015 TCP szerver létrehozása a 3002 porton...
+[2015-04-13 12:40:12.962]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:40:12 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:40:12.962]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:40:12 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:40:12.962]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:40:12 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:40:12.962]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup\setup_03.xml beállítási könyvtár feldolgozása közben:
+								Nem található a "centterm_ip_address" kulcs érték
+[2015-04-13 12:40:12.978]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:40:12 CEST 2015 TCP szerver létrehozása a 3020 porton...
+[2015-04-13 12:40:12.978]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:40:12 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:40:12.978]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:40:12 CEST 2015 TCP szerver létrehozása a 3021 porton...
+[2015-04-13 12:40:12.978]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:40:12 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:40:12.978]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:40:12 CEST 2015 TCP szerver létrehozása a 3022 porton...
+[2015-04-13 12:40:12.978]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:40:12 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:40:13.368]	[hhqcs.form.LogViewer] LogViewer létrehozva
+[2015-04-13 12:44:23.458]	[hhqcs.HHQCS] Logpanel letiltva...
+[2015-04-13 12:44:23.458]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
+[2015-04-13 12:44:23.583]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:23 CEST 2015 TCP szerver létrehozása a 3010 porton...
+[2015-04-13 12:44:23.583]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:23 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:44:23.583]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:23 CEST 2015 TCP szerver létrehozása a 3011 porton...
+[2015-04-13 12:44:23.583]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:23 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:44:23.598]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:23 CEST 2015 TCP szerver létrehozása a 3000 porton...
+[2015-04-13 12:44:23.598]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:23 CEST 2015 TCP szerver létrehozása a 3001 porton...
+[2015-04-13 12:44:23.598]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:23 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:44:23.598]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:23 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:44:23.598]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:23 CEST 2015 TCP szerver létrehozása a 3002 porton...
+[2015-04-13 12:44:23.598]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:23 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:44:23.614]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup\setup_03.xml beállítási könyvtár feldolgozása közben:
+								Nem található a "centterm_ip_address" kulcs érték
+[2015-04-13 12:44:23.614]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:23 CEST 2015 TCP szerver létrehozása a 3020 porton...
+[2015-04-13 12:44:23.614]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:23 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:44:23.614]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:23 CEST 2015 TCP szerver létrehozása a 3021 porton...
+[2015-04-13 12:44:23.614]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:23 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:44:23.614]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:23 CEST 2015 TCP szerver létrehozása a 3022 porton...
+[2015-04-13 12:44:23.614]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:23 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:44:24.035]	[hhqcs.form.LogViewer] LogViewer létrehozva
+[2015-04-13 12:44:57.496]	[hhqcs.HHQCS] Logpanel letiltva...
+[2015-04-13 12:44:57.496]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
+[2015-04-13 12:44:57.620]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:57 CEST 2015 TCP szerver létrehozása a 3010 porton...
+[2015-04-13 12:44:57.620]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:57 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:44:57.620]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:57 CEST 2015 TCP szerver létrehozása a 3011 porton...
+[2015-04-13 12:44:57.620]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:57 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:44:57.636]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:57 CEST 2015 TCP szerver létrehozása a 3000 porton...
+[2015-04-13 12:44:57.636]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:57 CEST 2015 TCP szerver létrehozása a 3001 porton...
+[2015-04-13 12:44:57.636]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:57 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:44:57.636]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:57 CEST 2015 TCP szerver létrehozása a 3002 porton...
+[2015-04-13 12:44:57.636]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:57 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:44:57.636]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:57 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:44:57.652]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup\setup_03.xml beállítási könyvtár feldolgozása közben:
+								Nem található a "centterm_ip_address" kulcs érték
+[2015-04-13 12:44:57.652]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:57 CEST 2015 TCP szerver létrehozása a 3020 porton...
+[2015-04-13 12:44:57.652]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:57 CEST 2015 TCP szerver létrehozása a 3021 porton...
+[2015-04-13 12:44:57.652]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:57 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:44:57.652]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:57 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:44:57.652]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:57 CEST 2015 TCP szerver létrehozása a 3022 porton...
+[2015-04-13 12:44:57.652]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:44:57 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:44:57.995]	[hhqcs.form.LogViewer] LogViewer létrehozva
+[2015-04-13 12:50:50.254]	[hhqcs.HHQCS] Logpanel letiltva...
+[2015-04-13 12:50:50.254]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
+[2015-04-13 12:50:50.378]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:50:50 CEST 2015 TCP szerver létrehozása a 3010 porton...
+[2015-04-13 12:50:50.378]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:50:50 CEST 2015 TCP szerver létrehozása a 3011 porton...
+[2015-04-13 12:50:50.378]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:50:50 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:50:50.378]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:50:50 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:50:50.394]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:50:50 CEST 2015 TCP szerver létrehozása a 3000 porton...
+[2015-04-13 12:50:50.394]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:50:50 CEST 2015 TCP szerver létrehozása a 3001 porton...
+[2015-04-13 12:50:50.394]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:50:50 CEST 2015 TCP szerver létrehozása a 3002 porton...
+[2015-04-13 12:50:50.394]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:50:50 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:50:50.394]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:50:50 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:50:50.394]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:50:50 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:50:50.410]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup\setup_03.xml beállítási könyvtár feldolgozása közben:
+								Nem található a "centterm_ip_address" kulcs érték
+[2015-04-13 12:50:50.410]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:50:50 CEST 2015 TCP szerver létrehozása a 3020 porton...
+[2015-04-13 12:50:50.410]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:50:50 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:50:50.410]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:50:50 CEST 2015 TCP szerver létrehozása a 3021 porton...
+[2015-04-13 12:50:50.410]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:50:50 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:50:50.410]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:50:50 CEST 2015 TCP szerver létrehozása a 3022 porton...
+[2015-04-13 12:50:50.410]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:50:50 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:50:50.737]	[hhqcs.form.LogViewer] LogViewer létrehozva
+[2015-04-13 12:51:49.087]	[hhqcs.HHQCS] Logpanel letiltva...
+[2015-04-13 12:51:49.103]	[hhqcs.setup.SetupDataManager] setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
+[2015-04-13 12:51:49.243]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:51:49 CEST 2015 TCP szerver létrehozása a 3010 porton...
+[2015-04-13 12:51:49.243]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:51:49 CEST 2015 TCP szerver létrehozása a 3011 porton...
+[2015-04-13 12:51:49.243]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:51:49 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:51:49.243]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:51:49 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:51:49.259]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:51:49 CEST 2015 TCP szerver létrehozása a 3000 porton...
+[2015-04-13 12:51:49.259]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:51:49 CEST 2015 TCP szerver létrehozása a 3001 porton...
+[2015-04-13 12:51:49.259]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:51:49 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:51:49.259]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:51:49 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:51:49.259]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:51:49 CEST 2015 TCP szerver létrehozása a 3002 porton...
+[2015-04-13 12:51:49.259]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:51:49 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:51:49.275]	[hhqcs.setup.SetupDataManager] SetupDataManager.init(): Hiba történt a C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup\setup_03.xml beállítási könyvtár feldolgozása közben:
+								Nem található a "centterm_ip_address" kulcs érték
+[2015-04-13 12:51:49.275]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:51:49 CEST 2015 TCP szerver létrehozása a 3020 porton...
+[2015-04-13 12:51:49.275]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:51:49 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:51:49.275]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:51:49 CEST 2015 TCP szerver létrehozása a 3021 porton...
+[2015-04-13 12:51:49.275]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:51:49 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:51:49.275]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:51:49 CEST 2015 TCP szerver létrehozása a 3022 porton...
+[2015-04-13 12:51:49.275]	[hhqcs.net.tcp.TCPNet] Mon Apr 13 12:51:49 CEST 2015 TCP szerver kliens kapcsolódásra vár
+[2015-04-13 12:51:49.696]	[hhqcs.form.LogViewer] LogViewer létrehozva
