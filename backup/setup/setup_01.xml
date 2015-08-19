@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="plant_id">1</entry>
+	<entry key="plc_ip_address">10.1.39.82</entry>
+	<entry key="port_for_data">3010</entry>
+	<entry key="port_for_lifesignal">3011</entry>
+	<entry key="centterm_ip_address">10.1.39.15</entry>
+	<entry key="centterm_port">2100</entry>
+</properties>
