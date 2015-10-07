@@ -41,7 +41,7 @@ public class Comco extends JFrame {
     /**
      * A frame szélessége
      */
-    private final int FRAMEWIDTH = 300;
+    private final int FRAMEWIDTH = 660;
     /**
      * A panel magassága
      */

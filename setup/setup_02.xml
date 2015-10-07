@@ -6,6 +6,4 @@
 	<entry key="port_for_data">3000</entry>
 	<entry key="port_for_lifesignal">3001</entry>
 	<entry key="port_for_thickness">3002</entry>
-	<entry key="centterm_ip_address">10.1.39.11</entry>
-	<entry key="centterm_port">2100</entry>
 </properties>

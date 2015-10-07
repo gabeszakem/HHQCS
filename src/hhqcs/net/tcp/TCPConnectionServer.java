@@ -25,7 +25,7 @@ import java.util.Date;
 public class TCPConnectionServer extends Thread {
 
     @SuppressWarnings("FieldMayBeFinal")
-    private TCPNet tcp;
+    public TCPNet tcp;
     @SuppressWarnings("FieldMayBeFinal")
     private String serverType;
     /**
@@ -75,7 +75,21 @@ public class TCPConnectionServer extends Thread {
         /*
          * Új TCP szerver indítása
          */
-        tcp = new TCPNet(plcPort, ipAddress);
+        switch (serverType) {
+            case "life":
+                tcp = new TCPNet(plcPort, ipAddress, 5000, hhqcsServer);
+                break;
+            case "data":
+                tcp = new TCPNet(plcPort, ipAddress, 86400000, hhqcsServer);
+                break;
+            case "thickness":
+                tcp = new TCPNet(plcPort, ipAddress, 86400000, hhqcsServer);
+                break;
+            default:
+                tcp = new TCPNet(plcPort, ipAddress, hhqcsServer);
+                break;
+        }
+
         this.serverType = serverType;
         this.ls = new LifeSignal();
         this.setup = hhqcsServer.setup;
@@ -120,15 +134,23 @@ public class TCPConnectionServer extends Thread {
                 } else {
                     System.err.println(new Date().toString() + " " + this.setup.PLANTNAME + " " + this.getClass() + " receiveTelegram==null ");
                     debug.printDebugMsg(setup.PLANTNAME, this.getClass().getCanonicalName(), "(error)Hiba történt receiveTelegram==0");
-                }
 
+                }
+                
             } catch (Exception ex) {
                 /*
                  * Hiba, üzenet kiírása
                  */
-                System.err.println(new Date().toString() + " " + this.setup.PLANTNAME + " " + this.getClass() + " " + ex);
-                ex.printStackTrace(System.err);
+                //System.err.println(new Date().toString() + " " + this.setup.PLANTNAME + " " + this.getClass() + " " + ex);
+                //ex.printStackTrace(System.err);
                 debug.printDebugMsg(setup.PLANTNAME, this.getClass().getCanonicalName(), "(error)Hiba történt a tcpConnectionServer telegram fogadása közben", ex);
+                synchronized (this) {
+                    try {
+                        wait(5000);
+                    } catch (InterruptedException ex1) {
+                        debug.printDebugMsg(setup.PLANTNAME, this.getClass().getCanonicalName(), "(error)Hiba történt a tcpConnectionServer telegram fogadása közben (wait)", ex);
+                    }
+                }
             }
         }
     }

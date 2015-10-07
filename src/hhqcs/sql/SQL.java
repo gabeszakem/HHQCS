@@ -10,9 +10,12 @@ package hhqcs.sql;
 import static hhqcs.HHQCS.debug;
 import hhqcs.data.CoilHeader;
 import hhqcs.setup.Setup;
+import hhqcs.thickness.ThicknessHeader;
 import java.io.ByteArrayInputStream;
 import java.sql.*;
+import java.util.Calendar;
 import javax.swing.JOptionPane;
+import java.util.Date;
 
 /**
  *
@@ -26,13 +29,13 @@ public class SQL {
     private String user;
     @SuppressWarnings("FieldMayBeFinal")
     private String password;
-    private String coilIdString;
 
     /**
      *
      */
     public SQL() {
         this.url = "jdbc:postgresql://localhost:5432/hhqcs";
+        //this.url = "jdbc:postgresql://10.1.39.11:5432/hhqcs";
         this.user = "hhqcssrv";
         this.password = "hhqcssrv";
     }
@@ -84,39 +87,123 @@ public class SQL {
          */
         Connection con = null;
         PreparedStatement st = null;
+        String coilIdString = "-1";
 
         try {
             con = DriverManager.getConnection(url, user, password);
             /*
              * SQL lekérdezés összeállítása
              */
-            String query = "INSERT INTO " + setup.PLANTTABLENAME + " (tekercsszam, idobelyeg, tekercshossz, adat)VALUES (?,?,?,?)";
+            String query = "INSERT INTO " + setup.PLANTTABLENAME + " (tekercsszam, idobelyeg, tekercshossz, adat, generalt_tekercsszam )VALUES (?,?,?,?,?)";
             st = con.prepareStatement(query);
 
             if (ch.coilID != null) {
-                this.coilIdString = ch.coilID;
+                coilIdString = ch.coilID;
             } else {
-                this.coilIdString = "-1";
+                coilIdString = "-1";
             }
-            st.setString(1, this.coilIdString);
+            st.setString(1, coilIdString);
             st.setTimestamp(2, ch.timeStamp);
             st.setInt(3, ch.coilLength);
             st.setBinaryStream(4, new ByteArrayInputStream(record), record.length);
+            st.setInt(5, ch.telegramId);
             st.executeUpdate();
-            String log = "INSERT INTO " + setup.PLANTTABLENAME + " (tekercsszam, idobelyeg, tekercshossz, adat)VALUES ("
-                    + this.coilIdString + "," + ch.timeStamp + "," + ch.coilLength + ",BLOB)";
+            String log = "INSERT INTO " + setup.PLANTTABLENAME + " (tekercsszam, idobelyeg, tekercshossz, adat, generalt_tekercsszam)VALUES ("
+                    + coilIdString + "," + ch.timeStamp + "," + ch.coilLength + ",BLOB," + ch.telegramId + ")";
             System.out.println(setup.PLANTNAME + " - " + log);
             debug.printDebugMsg(setup.PLANTNAME, this.getClass().getCanonicalName(), log);
         } catch (SQLException ex) {
             System.err.println(ex);
-            debug.printDebugMsg(setup.PLANTNAME, this.getClass().getCanonicalName(), "INSERT INTO " + setup.PLANTTABLENAME + " (tekercsszam, idobelyeg, tekercshossz, adat)VALUES ("
-                    + this.coilIdString + "," + ch.timeStamp + "," + ch.coilLength + ",BLOB)", ex);
+            debug.printDebugMsg(setup.PLANTNAME, this.getClass().getCanonicalName(), "INSERT INTO " + setup.PLANTTABLENAME + " (tekercsszam, idobelyeg, tekercshossz, adat, generalt_tekercsszam)VALUES ("
+                    + coilIdString + "," + ch.timeStamp + "," + ch.coilLength +  ",BLOB," + ch.telegramId , ex);
         } finally {
             closeConnection(con, st);
         }
 
     }
 
+    @SuppressWarnings("null")
+    public void thicknessRecord(ThicknessHeader thicknessHeader, byte[] record, Setup setup) {
+
+        Connection con = null;
+        PreparedStatement st = null;
+        @SuppressWarnings("UnusedAssignment")
+        String coilIdString = "-1";
+        int returning = 0;
+        try {
+            if (record != null && record.length >=400) {
+                String query;
+                String log;
+                try {
+                    con = DriverManager.getConnection(url, user, password);
+
+                    query = "INSERT INTO " + setup.THICKNESSBLOBTABLENAME + " (adat)VALUES (?) RETURNING id";
+                    st = con.prepareStatement(query);
+                    st.setBinaryStream(1, new ByteArrayInputStream(record), record.length);
+
+                    ResultSet rs = st.executeQuery();
+                    while (rs.next()) {
+                        returning = rs.getInt(1);
+                    }
+                    log = "INSERT INTO " + setup.THICKNESSBLOBTABLENAME + " (adat)VALUES(BLOB) RETURNING id = " + returning;
+                    System.out.println(new Date().toString() + " " + setup.PLANTNAME + " - " + log);
+                    debug.printDebugMsg(setup.PLANTNAME, this.getClass().getCanonicalName(), log);
+
+                } catch (Exception ex) {
+                    System.err.println(ex);
+                    debug.printDebugMsg(setup.PLANTNAME, this.getClass().getCanonicalName(), "Hiba a blob fájl írásánál (thicknessRecord)", ex);
+                }
+
+                /*
+                 * SQL lekérdezés összeállítása
+                 */
+                query = "INSERT INTO " + setup.THICKNESSTABLENAME + " (tekercsszam, idobelyeg, nevleges_vastagsag,pozitiv_tures, negativ_tures, generalt_tekercsszam, blob_id)VALUES (?,?,?,?,?,?,?)";
+                st = con.prepareStatement(query);
+
+                if (thicknessHeader.coilID != null) {
+                    coilIdString = thicknessHeader.coilID;
+                } else {
+                    coilIdString = "-1";
+                }
+                st.setString(1, coilIdString);
+
+                Date date = new Date();
+                Calendar calendar = Calendar.getInstance();
+                calendar.setTimeInMillis(0);
+                calendar.setTime(date);
+                Timestamp timeStamp = new Timestamp(calendar.getTimeInMillis());
+                st.setTimestamp(2, timeStamp);
+
+                st.setInt(3, thicknessHeader.setupThickness);
+                st.setInt(4, thicknessHeader.positivThicknessTolerance);
+                st.setInt(5, thicknessHeader.negativThicknessTolerance);
+                st.setInt(6, thicknessHeader.CoilGeneratedId);
+                st.setInt(7, returning);
+
+                st.executeUpdate();
+
+                log = "INSERT INTO " + setup.THICKNESSTABLENAME + " (tekercsszam, idobelyeg, nevleges_vastagsag,pozitiv_tures, negativ_tures, generalt_tekercsszam, blob_id)VALUES ("
+                        + coilIdString + "," + timeStamp + "," + thicknessHeader.setupThickness + "," + thicknessHeader.positivThicknessTolerance + ","
+                        + thicknessHeader.negativThicknessTolerance + "," + thicknessHeader.CoilGeneratedId + "," + returning + ")";
+                System.out.println(new Date().toString() + " " + setup.PLANTNAME + " - " + log);
+                debug.printDebugMsg(setup.PLANTNAME, this.getClass().getCanonicalName(), log);
+            } else {
+                System.out.println(new Date().toString() + " " + setup.PLANTNAME + " - " + "Nem érkezett elég üzenet a blob-ba");
+                debug.printDebugMsg(setup.PLANTNAME, this.getClass().getCanonicalName(), "(error)  Nem érkezett elég üzenet a blob-ba");
+            }
+        } catch (SQLException ex) {
+            System.err.println(ex);
+            debug.printDebugMsg(setup.PLANTNAME, this.getClass().getCanonicalName(), "Hiba az sql írásánál (thicknessRecord)", ex);
+        } finally {
+            closeConnection(con, st);
+        }
+    }
+
+    /**
+     * #######################################################################################################################################
+     * #######################################################################################################################################
+     * #######################################################################################################################################
+     */
     /*
      * Kapcsolat lezárása
      */
@@ -160,4 +247,5 @@ public class SQL {
             }
         }
     }
+
 }
