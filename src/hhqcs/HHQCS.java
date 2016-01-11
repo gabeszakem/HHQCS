@@ -9,7 +9,11 @@ import hhqcs.form.comco.Comco;
 import hhqcs.form.Tray;
 import hhqcs.setup.SetupDataManager;
 import hhqcs.sql.SQL;
+import hhqcs.tools.RedirectConsoleOutputToFile;
 import java.awt.Color;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.PrintStream;
 import tools.Debug;
 import java.util.ArrayList;
 import table.ColorStruct;
@@ -43,7 +47,7 @@ public class HHQCS {
      * Loggolás textareában engedélyezése vagy tiltása. (LOGPANELISENABLED =
      * true)
      */
-    public static final boolean LOGPANELISENABLED = true;
+    public static final boolean LOGPANELISENABLED = false;
 
     public static LogViewer logViewer;
 
@@ -51,7 +55,7 @@ public class HHQCS {
      * Loggolás megtekintésének az engedélyezése vagy tiltása.
      * (LOGVIEWERISENABLED = true)
      */
-    public static final boolean LOGVIEWERISENABLED = true;
+    public static final boolean LOGVIEWERISENABLED = false;
 
     /**
      * @param args the command line arguments
@@ -71,7 +75,9 @@ public class HHQCS {
                 debug.printDebugMsg(null, HHQCS.class.getName(), "(error)Logpanel indítása nem sikerült...", ex);
             }
         } else {
+            RedirectConsoleOutputToFile out=new RedirectConsoleOutputToFile();
             debug.printDebugMsg(null, HHQCS.class.getName(), "Logpanel letiltva...");
+           
         }
 
         /**
@@ -90,7 +96,7 @@ public class HHQCS {
             Tray tray = new Tray();
         } catch (Exception ex) {
             ex.printStackTrace(System.err);
-            debug.printDebugMsg(null, HHQCS.class.getName(),"(error)Hiba történt a tray icon létrehozása közben :", ex);
+            debug.printDebugMsg(null, HHQCS.class.getName(), "(error)Hiba történt a tray icon létrehozása közben :", ex);
             Comco comco = new Comco();
             comco.setVisible(true);
         }

@@ -61,7 +61,7 @@ public class ThicknessProcess {
                  * tárolót töröljük
                  */
                 System.out.println(new Date().toString() + " "
-                        + tcp.setup.PLANTNAME + " (tempReceiveTelegramm!=null): Az eldobandó byte hossza: "+tempReceiveTelegramm.length+" Az eldobandó byte tartalma: "
+                        + tcp.setup.PLANTNAME + " (tempReceiveTelegramm!=null): Az eldobandó byte hossza: " + tempReceiveTelegramm.length + " Az eldobandó byte tartalma: "
                         + Arrays.toString(tempReceiveTelegramm));
                 debug.printDebugMsg(tcp.setup.PLANTNAME, this.getClass().getCanonicalName(), "(warning)(tempReceiveTelegramm!=null): Az eldobandó byte tartalma:",
                         Arrays.toString(tempReceiveTelegramm));
@@ -101,9 +101,9 @@ public class ThicknessProcess {
 
                 } catch (Exception ex) {
                     System.out.println(new Date().toString() + " "
-                            + tcp.setup.PLANTNAME + " A hosszabb telegram "+tempReceiveTelegramm.length +"darabolása nem sikerült ("+ ThicknessProcess.class.getSimpleName() + ")"+ex);
-                    
-                    debug.printDebugMsg(tcp.setup.PLANTNAME, this.getClass().getCanonicalName(), "(warning)A hosszabb telegram "+tempReceiveTelegramm.length +"darabolása nem sikerült ("+ ThicknessProcess.class.getSimpleName() + ")",ex);
+                            + tcp.setup.PLANTNAME + " A hosszabb telegram " + tempReceiveTelegramm.length + "darabolása nem sikerült (" + ThicknessProcess.class.getSimpleName() + ")" + ex);
+
+                    debug.printDebugMsg(tcp.setup.PLANTNAME, this.getClass().getCanonicalName(), "(warning)A hosszabb telegram " + tempReceiveTelegramm.length + "darabolása nem sikerült (" + ThicknessProcess.class.getSimpleName() + ")", ex);
                 }
 
             }
@@ -208,8 +208,20 @@ public class ThicknessProcess {
                  * ####################################### Adatok letárolása
                  * ########################################
                  */
+                if (collectedReceiveTelegram != null && collectedReceiveTelegram.length > 0) {
+                    try {
+                        hhqcs.HHQCS.sql.thicknessRecord(thicknessHeader, Compressor.compress(collectedReceiveTelegram), tcp.setup);
+                    } catch (Exception ex) {
+                        System.out.println(new Date().toString() + " "
+                                + tcp.setup.PLANTNAME + "Hiba a vastagsági record letárolásakor" + ex);
+                        debug.printDebugMsg(tcp.setup.PLANTNAME, this.getClass().getCanonicalName(), "(error)" + tcp.setup.PLANTNAME + "Hiba a vastagsági record letárolásakor", ex);
+                    }
+                } else {
+                    System.out.println(new Date().toString() + " "
+                            + tcp.setup.PLANTNAME + "Nincs megfelelő számú adat amit lrtárolhatnánk a vastagsághoz");
+                    debug.printDebugMsg(tcp.setup.PLANTNAME, this.getClass().getCanonicalName(), "(error)" + tcp.setup.PLANTNAME + "Nincs megfelelő számú adat amit lrtárolhatnánk a vastagsághoz");
 
-                hhqcs.HHQCS.sql.thicknessRecord(thicknessHeader, Compressor.compress(collectedReceiveTelegram), tcp.setup);
+                }
                 messageId = 0;
                 collectedReceiveTelegram = null;
             } else {

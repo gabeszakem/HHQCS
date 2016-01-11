@@ -39,7 +39,8 @@ public class JpanelForm extends javax.swing.JPanel {
                             refreshPanel();
                         }
                     } catch (Exception ex) {
-
+                        System.out.println("A panel frissitése közben hibatörtént(" + JpanelForm.class.getSimpleName() + ")" + ex.getMessage());
+                        debug.printDebugMsg(null, this.getClass().getCanonicalName(), "(error)A panel frissitése közben hibatörtént", ex);
                     }
                 }
             }
