@@ -1,0 +1,130 @@
+setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
+Fri Jan 29 12:58:01 CET 2016 TCP szerver restart nem sikerült a 3010 porton...null
+Fri Jan 29 12:58:01 CET 2016 A tekercsadatok sikeresen beállítva  3023 portra.
+Fri Jan 29 12:58:01 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 12:58:01 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+SELECT * FROM (SELECT * FROM SAPR3.ZHP_SAP_KMR WHERE BER_AZON LIKE 'NH'  ORDER BY INSTIME DESC) WHERE ROWNUM = 1
+Fri Jan 29 12:58:07 CET 2016 1550-es hasító - Új tekercs érkezett az SAP-tól 7444700000
+setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
+Fri Jan 29 12:58:57 CET 2016 TCP szerver restart nem sikerült a 3010 porton...null
+Fri Jan 29 12:58:57 CET 2016 TCP szerver restart nem sikerült a 3010 porton...null
+Fri Jan 29 12:58:57 CET 2016 TCP szerver restart nem sikerült a 3010 porton...null
+Fri Jan 29 12:58:57 CET 2016 TCP szerver restart nem sikerült a 3010 porton...null
+Fri Jan 29 12:58:57 CET 2016 TCP szerver restart nem sikerült a 3010 porton...null
+Fri Jan 29 12:58:57 CET 2016 TCP szerver restart nem sikerült a 3010 porton...null
+Fri Jan 29 12:58:57 CET 2016 TCP szerver restart nem sikerült a 3010 porton...null
+Fri Jan 29 12:58:57 CET 2016 TCP szerver restart nem sikerült a 3010 porton...null
+Fri Jan 29 12:58:57 CET 2016 TCP szerver restart nem sikerült a 3010 porton...null
+Fri Jan 29 12:58:57 CET 2016 TCP szerver restart nem sikerült a 3010 porton...null
+Fri Jan 29 12:58:57 CET 2016 TCP szerver restart nem sikerült a 3010 porton...null
+Fri Jan 29 12:58:57 CET 2016 TCP szerver restart nem sikerült a 3010 porton...null
+Fri Jan 29 12:58:57 CET 2016 TCP szerver restart nem sikerült a 3010 porton...null
+Fri Jan 29 12:58:57 CET 2016 TCP szerver restart nem sikerült a 3000 porton...null
+Fri Jan 29 12:58:57 CET 2016 TCP szerver restart nem sikerült a 3000 porton...null
+Fri Jan 29 12:58:57 CET 2016 TCP szerver restart nem sikerült a 3000 porton...null
+Fri Jan 29 12:58:57 CET 2016 A tekercsadatok sikeresen beállítva  3023 portra.
+Fri Jan 29 12:58:57 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 12:58:57 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 12:58:57 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 12:58:57 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+SELECT * FROM (SELECT * FROM SAPR3.ZHP_SAP_KMR WHERE BER_AZON LIKE 'NH'  ORDER BY INSTIME DESC) WHERE ROWNUM = 1
+Fri Jan 29 12:59:03 CET 2016 1550-es hasító - Új tekercs érkezett az SAP-tól 7444700000
+setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
+Fri Jan 29 13:00:55 CET 2016 TCP szerver restart nem sikerült a 3010 porton...null
+Fri Jan 29 13:00:55 CET 2016 A tekercsadatok sikeresen beállítva  3023 portra.
+SELECT * FROM (SELECT * FROM SAPR3.ZHP_SAP_KMR WHERE BER_AZON LIKE 'NH'  ORDER BY INSTIME DESC) WHERE ROWNUM = 1
+Fri Jan 29 13:01:01 CET 2016 1550-es hasító - Új tekercs érkezett az SAP-tól 7444700000
+setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
+Fri Jan 29 13:04:25 CET 2016 TCP szerver restart nem sikerült a 3010 porton...null
+Fri Jan 29 13:04:25 CET 2016 TCP szerver restart nem sikerült a 3010 porton...null
+Fri Jan 29 13:04:25 CET 2016 TCP szerver restart nem sikerült a 3010 porton...null
+Fri Jan 29 13:04:25 CET 2016 TCP szerver restart nem sikerült a 3010 porton...null
+Fri Jan 29 13:04:25 CET 2016 TCP szerver restart nem sikerült a 3000 porton...null
+Fri Jan 29 13:04:25 CET 2016 TCP szerver restart nem sikerült a 3000 porton...null
+Fri Jan 29 13:04:25 CET 2016 TCP szerver restart nem sikerült a 3000 porton...null
+Fri Jan 29 13:04:25 CET 2016 TCP szerver restart nem sikerült a 3000 porton...null
+Fri Jan 29 13:04:25 CET 2016 TCP szerver restart nem sikerült a 3000 porton...null
+Fri Jan 29 13:04:25 CET 2016 TCP szerver restart nem sikerült a 3000 porton...null
+Fri Jan 29 13:04:25 CET 2016 TCP szerver restart nem sikerült a 3000 porton...null
+Fri Jan 29 13:04:25 CET 2016 A tekercsadatok sikeresen beállítva  3023 portra.
+SELECT * FROM (SELECT * FROM SAPR3.ZHP_SAP_KMR WHERE BER_AZON LIKE 'NH'  ORDER BY INSTIME DESC) WHERE ROWNUM = 1
+Fri Jan 29 13:04:31 CET 2016 1550-es hasító - Új tekercs érkezett az SAP-tól 7444700000
+setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3010 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3010 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3010 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3010 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3000 porton...null
+Fri Jan 29 13:09:34 CET 2016 A tekercsadatok sikeresen beállítva  3023 portra.
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:09:34 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+SELECT * FROM (SELECT * FROM SAPR3.ZHP_SAP_KMR WHERE BER_AZON LIKE 'NH'  ORDER BY INSTIME DESC) WHERE ROWNUM = 1
+Fri Jan 29 13:09:40 CET 2016 1550-es hasító - Új tekercs érkezett az SAP-tól 7444700000
+setup könyvtár helye: C:\Users\gkovacs02\Dropbox\javaprog\HHQCS\setup
+Fri Jan 29 13:12:27 CET 2016 TCP szerver restart nem sikerült a 3010 porton...null
+Fri Jan 29 13:12:27 CET 2016 TCP szerver restart nem sikerült a 3010 porton...null
+Fri Jan 29 13:12:27 CET 2016 TCP szerver restart nem sikerült a 3010 porton...null
+Fri Jan 29 13:12:27 CET 2016 TCP szerver restart nem sikerült a 3010 porton...null
+Fri Jan 29 13:12:27 CET 2016 TCP szerver restart nem sikerült a 3010 porton...null
+Fri Jan 29 13:12:27 CET 2016 TCP szerver restart nem sikerült a 3000 porton...null
+Fri Jan 29 13:12:27 CET 2016 TCP szerver restart nem sikerült a 3000 porton...null
+Fri Jan 29 13:12:27 CET 2016 A tekercsadatok sikeresen beállítva  3023 portra.
+Fri Jan 29 13:12:27 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:12:27 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:12:27 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+Fri Jan 29 13:12:27 CET 2016 TCP szerver restart nem sikerült a 3020 porton...null
+SELECT * FROM (SELECT * FROM SAPR3.ZHP_SAP_KMR WHERE BER_AZON LIKE 'NH'  ORDER BY INSTIME DESC) WHERE ROWNUM = 1
+Fri Jan 29 13:12:32 CET 2016 1550-es hasító - Új tekercs érkezett az SAP-tól 7444700000

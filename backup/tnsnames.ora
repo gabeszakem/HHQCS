@@ -1,0 +1,34 @@
+DVQ.WORLD =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS =
+        (COMMUNITY = SAP.WORLD)
+        (PROTOCOL = TCP)
+        (HOST = hptest.dunaferr.hu)
+        (PORT = 1512)
+      )
+    )
+    (CONNECT_DATA =
+      (SID = DVQ)
+      (GLOBAL_NAME = DVQ.WORLD)
+    )
+  )
+
+DVP.WORLD =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = tcp)(HOST = dvprod1.dunaferr.hu)(PORT = 1527))
+      (ADDRESS = (PROTOCOL = tcp)(HOST = dvprod2.dunaferr.hu)(PORT = 1527))
+      (LOAD_BALANCE = OFF)
+      (FAILOVER = ON)
+    )
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = DVP.WORLD)
+      (GLOBAL_NAME = DVP.WORLD)
+      (FAILOVER_MODE =
+        (TYPE = SELECT)
+        (METHOD = BASIC)
+      )
+    )
+  )

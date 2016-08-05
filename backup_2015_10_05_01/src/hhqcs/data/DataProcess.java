@@ -156,12 +156,12 @@ public class DataProcess {
                     System.out.println(new Date().toString() + " "
                             + tcp.setup.PLANTNAME + " " + tcp.ch.coilID + " " + tcp.th.CoilGeneratedId
                             + " tekercshez részüzenet érkezett (" + tcp.th.MessageId + ")");
-                    debug.printDebugMsg(tcp.setup.PLANTNAME, this.getClass().getCanonicalName(), " " + tcp.ch.coilID + " " + tcp.th.CoilGeneratedId + " tekercshez részüzenet érkezett (" + tcp.th.MessageId + ")");
+               //     debug.printDebugMsg(tcp.setup.PLANTNAME, this.getClass().getCanonicalName(), " " + tcp.ch.coilID + " " + tcp.th.CoilGeneratedId + " tekercshez részüzenet érkezett (" + tcp.th.MessageId + ")");
                 } catch (Exception ex) {
                     System.out.println(new Date().toString() + " "
                             + tcp.setup.PLANTNAME + " " + tcp.th.CoilGeneratedId
                             + " tekercshez részüzenet érkezett (" + tcp.th.MessageId + ")");
-                    debug.printDebugMsg(tcp.setup.PLANTNAME, this.getClass().getCanonicalName(), " " + tcp.th.CoilGeneratedId + " tekercshez részüzenet érkezett (" + tcp.th.MessageId + ")");
+               //     debug.printDebugMsg(tcp.setup.PLANTNAME, this.getClass().getCanonicalName(), " " + tcp.th.CoilGeneratedId + " tekercshez részüzenet érkezett (" + tcp.th.MessageId + ")");
                 }
                 /*
                  * Az utolsó telegramm érkezett-e meg

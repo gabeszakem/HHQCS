@@ -6,4 +6,5 @@
 	<entry key="port_for_data">3020</entry>
 	<entry key="port_for_lifesignal">3021</entry>
 	<entry key="port_for_thickness">3022</entry>
+	<entry key="port_for_setup_data">3023</entry>
 </properties>
