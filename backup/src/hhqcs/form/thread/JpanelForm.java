@@ -18,7 +18,7 @@ public class JpanelForm extends javax.swing.JPanel {
     /**
      * Creates new form JpanelForm
      *
-     * @param thread
+     * @param thread Thread
      */
     @SuppressWarnings("CallToThreadStartDuringObjectConstruction")
     public JpanelForm(Thread thread) {

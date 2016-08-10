@@ -29,8 +29,8 @@ public class PostgreSQL {
     private String user;
     @SuppressWarnings("FieldMayBeFinal")
     private String password;
-    
-    private static int THICKNESSSDATALENGTH=8;
+
+    private static int THICKNESSSDATALENGTH = 8;
 
     /**
      *
@@ -76,8 +76,8 @@ public class PostgreSQL {
         }
         return machineName;
     }
-    
-      /**
+
+    /**
      *
      * @param machineId berendezés azonosító
      * @return sapBerAzon String
@@ -111,7 +111,6 @@ public class PostgreSQL {
         }
         return sapBerAzon;
     }
-    
 
     /**
      *
@@ -153,7 +152,7 @@ public class PostgreSQL {
         } catch (SQLException ex) {
             System.err.println(ex);
             debug.printDebugMsg(setup.PLANTNAME, this.getClass().getCanonicalName(), "INSERT INTO " + setup.PLANTTABLENAME + " (tekercsszam, idobelyeg, tekercshossz, adat, generalt_tekercsszam)VALUES ("
-                    + coilIdString + "," + ch.timeStamp + "," + ch.coilLength +  ",BLOB," + ch.telegramId , ex);
+                    + coilIdString + "," + ch.timeStamp + "," + ch.coilLength + ",BLOB," + ch.telegramId, ex);
         } finally {
             closeConnection(con, st);
         }
@@ -169,7 +168,7 @@ public class PostgreSQL {
         String coilIdString = "-1";
         int returning = 0;
         try {
-            if (record != null && record.length >=400) {
+            if (record != null && record.length >= 80) {
                 String query;
                 String log;
                 try {
@@ -177,7 +176,7 @@ public class PostgreSQL {
 
                     query = "INSERT INTO " + setup.THICKNESSBLOBTABLENAME + " (adat)VALUES (?) RETURNING id";
                     st = con.prepareStatement(query);
-                    
+
                     st.setBinaryStream(1, new ByteArrayInputStream(record), record.length);
 
                     ResultSet rs = st.executeQuery();
@@ -243,9 +242,6 @@ public class PostgreSQL {
      * #######################################################################################################################################
      * #######################################################################################################################################
      */
-    
-    
-    
     /*
      * Kapcsolat lezárása
      */

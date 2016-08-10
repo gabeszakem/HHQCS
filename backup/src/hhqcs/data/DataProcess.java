@@ -74,7 +74,7 @@ public class DataProcess {
              */
             System.out.println(new Date().toString() + " "
                     + tcp.setup.PLANTNAME + " Telegram hossza nem megfelelő (" + tcp.receiveTelegram.length + ") (" + DataProcess.class.getSimpleName() + ")");
-            debug.printDebugMsg(tcp.setup.PLANTNAME, this.getClass().getCanonicalName(), "(warning)A telegram hossza nem megfelelő: (" + tcp.receiveTelegram.length + ")");
+            //debug.printDebugMsg(tcp.setup.PLANTNAME, this.getClass().getCanonicalName(), "(warning)A telegram hossza nem megfelelő: (" + tcp.receiveTelegram.length + ")");
             /**
              * Az átmeneti tárolóhoz hozzáadjuk a fogadott üzenetet
              */
@@ -89,6 +89,10 @@ public class DataProcess {
                 tempReceiveTelegramm = null;
             }
         }
+
+        /**
+         * ----------------------------------------------------------------------------------------------------------------------------
+         */
         if (tcp.receiveTelegram.length == TELEGRAMLENGTH) {
             /*
              * Telegram fejrészének másolása
@@ -153,12 +157,12 @@ public class DataProcess {
                     System.out.println(new Date().toString() + " "
                             + tcp.setup.PLANTNAME + " " + tcp.ch.coilID + " " + tcp.th.CoilGeneratedId
                             + " tekercshez részüzenet érkezett (" + tcp.th.MessageId + ")");
-                   // debug.printDebugMsg(tcp.setup.PLANTNAME, this.getClass().getCanonicalName(), " " + tcp.ch.coilID + " " + tcp.th.CoilGeneratedId + " tekercshez részüzenet érkezett (" + tcp.th.MessageId + ")");
+                    //     debug.printDebugMsg(tcp.setup.PLANTNAME, this.getClass().getCanonicalName(), " " + tcp.ch.coilID + " " + tcp.th.CoilGeneratedId + " tekercshez részüzenet érkezett (" + tcp.th.MessageId + ")");
                 } catch (Exception ex) {
                     System.out.println(new Date().toString() + " "
                             + tcp.setup.PLANTNAME + " " + tcp.th.CoilGeneratedId
                             + " tekercshez részüzenet érkezett (" + tcp.th.MessageId + ")");
-                  //  debug.printDebugMsg(tcp.setup.PLANTNAME, this.getClass().getCanonicalName(), " " + tcp.th.CoilGeneratedId + " tekercshez részüzenet érkezett (" + tcp.th.MessageId + ")");
+                    //   debug.printDebugMsg(tcp.setup.PLANTNAME, this.getClass().getCanonicalName(), " " + tcp.th.CoilGeneratedId + " tekercshez részüzenet érkezett (" + tcp.th.MessageId + ")");
                 }
                 /*
                  * Az utolsó telegramm érkezett-e meg
@@ -195,15 +199,31 @@ public class DataProcess {
                         /*
                          * Az adatokat lementjük adatbázisba
                          */
-                        hhqcs.HHQCS.sql.record(tcp.ch, usedByte, tcp.setup);
+                        hhqcs.HHQCS.postgresql.record(tcp.ch, usedByte, tcp.setup);
+                        if (tcp.hhqcsServer.setup.setupDataMessageEnable) {
+                            Thread phpCall = new Thread("phpCall " + tcp.setup.PLANTNAME) {
+                                @Override
+                                public void run() {
+                                    try {
+                                        synchronized (this) {
+                                            tcp.hhqcsServer.php.call(tcp);
+                                        }
+                                    } catch (Exception ex) {
+                                        System.out.println(ex);
+                                    }
+                                }
+                            };
+                            phpCall.start();
+
+                        }
                     } else {
                         /*
                          * Üzenet hossza nem megfelelő hiba kiírása
                          */
                         System.out.println(new Date().toString() + " "
                                 + tcp.setup.PLANTNAME + " Az üzenet hossza nem megfelelő ");
-                        debug.printDebugMsg(tcp.setup.PLANTNAME, this.getClass().getCanonicalName(), "(warning)Az üzenet hossza nem megfelelő",
-                                "datalength (" + dataLength + ") % ONEDATALENGTH (" + ONEDATALENGTH + ")=" + dataLength % ONEDATALENGTH);
+                        /*debug.printDebugMsg(tcp.setup.PLANTNAME, this.getClass().getCanonicalName(), "(warning)Az üzenet hossza nem megfelelő",
+                         "datalength (" + dataLength + ") % ONEDATALENGTH (" + ONEDATALENGTH + ")=" + dataLength % ONEDATALENGTH);*/
                     }
                 }
                 /*
@@ -233,4 +253,5 @@ public class DataProcess {
             }
         }
     }
+
 }

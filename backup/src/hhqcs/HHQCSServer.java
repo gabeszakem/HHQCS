@@ -10,10 +10,13 @@ import static hhqcs.HHQCS.debug;
 import hhqcs.centralograf.CentalografMessage;
 import hhqcs.centralograf.UDPConnectionServer;
 import hhqcs.net.tcp.TCPConnectionServer;
+import hhqcs.phpinterface.PHP;
 import hhqcs.setup.Setup;
+import hhqcs.setupTelegram.SapR3SetupData;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
+import java.nio.ByteBuffer;
 import java.util.Date;
 
 /**
@@ -44,6 +47,11 @@ public class HHQCSServer {
     public TCPConnectionServer tcpThickness;
 
     /**
+     * TCP szerver a vastagsággi adatok fogadásához
+     */
+    public TCPConnectionServer tcpSetup;
+
+    /**
      * UDP kapcsolat a centralograf terminállal.
      */
     public UDPConnectionServer udpCentralograf;
@@ -54,7 +62,24 @@ public class HHQCSServer {
     public CentalografMessage centralografMessage = new CentalografMessage();
 
     /**
-     * @param aSetup
+     *
+     */
+    public SapR3SetupData sapR3SetupData = new SapR3SetupData();
+
+
+    /*
+     *sentCoilIdentification
+     */
+    public String sentCoilIdentification = "";
+
+    public String sentGuId = "";
+
+    public PHP php = new PHP();
+
+    public int count = 0;
+
+    /**
+     * @param aSetup Beállítási adatok
      */
     @SuppressWarnings("CallToThreadStartDuringObjectConstruction")
     public HHQCSServer(Setup aSetup) {
@@ -83,6 +108,7 @@ public class HHQCSServer {
             tcpData.start();
             tcpData.setName("tcpServer " + setup.PLANTNAME + ":data");
             HHQCS.threads.add(tcpData);
+
             /**
              * TCP szerver létrehozása az életjel kapcsolathoz
              */
@@ -90,6 +116,33 @@ public class HHQCSServer {
             tcpLife.start();
             tcpLife.setName("tcpServer " + setup.PLANTNAME + ":life");
             HHQCS.threads.add(tcpLife);
+
+            //Beállítási adatok
+            if (this.setup.setupDataMessageEnable) {
+                int setupPort = setup.setupDataPort;
+                tcpSetup = new TCPConnectionServer(setupPort, ipAddress, "setup", this);
+                tcpSetup.start();
+                tcpSetup.setName("tcpServer " + setup.PLANTNAME + ":setup");
+                HHQCS.threads.add(tcpSetup);
+
+                Thread timer = new Thread("Timer 10 sec " + setup.PLANTNAME) {
+                    @Override
+                    public void run() {
+                        while (true) {
+                            try {
+                                synchronized (this) {
+                                    wait(5000);
+                                    sapData();
+                                }
+                            } catch (Exception ex) {
+                                System.out.println(ex);
+                            }
+                        }
+                    }
+                };
+                timer.start();
+
+            }
 
             //Vastagság
             if (this.setup.thicknessMessageEnable) {
@@ -114,6 +167,7 @@ public class HHQCSServer {
                 udpCentralograf.start();
                 udpCentralograf.setName("udpCentralograf " + setup.PLANTNAME);
             }
+
         } catch (UnknownHostException ex) {
             /* Hiba Kiirása */
             System.err.println(new Date().toString() + " " + this.getClass() + " " + ex);
@@ -124,6 +178,43 @@ public class HHQCSServer {
             System.err.println(new Date().toString() + " " + this.getClass() + " " + ex);
             ex.printStackTrace(System.err);
             debug.printDebugMsg(setup.PLANTNAME, this.getClass().getCanonicalName(), "(error)Hiba történt a tcpConnectionServer létrehozása közben", ex);
+        }
+    }
+
+    private void sapData() {
+        try {
+
+            // count = HHQCS.oraclesql.count();
+            // System.out.println("count: "+count);
+            // if (count != lastcount & count!=-1) {
+            // lastcount=count;
+            count = count + 1;
+            if (count > 9999) {
+                count = 0;
+            }
+            sapR3SetupData = HHQCS.oraclesql.getLastData(setup.SAPPLANTNAME);
+            // System.out.println("sapR3SetupData: "+sapR3SetupData.berendezesAzonosito+ " : "+sapR3SetupData.guid);
+            if (!sapR3SetupData.sapAlapanyagAzonosito.equals(sentCoilIdentification)) {
+                System.out.println(new Date().toString() + " " + setup.PLANTNAME + " - " + "Új tekercs érkezett az SAP-tól " + sapR3SetupData.sapAlapanyagAzonosito);
+                debug.printDebugMsg(setup.PLANTNAME, this.getClass().getCanonicalName(), "Új tekercs érkezett az SAP-tól " + sapR3SetupData.sapAlapanyagAzonosito);
+                byte[] sendTelegram = new byte[22];
+                ByteBuffer.wrap(sendTelegram, 0, 10).put(sapR3SetupData.sapAlapanyagAzonosito.getBytes());
+                ByteBuffer.wrap(sendTelegram, 10, 2).putShort(sapR3SetupData.alapanyagVastagsag);
+                ByteBuffer.wrap(sendTelegram, 12, 2).putShort(sapR3SetupData.szerzodottVastagsagTuresMinimum);
+                ByteBuffer.wrap(sendTelegram, 14, 2).putShort(sapR3SetupData.szerzodottVastagsagTuresPlusz);
+                ByteBuffer.wrap(sendTelegram, 16, 2).putShort(sapR3SetupData.alapanyagSzelesseg);
+                ByteBuffer.wrap(sendTelegram, 18, 2).putShort(sapR3SetupData.szerzodottSzelesseg);
+                ByteBuffer.wrap(sendTelegram, 20, 2).putShort(sapR3SetupData.alapanyagSuly);
+                try {
+                    tcpSetup.sendTelegram(sendTelegram);
+                } catch (Exception e) {
+                    System.out.println(e);
+                }
+
+                //}
+            }
+        } catch (Exception ex) {
+            System.out.println(ex);
         }
     }
 }

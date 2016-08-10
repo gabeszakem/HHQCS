@@ -33,11 +33,11 @@ public class UDPConnectionServer extends Thread {
     private FillDataToBuffer fdtb;
     /**
      *
-     * @param hhqcsServer
-     * @param plcPort
-     * @param bufferSize
-     * @param ipAddress
-     * @throws IOException
+     * @param hhqcsServer HHQCSServer
+     * @param plcPort port száma
+     * @param bufferSize buffer méret
+     * @param ipAddress ip azonaosító
+     * @throws IOException IOException
      */
     public UDPConnectionServer(HHQCSServer hhqcsServer, int plcPort, int bufferSize, InetAddress ipAddress) throws IOException {
         udp = new UDPNet(plcPort, bufferSize, ipAddress);  //Új UDP szerver inditása

@@ -22,10 +22,10 @@ public class UDPNet {
 
     /**
      * 
-     * @param port
-     * @param buffersize
-     * @param ipAddress
-     * @throws IOException
+     * @param port portszám
+     * @param buffersize buffer méret
+     * @param ipAddress ipcím
+     * @throws IOException IOException
      */
     public UDPNet(int port, int buffersize, InetAddress ipAddress) throws IOException {
         socket = new DatagramSocket(); // Az UDP számára Bind -olja a port-ot
@@ -37,8 +37,8 @@ public class UDPNet {
 
     /**
      * 
-     * @param sendtelegram
-     * @throws IOException
+     * @param sendtelegram Küldendő telegram
+     * @throws IOException IOException
      */
     public void sendTelegram(byte[] sendtelegram) throws IOException {
         DatagramPacket sendPacket = new DatagramPacket(sendtelegram, sendtelegram.length, ipAddress, port);

@@ -26,7 +26,7 @@ public class Tray {
 
     /**
      *
-     * @throws Exception
+     * @throws Exception Exception
      */
     @SuppressWarnings("Convert2Lambda")
     public Tray() throws Exception {

@@ -12,23 +12,20 @@ package hhqcs.thickness;
 public class ThicknessData {
 
     /**
-     * Az adat futó sorszáma
+     * Az aktuális hossz [mm]
+     *
      */
-    public short sorSzam;
-
+    public Integer actualLength;
     /**
-     * A beállított vastagság
+     * Az aktuális vastagság [um]
      */
-    public short SetupThickness;
+    public short actualThickness;
 
     /**
      * A vastagság eltérése
      */
-    public short DiffThickness;
+    public short diffThickness;
 
-    /**
-     * Tekercsszám 8 szó
-     */
-    public String coilID;
+    
 
 }

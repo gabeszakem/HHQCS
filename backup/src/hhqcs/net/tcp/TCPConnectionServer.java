@@ -8,6 +8,7 @@ import hhqcs.HHQCSServer;
 import hhqcs.data.CoilHeader;
 import hhqcs.data.Data;
 import hhqcs.data.DataProcess;
+import hhqcs.setupTelegram.SetupProcess;
 import hhqcs.data.TelegramHeader;
 import hhqcs.life.LifeProcess;
 import hhqcs.life.LifeSignal;
@@ -25,7 +26,7 @@ import java.util.Date;
 public class TCPConnectionServer extends Thread {
 
     @SuppressWarnings("FieldMayBeFinal")
-    private TCPNet tcp;
+    public TCPNet tcp;
     @SuppressWarnings("FieldMayBeFinal")
     private String serverType;
     /**
@@ -62,20 +63,40 @@ public class TCPConnectionServer extends Thread {
     @SuppressWarnings("FieldMayBeFinal")
     private ThicknessProcess tp;
 
+    @SuppressWarnings("FieldMayBeFinal")
+    private SetupProcess sp;
+
     public HHQCSServer hhqcsServer;
 
     /**
      * @param plcPort : port
      * @param ipAddress : PLC IP címe
      * @param serverType Szerver típusa
-     * @param hhqcsServer
-     * @throws IOException
+     * @param hhqcsServer HHQCSServer
+     * @throws IOException IOException
      */
     public TCPConnectionServer(int plcPort, InetAddress ipAddress, String serverType, HHQCSServer hhqcsServer) throws IOException {
         /*
          * Új TCP szerver indítása
          */
-        tcp = new TCPNet(plcPort, ipAddress);
+        switch (serverType) {
+            case "life":
+                tcp = new TCPNet(plcPort, ipAddress, 120000, hhqcsServer);
+                break;
+            case "data":
+                tcp = new TCPNet(plcPort, ipAddress, 86400000, hhqcsServer);
+                break;
+            case "thickness":
+                tcp = new TCPNet(plcPort, ipAddress, 86400000, hhqcsServer);
+                break;
+            case "setup":
+                tcp = new TCPNet(plcPort, ipAddress, 86400000, hhqcsServer);
+                break;
+            default:
+                tcp = new TCPNet(plcPort, ipAddress, hhqcsServer);
+                break;
+        }
+
         this.serverType = serverType;
         this.ls = new LifeSignal();
         this.setup = hhqcsServer.setup;
@@ -83,6 +104,11 @@ public class TCPConnectionServer extends Thread {
         this.dp = new DataProcess();
         this.lp = new LifeProcess();
         this.tp = new ThicknessProcess();
+        this.sp = new SetupProcess();
+
+    
+
+        
     }
 
     /**
@@ -116,19 +142,32 @@ public class TCPConnectionServer extends Thread {
                          * Adatok feldolgozása
                          */
                         tp.process(this);
+                    } else if (this.serverType.equals("setup")) {
+                        /*
+                         * Adatok feldolgozása
+                         */
+                        sp.process(this);
                     }
                 } else {
                     System.err.println(new Date().toString() + " " + this.setup.PLANTNAME + " " + this.getClass() + " receiveTelegram==null ");
                     debug.printDebugMsg(setup.PLANTNAME, this.getClass().getCanonicalName(), "(error)Hiba történt receiveTelegram==0");
+
                 }
 
             } catch (Exception ex) {
                 /*
                  * Hiba, üzenet kiírása
                  */
-                System.err.println(new Date().toString() + " " + this.setup.PLANTNAME + " " + this.getClass() + " " + ex);
-                ex.printStackTrace(System.err);
+                    //System.err.println(new Date().toString() + " " + this.setup.PLANTNAME + " " + this.getClass() + " " + ex);
+                //ex.printStackTrace(System.err);
                 debug.printDebugMsg(setup.PLANTNAME, this.getClass().getCanonicalName(), "(error)Hiba történt a tcpConnectionServer telegram fogadása közben", ex);
+                synchronized (this) {
+                    try {
+                        wait(5000);
+                    } catch (InterruptedException ex1) {
+                        debug.printDebugMsg(setup.PLANTNAME, this.getClass().getCanonicalName(), "(error)Hiba történt a tcpConnectionServer telegram fogadása közben (wait)", ex);
+                    }
+                }
             }
         }
     }

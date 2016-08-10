@@ -197,24 +197,30 @@ public class DataProcess {
                             usedByte = new byte[]{};
                         }
                         /*
-                         * Az adatokat lementjük adatbázisba
+                         * Az adatokat lementjük adatbázisba ha lett hozzá tekercsszám küldve
                          */
-                        hhqcs.HHQCS.postgresql.record(tcp.ch, usedByte, tcp.setup);
-                        if (tcp.hhqcsServer.setup.setupDataMessageEnable) {
-                            Thread phpCall = new Thread("phpCall " + tcp.setup.PLANTNAME) {
-                                @Override
-                                public void run() {
-                                    try {
-                                        synchronized (this) {
-                                            tcp.hhqcsServer.php.call(tcp);
+                        if (!tcp.ch.coilID.equals("0000000000000000")) {
+                            hhqcs.HHQCS.postgresql.record(tcp.ch, usedByte, tcp.setup);
+                            if (tcp.hhqcsServer.setup.setupDataMessageEnable) {
+                                Thread phpCall = new Thread("phpCall " + tcp.setup.PLANTNAME) {
+                                    @Override
+                                    public void run() {
+                                        try {
+                                            synchronized (this) {
+                                                tcp.hhqcsServer.php.call(tcp);
+                                            }
+                                        } catch (Exception ex) {
+                                            System.out.println(ex);
                                         }
-                                    } catch (Exception ex) {
-                                        System.out.println(ex);
                                     }
-                                }
-                            };
-                            phpCall.start();
+                                };
+                                phpCall.start();
 
+                            }
+                        } else {
+                            System.out.println(new Date().toString() + " "
+                                    + tcp.setup.PLANTNAME + " " + tcp.th.CoilGeneratedId
+                                    + " tekercs tekercsszám nélkül lett elküldve");
                         }
                     } else {
                         /*

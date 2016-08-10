@@ -18,11 +18,24 @@ public class Setup {
      * Berendezés azonosítója.
      */
     public int PLANTID;
-
+   /**
+     * Berendezés SAP azonosítója.
+     */
+    public String SAPPLANTNAME = "";
+    
     /**
      * Berendezéshez tartozó rekordokat tároló tábla neve.
      */
     public String PLANTTABLENAME;
+
+    /**
+     * Berendezéshez tartozó vastagsági adatokattároló tábla neve.
+     */
+    public String THICKNESSTABLENAME;
+    /**
+     * Berendezéshez tartozó vastagsági rekordokat tároló tábla neve.
+     */
+    public String THICKNESSBLOBTABLENAME;
 
     /**
      * A plc ip címe
@@ -67,5 +80,15 @@ public class Setup {
      * A centralograf terminál üzenetküldésének engedélyezése.
      */
     public boolean centTerminalMessageEnable = false;
+
+    /**
+     * Tekercsadatok küldésének portja.
+     */
+    public int setupDataPort;
+
+    /**
+     * A tekercs adatok küldésének engedélyezése.
+     */
+    public boolean setupDataMessageEnable = false;
 
 }

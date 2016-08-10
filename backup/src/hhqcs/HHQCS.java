@@ -8,7 +8,9 @@ import form.TextAreaLogProgram;
 import hhqcs.form.comco.Comco;
 import hhqcs.form.Tray;
 import hhqcs.setup.SetupDataManager;
-import hhqcs.sql.SQL;
+import hhqcs.sql.OracleSQL;
+import hhqcs.sql.PostgreSQL;
+import hhqcs.tools.RedirectConsoleOutputToFile;
 import java.awt.Color;
 import tools.Debug;
 import java.util.ArrayList;
@@ -25,9 +27,14 @@ public class HHQCS {
      */
     public static Debug debug = new Debug(true, 1, "HHQCS.log");
     /**
-     * SQL adatbázis engedélyezése
+     * PostgreSQL adatbázis engedélyezése
      */
-    public static SQL sql;
+    public static PostgreSQL postgresql;
+
+    /**
+     * PostgreSQL adatbázis engedélyezése
+     */
+    public static OracleSQL oraclesql;
 
     /**
      * Threadeket gyűjtő tömb
@@ -43,7 +50,7 @@ public class HHQCS {
      * Loggolás textareában engedélyezése vagy tiltása. (LOGPANELISENABLED =
      * true)
      */
-    public static final boolean LOGPANELISENABLED = true;
+    public static final boolean LOGPANELISENABLED = false;
 
     public static LogViewer logViewer;
 
@@ -51,7 +58,7 @@ public class HHQCS {
      * Loggolás megtekintésének az engedélyezése vagy tiltása.
      * (LOGVIEWERISENABLED = true)
      */
-    public static final boolean LOGVIEWERISENABLED = true;
+    public static final boolean LOGVIEWERISENABLED = false;
 
     /**
      * @param args the command line arguments
@@ -71,13 +78,21 @@ public class HHQCS {
                 debug.printDebugMsg(null, HHQCS.class.getName(), "(error)Logpanel indítása nem sikerült...", ex);
             }
         } else {
+            RedirectConsoleOutputToFile out = new RedirectConsoleOutputToFile();
             debug.printDebugMsg(null, HHQCS.class.getName(), "Logpanel letiltva...");
+
         }
 
         /**
-         * SQL Adatbázis létrehozása
+         * POSTGRE adatbázis létrehozása
          */
-        sql = new SQL();
+        postgresql = new PostgreSQL();
+
+        /**
+         * Oracle adatbázis létrehozása
+         */
+        oraclesql = new OracleSQL();
+
         /**
          * Alkalmazás beállítása
          */
@@ -90,7 +105,7 @@ public class HHQCS {
             Tray tray = new Tray();
         } catch (Exception ex) {
             ex.printStackTrace(System.err);
-            debug.printDebugMsg(null, HHQCS.class.getName(),"(error)Hiba történt a tray icon létrehozása közben :", ex);
+            debug.printDebugMsg(null, HHQCS.class.getName(), "(error)Hiba történt a tray icon létrehozása közben :", ex);
             Comco comco = new Comco();
             comco.setVisible(true);
         }
@@ -104,6 +119,7 @@ public class HHQCS {
             colors.add(new ColorStruct(2, Color.yellow, "(Georg hasító)"));
             colors.add(new ColorStruct(2, Color.ORANGE, "(1550-es hasító)"));
             colors.add(new ColorStruct(1, new Color(204, 229, 255), "info"));
+            colors.add(new ColorStruct(1, Color.LIGHT_GRAY, "conn"));
             logViewer.setColor(colors);
         }
     }

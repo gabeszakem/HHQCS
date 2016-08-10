@@ -25,11 +25,11 @@ public class LifeProcess {
     /**
      *
      * @param tcp TCPConnectionServer
-     * @param hhqcsServer
+     * @param hhqcsServer HHQCSServer
      */
     public void process(TCPConnectionServer tcp, HHQCSServer hhqcsServer) {
         /*
-         * Az életjel telegramm hossza megfelelő
+         * Az életjel telegram hossza megfelelő
          */
         if (tcp.receiveTelegram.length == 2 || tcp.receiveTelegram.length == 4) {
 
@@ -63,7 +63,7 @@ public class LifeProcess {
              * Hiba üzenet kiírása
              */
             System.out.println("Telegram hossza nem megfelelő (" + LifeProcess.class.getSimpleName() + ")");
-            HHQCS.debug.printDebugMsg(tcp.setup.PLANTNAME, this.getClass().getCanonicalName(), "(warning)Telegram hossza nem megfelelő (" + LifeProcess.class.getSimpleName() + ")");
+           // HHQCS.debug.printDebugMsg(tcp.setup.PLANTNAME, this.getClass().getCanonicalName(), "(warning)Telegram hossza nem megfelelő (" + LifeProcess.class.getSimpleName() + ")");
         }
     }
 
@@ -113,7 +113,7 @@ public class LifeProcess {
      */
     private static byte hexToBCD(int hex) {
         /*
-         * 0-99 -ig átalakitja az asci codot számá.
+         * 0-99 -ig átalakitja az ascii kódot számra.
          */
         int a = hex / 10 * 16;
         int b = hex % 10;

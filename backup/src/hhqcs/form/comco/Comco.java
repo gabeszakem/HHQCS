@@ -4,6 +4,7 @@
  */
 package hhqcs.form.comco;
 
+import form.LogViewer;
 import hhqcs.HHQCSServer;
 import hhqcs.form.BackgroundPanel;
 import hhqcs.setup.SetupDataManager;
@@ -21,6 +22,45 @@ import javax.swing.JPanel;
  * @author Gabesz
  */
 public class Comco extends JFrame {
+    
+    
+    @SuppressWarnings("Convert2Lambda")
+    public static void main(String args[]) {
+        /* Set the Nimbus look and feel */
+        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         */
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(LogViewer.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(LogViewer.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(LogViewer.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(LogViewer.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+
+        /* Create and display the form */
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+               // new LogViewer().setVisible(true);
+            }
+        });
+    }
+    
 
     /**
      * A keret szélessége
@@ -41,7 +81,7 @@ public class Comco extends JFrame {
     /**
      * A frame szélessége
      */
-    private final int FRAMEWIDTH = 300;
+    private final int FRAMEWIDTH = 1000;
     /**
      * A panel magassága
      */
@@ -119,7 +159,7 @@ public class Comco extends JFrame {
 
         setTitle(TITLE);
         this.frameWidth = FRAMEWIDTH;
-        this.frameHeight = FRAMEDECORSIZE + (SetupDataManager.hhqcsServers.size() * PANELHEIGHT);
+        this.frameHeight = FRAMEDECORSIZE + (SetupDataManager.hhqcsServers.size() * PANELHEIGHT)+PANELHEIGHT;
         setSize(frameWidth, frameHeight);
         setPreferredSize(new Dimension(frameWidth, frameHeight));
         /*
@@ -130,12 +170,15 @@ public class Comco extends JFrame {
          * keret elhagyása
          */
         setUndecorated(true);
+        JPanel jPaneltitle =new JpanelTitle();
+            mainPanel.add(jPaneltitle);
 
         /*
          * Serverek paneleinek a beállítása
          */
         for (HHQCSServer server : SetupDataManager.hhqcsServers) {
             JPanel jPanel = new JpanelForm(server);
+            
             mainPanel.add(jPanel);
         }
 

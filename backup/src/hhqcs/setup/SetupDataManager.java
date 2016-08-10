@@ -1,5 +1,18 @@
 /*
  * Beállítási adatok kezelése
+ *<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+ *<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+ *<properties>
+ *<entry key="plant_id">1</entry>
+ *<entry key="plc_ip_address">10.1.39.82</entry>
+ *<entry key="port_for_data">3010</entry>
+ *<entry key="port_for_lifesignal">3011</entry>
+ *<entry key="port_for_thickness">3012</entry>
+ <entry key="port_for_setup_data">3013</entry>
+ *<entry key="centterm_ip_address">10.1.39.15</entry>
+ *<entry key="centterm_port">2100</entry>
+
+ *</properties>
  * 
  */
 package hhqcs.setup;
@@ -34,6 +47,7 @@ public class SetupDataManager {
     private static final String KEY_PORTDATA = "port_for_data";
     private static final String KEY_LIFESIGNAL = "port_for_lifesignal";
     private static final String KEY_THICKNESSDATA = "port_for_thickness";
+    private static final String KEY_SETUPDATA = "port_for_setup_data";
 
     /**
      * Beállítási kulcsok a centralográf terminálnak.
@@ -85,57 +99,57 @@ public class SetupDataManager {
         for (Object file : files) {
             FileInputStream fis;
             /*
-            * Properties létrehozása
-            */
+             * Properties létrehozása
+             */
             Properties fileProperties = new Properties();
             /*
              * a fájl helye
              */
             setupDataXMLPath = setupDataDirectoryPath + System.getProperty("file.separator") + file.toString();
             /*
-            * Beállítások betöltése
-            */
+             * Beállítások betöltése
+             */
             try {
                 fis = new FileInputStream(new File(setupDataXMLPath));
                 fileProperties.loadFromXML(fis);
                 fis.close();
             } catch (FileNotFoundException ex) {
                 /*
-                * hiba történt, hiba okának kiírása
-                */
+                 * hiba történt, hiba okának kiírása
+                 */
                 debug.printDebugMsg(null, SetupDataManager.class.getName(), "SetupDataManager.init(): Kivétel történt a beállítási adatfájl feldolgozása közben", ex);
                 JOptionPane.showMessageDialog(null, "Kivétel történt a " + setupDataXMLPath + " beállítási adatfájl feldolgozása közben:\n" + ex.getMessage() + "\nA program nem dolgozza fel a beállítási adat fájlt.", "Hiba", JOptionPane.ERROR_MESSAGE);
             } catch (IOException ex) {
                 /*
-                * hiba történt, hiba okának kiírása
-                */
+                 * hiba történt, hiba okának kiírása
+                 */
                 debug.printDebugMsg(null, SetupDataManager.class.getName(), "SetupDataManager.init(): Kivétel történt a beállítási adatfájl feldolgozása közben", ex);
                 JOptionPane.showMessageDialog(null, "Kivétel történt a " + setupDataXMLPath + " beállítási adatfájl feldolgozása közben:\n" + ex.getMessage() + "\nA program nem dolgozza fel a beállítási adat fájlt.", "Hiba", JOptionPane.ERROR_MESSAGE);
             }
             /*
-            * setup létrehozása
-            */
+             * setup létrehozása
+             */
             Setup setup = new Setup();
             /*
-            * Adathelyesség ellenőrzés miatt a hibatároló bit létrehozása, és
-            * false -ba állítása
-            */
+             * Adathelyesség ellenőrzés miatt a hibatároló bit létrehozása, és
+             * false -ba állítása
+             */
             boolean error = false;
             /*
-            * IP_ADDRESS vizsgálata
-            */
+             * IP_ADDRESS vizsgálata
+             */
             if (fileProperties.containsKey(KEY_IP_ADDRESS)) {
                 String ipAddress_nowh = fileProperties.getProperty(KEY_IP_ADDRESS).replaceAll("\\s+", "");
                 /*
-                * Formátum ellenőrzése
-                */
+                 * Formátum ellenőrzése
+                 */
                 Pattern p = Pattern.compile("[0-9]+.[0-9]+.[0-9]+.[0-9]+");
                 Matcher m = p.matcher(ipAddress_nowh);
                 boolean match = m.matches();
                 if (match) {
                     /*
-                    * IP cím beállítása
-                    */
+                     * IP cím beállítása
+                     */
                     setup.IPADDRESS = ipAddress_nowh;
                 } else {
                     error = true;
@@ -148,14 +162,14 @@ public class SetupDataManager {
                 }
             }
             /*
-            * PLANT_ID vizsgálata
-            */
+             * PLANT_ID vizsgálata
+             */
             if (fileProperties.containsKey(KEY_PLANT_ID) && !error) {
                 String plantId = fileProperties.getProperty(KEY_PLANT_ID);
                 try {
                     /*
-                    * plant id integerré átalakítható ?
-                    */
+                     * plant id integerré átalakítható ?
+                     */
                     setup.PLANTID = Integer.parseInt(plantId);
                 } catch (Exception ex) {
                     error = true;
@@ -168,13 +182,13 @@ public class SetupDataManager {
                 }
             }
             /*
-            * PORTDATA vizsgálata
-            */
+             * PORTDATA vizsgálata
+             */
             if (fileProperties.containsKey(KEY_PORTDATA) && !error) {
                 String portData = fileProperties.getProperty(KEY_PORTDATA).replaceAll("\\s+", "");
                 /*
-                * Formátum ellenőrzés
-                */
+                 * Formátum ellenőrzés
+                 */
                 if (CheckPort.check(portData)) {
                     setup.PORTDATA = portData;
                 } else {
@@ -188,13 +202,13 @@ public class SetupDataManager {
                 }
             }
             /*
-            * LIFESIGNAL viszgálata
-            */
+             * LIFESIGNAL viszgálata
+             */
             if (fileProperties.containsKey(KEY_LIFESIGNAL) && !error) {
                 String portLife = fileProperties.getProperty(KEY_LIFESIGNAL).replaceAll("\\s+", "");
                 /*
-                * Formátum ellenőrzés
-                */
+                 * Formátum ellenőrzés
+                 */
                 if (CheckPort.check(portLife)) {
                     setup.PORTLIFE = portLife;
                 } else {
@@ -208,13 +222,13 @@ public class SetupDataManager {
                 }
             }
             /*
-            * THICKNESSDATA vizsgálata
-            */
+             * THICKNESSDATA vizsgálata
+             */
             if (fileProperties.containsKey(KEY_THICKNESSDATA) && !error) {
                 String portThickness = fileProperties.getProperty(KEY_THICKNESSDATA).replaceAll("\\s+", "");
                 /*
-                * Formátum ellenőrzés
-                */
+                 * Formátum ellenőrzés
+                 */
                 if (CheckPort.check(portThickness)) {
                     setup.PORTTHICKNESS = portThickness;
                     setup.thicknessMessageEnable = true;
@@ -230,14 +244,18 @@ public class SetupDataManager {
             }
             if (!error) {
                 /*
-                * PLANTNAME lekérdezése adatbázisból
-                */
-                setup.PLANTNAME = HHQCS.sql.minadat_ID(setup.PLANTID);
-                if (setup.PLANTNAME == null) {
+                 * PLANTNAME lekérdezése adatbázisból
+                 */
+                setup.PLANTNAME = HHQCS.postgresql.minadat_ID(setup.PLANTID);
+                setup.SAPPLANTNAME = HHQCS.postgresql.minadat_SAP_ID(setup.PLANTID);
+                
+                if (setup.PLANTNAME == null || setup.SAPPLANTNAME == null ) {
                     error = true;
                     errorMessage = "hibás Plant ID:" + setup.PLANTID + " Nem található az Id -hoz tartozó berendezés az adatbázisban";
                 } else {
                     setup.PLANTTABLENAME = "minadat_" + setup.PLANTID;
+                    setup.THICKNESSTABLENAME = "vastadat_" + setup.PLANTID;
+                    setup.THICKNESSBLOBTABLENAME = "vastadat_blob_" + setup.PLANTID;
                 }
             }
             if (!error) {
@@ -246,14 +264,22 @@ public class SetupDataManager {
                  * Centralográf terminál adatok feldolgozása
                  */
                 setup.centTerminalMessageEnable = centTerminalSetup(setup, fileProperties);
+            }
+            if (!error) {
+                /**
+                 * tekercs adatok feldolgozása
+                 */
+                setup.setupDataMessageEnable = setupDataSetup(setup, fileProperties);
+            }
+            if (!error) {
                 /*
-                * Adatok feldolgozása sikeres volt
-                */
+                 * Adatok feldolgozása sikeres volt
+                 */
                 hhqcsServers.add(new HHQCSServer(setup));
             } else {
                 /*
-                * Hiba üzenet kiírása
-                */
+                 * Hiba üzenet kiírása
+                 */
                 debug.printDebugMsg(null, SetupDataManager.class.getName(), "SetupDataManager.init(): Hiba történt a " + setupDataXMLPath + " beállítási könyvtár feldolgozása közben", errorMessage);
                 JOptionPane.showMessageDialog(null, "Kivétel történt a " + setupDataXMLPath + " beállítási könyvtár feldolgozása közben:\n"
                         + errorMessage, "Hiba", JOptionPane.ERROR_MESSAGE);
@@ -327,5 +353,46 @@ public class SetupDataManager {
              + errorCentTerminalMessage, "Hiba", JOptionPane.ERROR_MESSAGE);*/
         }
         return centTerminalEnable;
+    }
+
+    private static boolean setupDataSetup(Setup setup, Properties fileProperties) {
+        boolean setupDataEnable = true;
+        String errorSetupDataMessage = "";
+
+        /*
+         * setupDATA vizsgálata
+         */
+        if (fileProperties.containsKey(KEY_SETUPDATA) && setupDataEnable) {
+            String setupDataPort = fileProperties.getProperty(KEY_SETUPDATA).replaceAll("\\s+", "");
+            /*
+             * Formátum ellenőrzés
+             */
+            if (CheckPort.check(setupDataPort)) {
+                try {
+                    setup.setupDataPort = Integer.parseInt(setupDataPort);
+                } catch (NumberFormatException ex) {
+                    setupDataEnable = false;
+                    errorSetupDataMessage = "hibás Port a tekercs adatokhoz: " + setupDataPort + " "
+                            + ex.getMessage();
+                }
+            } else {
+                setupDataEnable = false;
+                errorSetupDataMessage = "hibás Port a tekercs adatokhoz: " + setupDataPort;
+            }
+        } else {
+            if (setupDataEnable) {
+                setupDataEnable = false;
+                errorSetupDataMessage = "Nem található a \"" + KEY_SETUPDATA + "\" kulcs érték";
+            }
+        }
+        if (setupDataEnable) {
+            System.out.println(new Date().toString() + " " + "A tekercsadatok sikeresen beállítva  "
+                    + setup.setupDataPort + " portra.");
+        } else {
+            debug.printDebugMsg(null, SetupDataManager.class.getName(), "(error)SetupDataManager.init(): Hiba történt a " + setupDataXMLPath + " beállítási könyvtár feldolgozása közben", errorSetupDataMessage);
+            /*   JOptionPane.showMessageDialog(null, "Kivétel történt a " + setupDataXMLPath + " beállítási könyvtár feldolgozása közben:\n"
+             + errorCentTerminalMessage, "Hiba", JOptionPane.ERROR_MESSAGE);*/
+        }
+        return setupDataEnable;
     }
 }

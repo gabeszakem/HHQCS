@@ -5,7 +5,7 @@ package hhqcs.data;
 
 import static hhqcs.HHQCS.debug;
 import hhqcs.net.tcp.TCPConnectionServer;
-import tools.ByteToHexa;
+import tools.math.ByteToHexa;
 import java.nio.ByteBuffer;
 import java.sql.Timestamp;
 import java.util.Calendar;
@@ -19,8 +19,7 @@ public class HeaderProcess {
     /**
      * A telegram fejlécét állítja be
      *
-     * @param tcp
-     * @tcp TCPConnectionServer
+     * @param tcp TCPConnectionServer
      * @return TelegramHeader
      */
     public TelegramHeader telegramHeader(TCPConnectionServer tcp) {
@@ -81,6 +80,13 @@ public class HeaderProcess {
 
             /* Tekercshossz */
             ch.coilLength = ByteBuffer.wrap(tcp.receiveTelegram, 34, 2).getShort() & 0xffff;
+            System.out.println(" Új adat érkezett: A fejlécben a következő adat van:");
+            System.out.println(" \ttelegram azonositó: "+ ch.telegramId);
+            System.out.println(" \ttelegram hossza   :  "+ ch.telegramLength);
+            System.out.println(" \tidő               : "+ ch.timeStamp);
+            System.out.println(" \ttekercsszam       : "+ ch.coilID);
+            System.out.println(" \tekercs hossz      : "+ ch.coilLength);
+            
         } catch (Exception ex) {
 
             System.out.println("Hiba a coilHeader feldolgozásánál:");
