@@ -7,6 +7,7 @@ package hhqcs.setupTelegram;
 
 import static hhqcs.HHQCS.debug;
 import hhqcs.net.tcp.TCPConnectionServer;
+import java.nio.ByteBuffer;
 import java.util.Arrays;
 import java.util.Date;
 import tools.ByteArrayConcat;
@@ -21,8 +22,8 @@ public class SetupProcess {
     /**
      * Egy adat hossza
      */
-    
-    private String lastReceivedCoilNumber= new String();
+
+    private String lastReceivedCoilNumber = new String();
 
     private byte[] tempReceiveTelegramm;
 
@@ -55,7 +56,7 @@ public class SetupProcess {
              */
             System.out.println(new Date().toString() + " "
                     + tcp.setup.PLANTNAME + " Telegram hossza nem megfelelő (" + tcp.receiveTelegram.length + ") (" + SetupProcess.class.getSimpleName() + ")");
-          //  debug.printDebugMsg(tcp.setup.PLANTNAME, this.getClass().getCanonicalName(), "(warning)A telegram hossza nem megfelelő: (" + tcp.receiveTelegram.length + ")");
+            //  debug.printDebugMsg(tcp.setup.PLANTNAME, this.getClass().getCanonicalName(), "(warning)A telegram hossza nem megfelelő: (" + tcp.receiveTelegram.length + ")");
             /**
              * Az átmeneti tárolóhoz hozzáadjuk a fogadott üzenetet
              */
@@ -77,15 +78,31 @@ public class SetupProcess {
         if (tcp.receiveTelegram.length == TELEGRAMLENGTH) {
             String receivedCoilNumber = new String(tcp.receiveTelegram);
             System.out.println(new Date().toString() + " " + tcp.setup.PLANTNAME + " - " + "Új tekercs megérkezett a PLC-be " + receivedCoilNumber);
-            if(!receivedCoilNumber.equals(lastReceivedCoilNumber)){
+            if (!receivedCoilNumber.equals(lastReceivedCoilNumber)) {
                 debug.printDebugMsg(tcp.setup.PLANTNAME, this.getClass().getCanonicalName(), "Új tekercs lett leküldve a PLC-be " + receivedCoilNumber);
-            
+
             }
             if (receivedCoilNumber.equals(tcp.hhqcsServer.sapR3SetupData.sapAlapanyagAzonosito)) {
                 tcp.hhqcsServer.sentCoilIdentification = tcp.hhqcsServer.sapR3SetupData.sapAlapanyagAzonosito;
                 tcp.hhqcsServer.sentGuId = tcp.hhqcsServer.sapR3SetupData.guid;
             }
-            lastReceivedCoilNumber=receivedCoilNumber;
+            if (!tcp.hhqcsServer.sapR3SetupData.sapAlapanyagAzonosito.equals(tcp.hhqcsServer.sentCoilIdentification)) {
+                System.out.println(new Date().toString() + " " + tcp.setup.PLANTNAME + " - " + "Új tekercs érkezett az SAP-tól " + tcp.hhqcsServer.sapR3SetupData.sapAlapanyagAzonosito);
+                debug.printDebugMsg(tcp.setup.PLANTNAME, this.getClass().getCanonicalName(), "Új tekercs érkezett az SAP-tól " + tcp.hhqcsServer.sapR3SetupData.sapAlapanyagAzonosito);
+                byte[] sendTelegram = new byte[22];
+                ByteBuffer.wrap(sendTelegram, 0, 10).put(tcp.hhqcsServer.sapR3SetupData.sapAlapanyagAzonosito.getBytes());
+                ByteBuffer.wrap(sendTelegram, 10, 2).putShort(tcp.hhqcsServer.sapR3SetupData.alapanyagVastagsag);
+                ByteBuffer.wrap(sendTelegram, 12, 2).putShort(tcp.hhqcsServer.sapR3SetupData.szerzodottVastagsagTuresMinimum);
+                ByteBuffer.wrap(sendTelegram, 14, 2).putShort(tcp.hhqcsServer.sapR3SetupData.szerzodottVastagsagTuresPlusz);
+                ByteBuffer.wrap(sendTelegram, 16, 2).putShort(tcp.hhqcsServer.sapR3SetupData.alapanyagSzelesseg);
+                ByteBuffer.wrap(sendTelegram, 18, 2).putShort(tcp.hhqcsServer.sapR3SetupData.szerzodottSzelesseg);
+                ByteBuffer.wrap(sendTelegram, 20, 2).putShort(tcp.hhqcsServer.sapR3SetupData.alapanyagSuly);
+
+                tcp.hhqcsServer.tcpSetup.sendTelegram(sendTelegram);
+
+                //}
+            }
+            lastReceivedCoilNumber = receivedCoilNumber;
 
         } else {
             /*

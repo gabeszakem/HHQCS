@@ -21,6 +21,8 @@ public class SetupProcess {
     /**
      * Egy adat hossza
      */
+    
+    private String lastReceivedCoilNumber= new String();
 
     private byte[] tempReceiveTelegramm;
 
@@ -75,12 +77,15 @@ public class SetupProcess {
         if (tcp.receiveTelegram.length == TELEGRAMLENGTH) {
             String receivedCoilNumber = new String(tcp.receiveTelegram);
             System.out.println(new Date().toString() + " " + tcp.setup.PLANTNAME + " - " + "Új tekercs megérkezett a PLC-be " + receivedCoilNumber);
-            debug.printDebugMsg(tcp.setup.PLANTNAME, this.getClass().getCanonicalName(), "Új tekercs lett leküldve a PLC-be " + receivedCoilNumber);
-
+            if(!receivedCoilNumber.equals(lastReceivedCoilNumber)){
+                debug.printDebugMsg(tcp.setup.PLANTNAME, this.getClass().getCanonicalName(), "Új tekercs lett leküldve a PLC-be " + receivedCoilNumber);
+            
+            }
             if (receivedCoilNumber.equals(tcp.hhqcsServer.sapR3SetupData.sapAlapanyagAzonosito)) {
                 tcp.hhqcsServer.sentCoilIdentification = tcp.hhqcsServer.sapR3SetupData.sapAlapanyagAzonosito;
                 tcp.hhqcsServer.sentGuId = tcp.hhqcsServer.sapR3SetupData.guid;
             }
+            lastReceivedCoilNumber=receivedCoilNumber;
 
         } else {
             /*

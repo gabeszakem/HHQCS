@@ -58,6 +58,21 @@ public class JpanelForm extends javax.swing.JPanel {
             long elapseDataTime = (System.currentTimeMillis() - this.server.tcpData.tcp.lastMessageTime) / 1000;
             long elapseThicknessTime = (System.currentTimeMillis() - this.server.tcpThickness.tcp.lastMessageTime) / 1000;
 
+            if (this.server.setup.setupDataMessageEnable == true) {
+                long resetSetupTime = (this.server.tcpThickness.tcp.CLIENTRESTARTTIME - System.currentTimeMillis() + this.server.tcpSetup.tcp.lastMessageTime) / 1000;
+               // long elapseSetupTime = (System.currentTimeMillis() - this.server.tcpThickness.tcp.lastMessageTime) / 1000;
+
+                if ((this.server.tcpSetup.tcp.CLIENTRESTARTTIME / 1000 - resetSetupTime) < 60) {
+                    counterSAPQuery.setForeground(new java.awt.Color(10, 102, 0));
+                    jButtonSetupReset.setEnabled(false);
+                } else {
+                    counterSAPQuery.setForeground(Color.RED);
+                    jButtonSetupReset.setEnabled(true);
+                }
+            }else{
+                jButtonSetupReset.setEnabled(false);
+            }
+
             machineName.setText(this.server.setup.PLANTNAME);
             liveSignal.setText(Integer.toString(this.server.tcpLife.ls.count));
             dataLastMessageTime.setText(Long.toString(elapseDataTime));
@@ -131,6 +146,7 @@ public class JpanelForm extends javax.swing.JPanel {
         jButtonThicknessReset = new javax.swing.JButton();
         sapLastSentCoilId = new javax.swing.JLabel();
         counterSAPQuery = new javax.swing.JLabel();
+        jButtonSetupReset = new javax.swing.JButton();
 
         setBackground(new java.awt.Color(255, 228, 21));
         setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 204), 2, true));
@@ -265,6 +281,16 @@ public class JpanelForm extends javax.swing.JPanel {
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.insets = new java.awt.Insets(0, 5, 0, 0);
         add(counterSAPQuery, gridBagConstraints);
+
+        jButtonSetupReset.setText("reset");
+        jButtonSetupReset.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonSetupResetActionPerformed(evt);
+            }
+        });
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.insets = new java.awt.Insets(0, 5, 0, 10);
+        add(jButtonSetupReset, gridBagConstraints);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButtonLifeSignalResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonLifeSignalResetActionPerformed
@@ -279,11 +305,18 @@ public class JpanelForm extends javax.swing.JPanel {
         this.server.tcpThickness.tcp.restart = true;
     }//GEN-LAST:event_jButtonThicknessResetActionPerformed
 
+    private void jButtonSetupResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonSetupResetActionPerformed
+        if (this.server.setup.setupDataMessageEnable == true) {
+            this.server.tcpSetup.tcp.restart = true;
+        }
+    }//GEN-LAST:event_jButtonSetupResetActionPerformed
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel counterSAPQuery;
     private javax.swing.JLabel dataLastMessageTime;
     private javax.swing.JButton jButtonDataReset;
     private javax.swing.JButton jButtonLifeSignalReset;
+    private javax.swing.JButton jButtonSetupReset;
     private javax.swing.JButton jButtonThicknessReset;
     private javax.swing.JLabel liveSignal;
     private javax.swing.JLabel machineName;

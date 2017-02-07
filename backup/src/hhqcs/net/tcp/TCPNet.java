@@ -63,6 +63,7 @@ public class TCPNet {
         this.port = port1;
         this.ipAddress = ipAddress1;
         serverSocket = new ServerSocket(port1);
+        //serverSocket.setSoTimeout((int)this.CLIENTRESTARTTIME);
         //System.out.println(new Date().toString() + " TCP szerver létrehozása a " + port1 + " porton...");
         debug.printDebugMsg(null, this.getClass().getCanonicalName(), "(conn)TCP szerver létrehozása a " + port1 + " porton...");
         /*
@@ -237,6 +238,7 @@ public class TCPNet {
                              * Szerver socket létrehozása a port porton
                              */
                             serverSocket = new ServerSocket(port);
+                            
                             //System.out.println(new Date().toString() + "TCP szerver létrehozása a " + port + " porton...");
                             debug.printDebugMsg(null, TCPNet.class.getCanonicalName(), "(conn)TCP szerver létrehozása a " + port + " porton...");
                             /*

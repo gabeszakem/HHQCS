@@ -25,7 +25,7 @@ public class OracleSQL {
         this.url = "jdbc:oracle:thin:@(DESCRIPTION=(LOAD_BALANCE=off)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=dvprod1.dunaferr.hu)(PORT=1527))(ADDRESS=(PROTOCOL=TCP)(HOST=dvprod2.dunaferr.hu)(PORT=1527)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME = DVP.WORLD)(GLOBAL_NAME=DVP.WORLD)(FAILOVER_MODE=(TYPE=SELECT)(METHOD = BASIC))))";
         //this.url="jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=tcp)(HOST=dvprod1vip)(PORT=1527))(ADDRESS=(PROTOCOL=tcp)(HOST=dvprod2vip)(PORT=1527))(LOAD_BALANCE=OFF)(FAILOVER=ON))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME = DVP.WORLD )(FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC))))"; 
 //this.url = "jdbc:oracle:thin:@(DESCRIPTION=(ENABLE=BROKEN)(LOAD_BALANCE=off)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=hpsapdvp.dunaferr.hu)(PORT=1527))(ADDRESS=(PROTOCOL=TCP)(HOST=dvprod2.dunaferr.hu)(PORT=1527)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME = DVP.WORLD)(GLOBAL_NAME=DVP.WORLD)(FAILOVER_MODE=(TYPE=SELECT)(METHOD = BASIC))))";           
-       // this.url = "jdbc:oracle:thin:@(DESCRIPTION=(LOAD_BALANCE=off)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=dvprod1.dunaferr.hu)(PORT=1527))(ADDRESS=(PROTOCOL=TCP)(HOST=dvprod2.dunaferr.hu)(PORT=1527)))(CONNECT_DATA=(SERVICE_NAME=DVP.WORLD)))";
+        // this.url = "jdbc:oracle:thin:@(DESCRIPTION=(LOAD_BALANCE=off)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=dvprod1.dunaferr.hu)(PORT=1527))(ADDRESS=(PROTOCOL=TCP)(HOST=dvprod2.dunaferr.hu)(PORT=1527)))(CONNECT_DATA=(SERVICE_NAME=DVP.WORLD)))";
         //Teszt rendszer
         // this.url = "jdbc:oracle:thin:@(DESCRIPTION=(LOAD_BALANCE=off)(ADDRESS_LIST=(ADDRESS=(COMMUNITY = SAP.WORLD)(PROTOCOL=TCP)(HOST=hptest.dunaferr.hu)(PORT=1512)))(CONNECT_DATA=(SID=DVQ)(GLOBAL_NAME = DVQ.WORLD)))";
         this.user = "kmruser";
@@ -77,7 +77,7 @@ public class OracleSQL {
     }
 
     public int count() {
-        
+
         Connection connection = null;
         PreparedStatement st = null;
         ResultSet rs = null;
@@ -265,16 +265,16 @@ public class OracleSQL {
         return setupData;
     }
 
-    public SapR3SetupData selectQueryObject(String query) {
+    public SapR3SetupData selectQueryObject(String query, SapR3SetupData setupData) {
 
         Connection connection = null;
         PreparedStatement st = null;
         ResultSet rs = null;
-        SapR3SetupData sd = new SapR3SetupData();
+        SapR3SetupData sd = setupData;
         try {
             DriverManager.registerDriver(new oracle.jdbc.driver.OracleDriver());
             connection = DriverManager.getConnection(this.url, this.user, this.password);
-           // System.out.println(query);
+            // System.out.println(query);
             st = connection.prepareStatement(query);
             rs = st.executeQuery();
             BigDecimal Thousand = new BigDecimal(1000);
@@ -284,110 +284,110 @@ public class OracleSQL {
                 try {
                     sd.mandt = rs.getString("MANDT");
                 } catch (Exception ex) {
-                    ex.printStackTrace(System.err);
+                    ex.printStackTrace(System.out);
                 }
 
                 try {
                     sd.guid = rs.getString("GUID");
                 } catch (Exception ex) {
-                    ex.printStackTrace(System.err);
+                    ex.printStackTrace(System.out);
                 }
 
                 try {
                     sd.sapAlapanyagAzonosito = rs.getString("CHARG");
                 } catch (Exception ex) {
-                    ex.printStackTrace(System.err);
+                    ex.printStackTrace(System.out);
                 }
 
                 try {
                     sd.berendezesAzonosito = rs.getString("BER_AZON");
                 } catch (Exception ex) {
-                    ex.printStackTrace(System.err);
+                    ex.printStackTrace(System.out);
                 }
 
                 try {
                     sd.idobelyeg = rs.getString("INSTIME");
                 } catch (Exception ex) {
-                    ex.printStackTrace(System.err);
+                    ex.printStackTrace(System.out);
                 }
 
                 try {
                     sd.alapanyagVastagsag = rs.getBigDecimal("ALAPA_VAST").multiply(Thousand).shortValue();
                 } catch (Exception ex) {
-                    ex.printStackTrace(System.err);
+                    ex.printStackTrace(System.out);
                 }
 
                 try {
                     sd.szerzodottVastagsag = rs.getBigDecimal("SZERZ_VAST").multiply(Thousand).shortValue();
                 } catch (Exception ex) {
-                    ex.printStackTrace(System.err);
+                   ex.printStackTrace(System.out);
                 }
 
                 try {
                     sd.szerzodottVastagsagTuresPlusz = rs.getBigDecimal("SZERZ_VAST_TUR_MAX").multiply(Thousand).shortValue();
                 } catch (Exception ex) {
-                    ex.printStackTrace(System.err);
+                    ex.printStackTrace(System.out);
                 }
 
                 try {
                     sd.szerzodottVastagsagTuresMinimum = rs.getBigDecimal("SZERZ_VAST_TUR_MIN").multiply(Thousand).shortValue();
                 } catch (Exception ex) {
-                    ex.printStackTrace(System.err);
+                   ex.printStackTrace(System.out);
                 }
 
                 try {
                     sd.alapanyagSzelesseg = rs.getShort("ALAPA_SZEL");
                 } catch (Exception ex) {
-                    ex.printStackTrace(System.err);
+                    ex.printStackTrace(System.out);
                 }
 
                 try {
                     sd.szerzodottSzelesseg = rs.getShort("SZERZ_SZEL");
                 } catch (Exception ex) {
-                    ex.printStackTrace(System.err);
+                    ex.printStackTrace(System.out);
                 }
 
                 try {
                     sd.alapanyagSuly = rs.getShort("ALAPA_SULY");
                 } catch (Exception ex) {
-                    ex.printStackTrace(System.err);
+                    ex.printStackTrace(System.out);
                 }
 
                 try {
                     sd.alapanyagBelsoAtmero = rs.getShort("ALAPA_BELSO_ATM");
                 } catch (Exception ex) {
-                    ex.printStackTrace(System.err);
+                    ex.printStackTrace(System.out);
                 }
 
                 try {
                     sd.alapanyagKulsoAtmero = rs.getShort("ALAPA_KULSO_ATM");
                 } catch (Exception ex) {
-                    ex.printStackTrace(System.err);
+                    ex.printStackTrace(System.out);
                 }
 
                 try {
                     sd.luser = rs.getString("LUSER");
                 } catch (Exception ex) {
-                    ex.printStackTrace(System.err);
+                    ex.printStackTrace(System.out);
                 }
 
                 try {
                     sd.meins = rs.getString("MEINS");
                 } catch (Exception ex) {
-                    ex.printStackTrace(System.err);
+                    ex.printStackTrace(System.out);
                 }
 
             }
 
         } catch (Exception ex) {
-
+            ex.printStackTrace(System.out);
         } finally {
             if (st != null) {
                 try {
                     st.close();
                 } catch (SQLException ex) {
 
-                    ex.printStackTrace(System.err);
+                    ex.printStackTrace(System.out);
                 }
             }
 
@@ -395,7 +395,7 @@ public class OracleSQL {
                 try {
                     connection.close();
                 } catch (SQLException ex) {
-                    ex.printStackTrace(System.err);
+                    ex.printStackTrace(System.out);
                 }
             }
         }
@@ -411,14 +411,14 @@ public class OracleSQL {
                 + berendezesAzonosito + "'  ORDER BY INSTIME DESC");
     }
 
-    public SapR3SetupData getLastData(String berendezesAzonosito) {
+    public SapR3SetupData getLastData(String berendezesAzonosito, SapR3SetupData setupData) {
         // System.out.println("SELECT * FROM (SELECT * FROM SAPR3.ZHP_SAP_KMR WHERE BER_AZON LIKE '"+berendezesAzonosito + "'  ORDER BY INSTIME DESC) WHERE ROWNUM = 1");
         return selectQueryObject("SELECT * FROM (SELECT * FROM SAPR3.ZHP_SAP_KMR WHERE BER_AZON LIKE '"
-                + berendezesAzonosito + "'  ORDER BY INSTIME DESC) WHERE ROWNUM = 1");
+                + berendezesAzonosito + "'  ORDER BY INSTIME DESC) WHERE ROWNUM = 1", setupData);
     }
 
-    public SapR3SetupData getLastData() {
-        return selectQueryObject("SELECT * FROM (SELECT * FROM SAPR3.ZHP_SAP_KMR ORDER BY INSTIME DESC) WHERE ROWNUM = 1");
+    public SapR3SetupData getLastData(SapR3SetupData setupData) {
+        return selectQueryObject("SELECT * FROM (SELECT * FROM SAPR3.ZHP_SAP_KMR ORDER BY INSTIME DESC) WHERE ROWNUM = 1", setupData);
     }
 
 }

@@ -142,6 +142,7 @@ public class HHQCSServer {
                 };
                 timer.start();
 
+
             }
 
             //Vastagság
@@ -192,7 +193,7 @@ public class HHQCSServer {
             if (count > 9999) {
                 count = 0;
             }
-            sapR3SetupData = HHQCS.oraclesql.getLastData(setup.SAPPLANTNAME);
+            sapR3SetupData = HHQCS.oraclesql.getLastData(setup.SAPPLANTNAME,sapR3SetupData);
             // System.out.println("sapR3SetupData: "+sapR3SetupData.berendezesAzonosito+ " : "+sapR3SetupData.guid);
             if (!sapR3SetupData.sapAlapanyagAzonosito.equals(sentCoilIdentification)) {
                 System.out.println(new Date().toString() + " " + setup.PLANTNAME + " - " + "Új tekercs érkezett az SAP-tól " + sapR3SetupData.sapAlapanyagAzonosito);
@@ -205,11 +206,9 @@ public class HHQCSServer {
                 ByteBuffer.wrap(sendTelegram, 16, 2).putShort(sapR3SetupData.alapanyagSzelesseg);
                 ByteBuffer.wrap(sendTelegram, 18, 2).putShort(sapR3SetupData.szerzodottSzelesseg);
                 ByteBuffer.wrap(sendTelegram, 20, 2).putShort(sapR3SetupData.alapanyagSuly);
-                try {
+                
                     tcpSetup.sendTelegram(sendTelegram);
-                } catch (Exception e) {
-                    System.out.println(e);
-                }
+                
 
                 //}
             }

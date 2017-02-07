@@ -86,7 +86,7 @@ public class JpanelTitle extends javax.swing.JPanel {
         liveSignal.setVerifyInputWhenFocusTarget(false);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
-        gridBagConstraints.insets = new java.awt.Insets(0, 120, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(0, 20, 0, 0);
         add(liveSignal, gridBagConstraints);
 
         dataLastMessageTime.setBackground(new java.awt.Color(204, 204, 204));
@@ -129,21 +129,23 @@ public class JpanelTitle extends javax.swing.JPanel {
         sapLastSentCoilId.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         sapLastSentCoilId.setFocusable(false);
         sapLastSentCoilId.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
-        sapLastSentCoilId.setMaximumSize(new java.awt.Dimension(120, 24));
-        sapLastSentCoilId.setMinimumSize(new java.awt.Dimension(120, 24));
+        sapLastSentCoilId.setMaximumSize(new java.awt.Dimension(140, 24));
+        sapLastSentCoilId.setMinimumSize(new java.awt.Dimension(140, 24));
         sapLastSentCoilId.setName(""); // NOI18N
-        sapLastSentCoilId.setPreferredSize(new java.awt.Dimension(120, 24));
+        sapLastSentCoilId.setPreferredSize(new java.awt.Dimension(140, 24));
         sapLastSentCoilId.setRequestFocusEnabled(false);
         sapLastSentCoilId.setVerifyInputWhenFocusTarget(false);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
+        gridBagConstraints.insets = new java.awt.Insets(0, 20, 0, 0);
         add(sapLastSentCoilId, gridBagConstraints);
 
         SAPCount.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         SAPCount.setText("ORACLE");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.weightx = 1.0;
+        gridBagConstraints.insets = new java.awt.Insets(0, 20, 0, 20);
         add(SAPCount, gridBagConstraints);
 
         getAccessibleContext().setAccessibleName("");

@@ -195,7 +195,7 @@ public class HHQCSServer {
             }
             sapR3SetupData = HHQCS.oraclesql.getLastData(setup.SAPPLANTNAME,sapR3SetupData);
             // System.out.println("sapR3SetupData: "+sapR3SetupData.berendezesAzonosito+ " : "+sapR3SetupData.guid);
-            if (!sapR3SetupData.sapAlapanyagAzonosito.equals(sentCoilIdentification)) {
+           /* if (!sapR3SetupData.sapAlapanyagAzonosito.equals(sentCoilIdentification)) {
                 System.out.println(new Date().toString() + " " + setup.PLANTNAME + " - " + "Új tekercs érkezett az SAP-tól " + sapR3SetupData.sapAlapanyagAzonosito);
                 debug.printDebugMsg(setup.PLANTNAME, this.getClass().getCanonicalName(), "Új tekercs érkezett az SAP-tól " + sapR3SetupData.sapAlapanyagAzonosito);
                 byte[] sendTelegram = new byte[22];
@@ -211,7 +211,7 @@ public class HHQCSServer {
                 
 
                 //}
-            }
+            }*/
         } catch (Exception ex) {
             System.out.println(ex);
         }

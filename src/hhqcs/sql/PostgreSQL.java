@@ -169,7 +169,7 @@ public class PostgreSQL {
         String coilIdString = "-1";
         int returning = 0;
         try {
-            if (record != null && record.length >=400) {
+            if (record != null && record.length >=16) {
                 String query;
                 String log;
                 try {

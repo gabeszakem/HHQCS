@@ -34,12 +34,14 @@ public class JpanelTitle extends javax.swing.JPanel {
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
+        java.awt.GridBagConstraints gridBagConstraints;
 
         machineName = new javax.swing.JLabel();
         liveSignal = new javax.swing.JLabel();
         dataLastMessageTime = new javax.swing.JLabel();
         thicknessLastMessageTime = new javax.swing.JLabel();
         sapLastSentCoilId = new javax.swing.JLabel();
+        SAPCount = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(255, 228, 21));
         setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 3, true));
@@ -47,26 +49,31 @@ public class JpanelTitle extends javax.swing.JPanel {
         setMinimumSize(new java.awt.Dimension(950, 38));
         setName(""); // NOI18N
         setOpaque(false);
-        setPreferredSize(new java.awt.Dimension(750, 38));
-        setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.CENTER, 1, 5));
+        setPreferredSize(new java.awt.Dimension(950, 38));
+        setLayout(new java.awt.GridBagLayout());
 
         machineName.setBackground(new java.awt.Color(204, 204, 204));
-        machineName.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        machineName.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        machineName.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        machineName.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         machineName.setText("Berendezés");
         machineName.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         machineName.setFocusable(false);
-        machineName.setMaximumSize(new java.awt.Dimension(200, 24));
-        machineName.setMinimumSize(new java.awt.Dimension(200, 24));
+        machineName.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
+        machineName.setMaximumSize(new java.awt.Dimension(120, 22));
+        machineName.setMinimumSize(new java.awt.Dimension(20, 22));
         machineName.setName(""); // NOI18N
-        machineName.setPreferredSize(new java.awt.Dimension(200, 24));
+        machineName.setPreferredSize(new java.awt.Dimension(120, 22));
         machineName.setRequestFocusEnabled(false);
         machineName.setVerifyInputWhenFocusTarget(false);
-        add(machineName);
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
+        gridBagConstraints.weightx = 1.0;
+        gridBagConstraints.insets = new java.awt.Insets(0, 10, 0, 0);
+        add(machineName, gridBagConstraints);
 
         liveSignal.setBackground(new java.awt.Color(0, 0, 0, .3f));
-        liveSignal.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        liveSignal.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        liveSignal.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        liveSignal.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         liveSignal.setText("Életjel");
         liveSignal.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         liveSignal.setFocusable(false);
@@ -77,24 +84,30 @@ public class JpanelTitle extends javax.swing.JPanel {
         liveSignal.setPreferredSize(new java.awt.Dimension(140, 24));
         liveSignal.setRequestFocusEnabled(false);
         liveSignal.setVerifyInputWhenFocusTarget(false);
-        add(liveSignal);
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
+        gridBagConstraints.insets = new java.awt.Insets(0, 20, 0, 0);
+        add(liveSignal, gridBagConstraints);
 
         dataLastMessageTime.setBackground(new java.awt.Color(204, 204, 204));
-        dataLastMessageTime.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        dataLastMessageTime.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        dataLastMessageTime.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         dataLastMessageTime.setText("Minősített Adatok");
         dataLastMessageTime.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         dataLastMessageTime.setFocusable(false);
         dataLastMessageTime.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
-        dataLastMessageTime.setMaximumSize(new java.awt.Dimension(150, 24));
-        dataLastMessageTime.setMinimumSize(new java.awt.Dimension(150, 24));
-        dataLastMessageTime.setPreferredSize(new java.awt.Dimension(150, 24));
+        dataLastMessageTime.setMaximumSize(new java.awt.Dimension(200, 24));
+        dataLastMessageTime.setMinimumSize(new java.awt.Dimension(200, 24));
+        dataLastMessageTime.setPreferredSize(new java.awt.Dimension(200, 24));
         dataLastMessageTime.setRequestFocusEnabled(false);
         dataLastMessageTime.setVerifyInputWhenFocusTarget(false);
-        add(dataLastMessageTime);
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
+        add(dataLastMessageTime, gridBagConstraints);
 
         thicknessLastMessageTime.setBackground(new java.awt.Color(0, 0, 0, .3f));
-        thicknessLastMessageTime.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        thicknessLastMessageTime.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        thicknessLastMessageTime.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        thicknessLastMessageTime.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         thicknessLastMessageTime.setText("Vastagság");
         thicknessLastMessageTime.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         thicknessLastMessageTime.setFocusable(false);
@@ -105,25 +118,41 @@ public class JpanelTitle extends javax.swing.JPanel {
         thicknessLastMessageTime.setPreferredSize(new java.awt.Dimension(120, 24));
         thicknessLastMessageTime.setRequestFocusEnabled(false);
         thicknessLastMessageTime.setVerifyInputWhenFocusTarget(false);
-        add(thicknessLastMessageTime);
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
+        add(thicknessLastMessageTime, gridBagConstraints);
 
         sapLastSentCoilId.setBackground(new java.awt.Color(204, 204, 204));
-        sapLastSentCoilId.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        sapLastSentCoilId.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        sapLastSentCoilId.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        sapLastSentCoilId.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         sapLastSentCoilId.setText("Tekercsszám");
         sapLastSentCoilId.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         sapLastSentCoilId.setFocusable(false);
         sapLastSentCoilId.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
-        sapLastSentCoilId.setMaximumSize(new java.awt.Dimension(120, 24));
-        sapLastSentCoilId.setMinimumSize(new java.awt.Dimension(120, 24));
+        sapLastSentCoilId.setMaximumSize(new java.awt.Dimension(140, 24));
+        sapLastSentCoilId.setMinimumSize(new java.awt.Dimension(140, 24));
         sapLastSentCoilId.setName(""); // NOI18N
-        sapLastSentCoilId.setPreferredSize(new java.awt.Dimension(120, 24));
+        sapLastSentCoilId.setPreferredSize(new java.awt.Dimension(140, 24));
         sapLastSentCoilId.setRequestFocusEnabled(false);
         sapLastSentCoilId.setVerifyInputWhenFocusTarget(false);
-        add(sapLastSentCoilId);
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
+        gridBagConstraints.insets = new java.awt.Insets(0, 20, 0, 0);
+        add(sapLastSentCoilId, gridBagConstraints);
+
+        SAPCount.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        SAPCount.setText("ORACLE");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.weightx = 1.0;
+        gridBagConstraints.insets = new java.awt.Insets(0, 20, 0, 20);
+        add(SAPCount, gridBagConstraints);
+
+        getAccessibleContext().setAccessibleName("");
     }// </editor-fold>//GEN-END:initComponents
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel SAPCount;
     private javax.swing.JLabel dataLastMessageTime;
     private javax.swing.JLabel liveSignal;
     private javax.swing.JLabel machineName;
