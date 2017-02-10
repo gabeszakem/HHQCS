@@ -118,6 +118,15 @@ public class HHQCSServer {
             HHQCS.threads.add(tcpLife);
 
             //Beállítási adatok
+            /*Burnyóczki Imre
+             SAP Bázisrendszerek
+             ISD DUNAFERR Zrt. 
+             Informatikai Technológiák Igazgatósága
+             Tel.: +36 (25) 583 033
+             Fax: +36 (25) 582 722
+             Kérésére az oracle SQL lekérdezés gyakoriságát 5mp-ről 1 percre növeltük. 
+             2017.02.10
+             */
             if (this.setup.setupDataMessageEnable) {
                 int setupPort = setup.setupDataPort;
                 tcpSetup = new TCPConnectionServer(setupPort, ipAddress, "setup", this);
@@ -131,7 +140,7 @@ public class HHQCSServer {
                         while (true) {
                             try {
                                 synchronized (this) {
-                                    wait(5000);
+                                    wait(60000);
                                     sapData();
                                 }
                             } catch (Exception ex) {
@@ -141,7 +150,6 @@ public class HHQCSServer {
                     }
                 };
                 timer.start();
-
 
             }
 
@@ -193,25 +201,25 @@ public class HHQCSServer {
             if (count > 9999) {
                 count = 0;
             }
-            sapR3SetupData = HHQCS.oraclesql.getLastData(setup.SAPPLANTNAME,sapR3SetupData);
+            sapR3SetupData = HHQCS.oraclesql.getLastData(setup.SAPPLANTNAME, sapR3SetupData);
             // System.out.println("sapR3SetupData: "+sapR3SetupData.berendezesAzonosito+ " : "+sapR3SetupData.guid);
            /* if (!sapR3SetupData.sapAlapanyagAzonosito.equals(sentCoilIdentification)) {
-                System.out.println(new Date().toString() + " " + setup.PLANTNAME + " - " + "Új tekercs érkezett az SAP-tól " + sapR3SetupData.sapAlapanyagAzonosito);
-                debug.printDebugMsg(setup.PLANTNAME, this.getClass().getCanonicalName(), "Új tekercs érkezett az SAP-tól " + sapR3SetupData.sapAlapanyagAzonosito);
-                byte[] sendTelegram = new byte[22];
-                ByteBuffer.wrap(sendTelegram, 0, 10).put(sapR3SetupData.sapAlapanyagAzonosito.getBytes());
-                ByteBuffer.wrap(sendTelegram, 10, 2).putShort(sapR3SetupData.alapanyagVastagsag);
-                ByteBuffer.wrap(sendTelegram, 12, 2).putShort(sapR3SetupData.szerzodottVastagsagTuresMinimum);
-                ByteBuffer.wrap(sendTelegram, 14, 2).putShort(sapR3SetupData.szerzodottVastagsagTuresPlusz);
-                ByteBuffer.wrap(sendTelegram, 16, 2).putShort(sapR3SetupData.alapanyagSzelesseg);
-                ByteBuffer.wrap(sendTelegram, 18, 2).putShort(sapR3SetupData.szerzodottSzelesseg);
-                ByteBuffer.wrap(sendTelegram, 20, 2).putShort(sapR3SetupData.alapanyagSuly);
+             System.out.println(new Date().toString() + " " + setup.PLANTNAME + " - " + "Új tekercs érkezett az SAP-tól " + sapR3SetupData.sapAlapanyagAzonosito);
+             debug.printDebugMsg(setup.PLANTNAME, this.getClass().getCanonicalName(), "Új tekercs érkezett az SAP-tól " + sapR3SetupData.sapAlapanyagAzonosito);
+             byte[] sendTelegram = new byte[22];
+             ByteBuffer.wrap(sendTelegram, 0, 10).put(sapR3SetupData.sapAlapanyagAzonosito.getBytes());
+             ByteBuffer.wrap(sendTelegram, 10, 2).putShort(sapR3SetupData.alapanyagVastagsag);
+             ByteBuffer.wrap(sendTelegram, 12, 2).putShort(sapR3SetupData.szerzodottVastagsagTuresMinimum);
+             ByteBuffer.wrap(sendTelegram, 14, 2).putShort(sapR3SetupData.szerzodottVastagsagTuresPlusz);
+             ByteBuffer.wrap(sendTelegram, 16, 2).putShort(sapR3SetupData.alapanyagSzelesseg);
+             ByteBuffer.wrap(sendTelegram, 18, 2).putShort(sapR3SetupData.szerzodottSzelesseg);
+             ByteBuffer.wrap(sendTelegram, 20, 2).putShort(sapR3SetupData.alapanyagSuly);
                 
-                    tcpSetup.sendTelegram(sendTelegram);
+             tcpSetup.sendTelegram(sendTelegram);
                 
 
-                //}
-            }*/
+             //}
+             }*/
         } catch (Exception ex) {
             System.out.println(ex);
         }

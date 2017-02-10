@@ -99,7 +99,7 @@ public class JpanelForm extends javax.swing.JPanel {
                 liveSignal.setForeground(Color.RED);
             }
 
-            if ((this.server.tcpData.tcp.CLIENTRESTARTTIME / 1000 - resetDataTime) < 60) {
+            if ((this.server.tcpData.tcp.CLIENTRESTARTTIME / 1000 - resetDataTime) < 120) {
                 dataLastMessageTime.setForeground(new java.awt.Color(10, 102, 0));
                 jButtonDataReset.setEnabled(false);
             } else {
